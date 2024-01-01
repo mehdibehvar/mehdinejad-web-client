@@ -2,7 +2,7 @@
 ///app css files
 import '../../node_modules/video.js/src/css/video-js.scss'
 ///app js files
-import '../../node_modules/jquery/dist/jquery.js'
+import './jquery.js';
 import "./jss";
 import "./client.js";
 import "./plugins-config/video-js";
