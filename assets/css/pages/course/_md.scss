@@ -1,0 +1,58 @@
+section.course-description {
+    margin-top: 32px;
+
+    .section-header {
+        margin-bottom: 8px;
+    }
+
+
+}
+section.services {
+flex-direction:column;
+    .simple-card {
+        padding: 16px;
+        &:first-child {
+            width: 100%;
+        }
+
+        &:nth-child(2) {
+            width: 100%;
+        }
+
+        &:last-child {
+            width: 100%;
+        }
+    }
+}
+section.course-title {
+    margin-top:80px;
+
+}
+
+
+
+section.course-teacher {
+ .row{
+    --bs-gutter-y:16px;
+ }
+    // .card-row {
+    //     .guide {
+       
+    //         .thumbnail {
+    //             width: 100%;
+    //             position: relative;
+    //             overflow: hidden;
+    //             padding-bottom: 56.25%;
+    //             img {
+    //                 width: 100%;
+    //                 height: 100%;
+    //                 position: absolute;
+    //                 inset: 0;
+    //                 object-fit: cover;
+    //                 background-position: center;
+    //             }
+    //         }
+    //     }
+    // }
+}
+

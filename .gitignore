@@ -1,0 +1,9 @@
+# Logs
+logs
+*.log
+node_modules
+dist
+.DS_Store
+# Editor directories and files
+.vscode/*
+

@@ -1,0 +1,30 @@
+.about-header-content {
+    .header-banner {
+        margin-top: 74px;
+        .play-modal-button{
+            padding: 0!important;
+
+            .icon{
+               font-size: 45px!important;
+            }  
+           }
+        .float-video {
+            padding: 40px 28px;
+           justify-content: center;
+            .video-poster {
+                display: none;
+            }
+        }
+    
+    }
+}
+
+.gallery {
+    margin-top: 100px;
+.row{
+    --bs-gutter-y:16px;
+}
+.section-header {
+    margin-bottom:8px;
+}
+}

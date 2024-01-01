@@ -1,0 +1,143 @@
+.badge {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+    border-radius: var(--rounded-sm, 5px);
+    background: rgba(0, 0, 0, 0.40);
+    padding: 10px 13px;
+
+    .title {
+        color: var(--white, #FFF);
+        text-align: center;
+        @include secondFont;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+
+        &.t-xs {
+            font-family: iransansxv;
+            font-size: 14px;
+        }
+    }
+
+    i.icon {
+        color: var(--white, #FFF);
+        font-size: 16px;
+    }
+
+    &.with-shadow {
+        background: rgba(0, 0, 0, 0.20);
+        box-shadow: 0px 4px 43px 0px rgba(0, 0, 0, 0.25);
+    }
+
+    &.info {
+        background: var(--primary-tint-13);
+        padding: 14px 16px;
+        .title {
+            color: var(--primary, #0861BE) !important;
+            font-family: iransansxv !important;
+            font-size: 14px !important;
+            font-weight: 700 !important;
+            line-height: 120% !important;
+            text-align: center!important;
+        }
+        &.gray {
+            background: var(--white-white-shade-3, #E6E6E6);
+            .title{
+                color: var(--secondary)!important;
+            }
+        }
+    }
+
+    &.info-light {
+        background: var(--primary-tint-6);
+    }
+
+ 
+
+    &.badge-white {
+        border-radius: 13px;
+        background: var(--white);
+        padding: 9px 19px;
+        display: flex;
+        align-items: center;
+
+        .title {
+            text-align: right;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+            color: var(--secondary, #2A354A);
+        }
+
+        &.icon-primary {
+            i.icon {
+                color: var(--primary);
+                font-size: 22px;
+            }
+        }
+    }
+
+    &.sm {
+        padding: 5px 6px;
+    }
+
+    &.md {
+        border-radius: var(--rounded-lg, 10px);
+        padding: 18px 19px;
+        width: 100%;
+        gap: 10px;
+
+        .title {
+            font-size: 20px !important;
+            font-weight: 700 !important;
+        }
+    }
+
+    &.lg {
+        padding: 11px 30px;
+
+        .title {
+            font-family: iransansxv !important;
+            font-size: 14px !important;
+            font-weight: 700 !important;
+            line-height: 120% !important;
+        }
+    }
+
+    &.xl {
+        justify-content: start;
+        gap: 10px;
+        padding: 18px 20px;
+        border-radius: var(--rounded-lg, 10px);
+
+        .title {
+            font-size: 20px;
+            font-weight: 700;
+        }
+
+        i.icon {
+            color: var(--primary);
+            font-size: 21px;
+        }
+
+
+    }
+
+    &.xxl {
+        padding: 11px 30px;
+
+        .title {
+            @include secondFont;
+            font-size: 22px;
+            font-weight: 700;
+            line-height: 35px;
+        }
+    }
+
+    &.badge-shadow {
+        box-shadow: 10px 10px 40px 0px rgba(0, 0, 0, 0.05);
+    }
+}

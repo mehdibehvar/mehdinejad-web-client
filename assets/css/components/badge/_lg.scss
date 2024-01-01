@@ -1,0 +1,9 @@
+.badge{
+    &.xxl {
+        padding: 4px 16px;
+        .title {
+            font-size: 16px;
+            line-height: 25px;
+        }
+    }
+}

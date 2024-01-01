@@ -1,0 +1,4 @@
+.min-h-fit--md{
+  min-height: fit-content !important;
+}
+@include utility-max-mixin('--md');

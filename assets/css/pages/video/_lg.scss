@@ -1,0 +1,20 @@
+.header-video {
+    margin-top: 32px;
+    .video-js-wrapper {
+          max-height: 360px;
+        #video-js {
+            height: 360px;
+            .vjs-big-play-button {
+                height: 55px !important;
+                width: 55px !important;
+                background-size: 24px 24px !important;
+            }
+        }
+        .video-js-overlay{
+            .video-title{
+                padding-bottom: 32px;
+                font-size: 32px;
+            }
+        }
+    }
+}

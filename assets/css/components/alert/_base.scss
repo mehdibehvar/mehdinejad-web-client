@@ -1,0 +1,17 @@
+.alert{
+    .icon{
+        &.md{
+
+        }
+    }
+    .title{
+        &.lg{
+
+        }
+    }
+    @at-root a#{&}{
+        &:hover{
+
+        }
+    }
+}

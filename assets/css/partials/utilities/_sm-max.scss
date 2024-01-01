@@ -1,0 +1,8 @@
+@include utility-max-mixin('--sm');
+.fixed-top{
+  padding-right: calc(var(--gutter-md) / 2);
+  padding-left: calc(var(--gutter-md) / 2);
+}
+.fw-inherit--sm{
+  font-weight: inherit !important;
+}

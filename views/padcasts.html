@@ -1,0 +1,442 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>padcasts </title>
+    <link rel="stylesheet" href="/assets/css/_app.scss">
+    <script type="module" src="/assets/js/app.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <header>
+                    <!-- /////navbar section////// -->
+                    <div class="row">
+                        <div class="col-12 pe-0 ps-0 pe-sm-3 ps-sm-3">
+                            <div class="navbar">
+                                <!-- <button class="icon mn-menu1 hamburger-menu-btn">
+                                  
+                                </button> -->
+                                <button class="navbar-toggle icon mn-menu1 hamburger-menu-btn"
+                                    data-jsc="hamburger-menu-toggle"
+                                    data-toggle-target=".hamburger-menu-navbar"></button>
+                                <a class="navbar-brand" href="/">
+                                    <img src="/assets/img/logo.png" alt="">
+                                </a>
+                                <nav class="nav-menu">
+                                    <a class="active " href="/">خانه </a>
+                                    <a href="/views/courses.html">دوره ها</a>
+                                    <a href="/views/blogs.html">وبلاگ</a>
+                                    <a href="/views/padcasts.html"> پادکست ها</a>
+                                    <a href="/views/about.html">درباره من</a>
+                                    <a href="/views/contactus.html">تماس</a>
+                                </nav>
+                                <form class="search-section">
+                                    <div class="input-group  secondary b-0 search-bar">
+                                        <input type="text" placeholder="در سایت جستجو کنید">
+                                        <button type="submit" class="btn icon">
+                                            <i class="icon mn-search"></i>
+                                        </button>
+                                    </div>
+                                    <button type="button" class="icon mn-search toggle-search-bar">
+                                        <!-- <i class="icon mn-search"></i> -->
+                                    </button>
+                                </form>
+                                <div class="actions">
+                                    <a class="btn icon"> <i class="icon li-bag-2"></i>
+                                    </a>
+                                    <button class="btn light">ثبت نام / ورود</button>
+                                    <button class="icon li-login login-btn"></button>
+                                </div>
+                                <nav class="hamburger-menu-navbar hamburger-menu">
+                                    <div class="hamburger-menu-header">
+                                        <button class="icon mn-menu1 hamburger-menu-btn"
+                                            onclick="$('.hamburger-menu').removeClass('show')"></button>
+                                        <a class="navbar-brand" href="/">
+                                            <img src="/assets/img/logo.png" alt="">
+                                        </a>
+                                    </div>
+                                    <a class="ham-item active " href="/">
+                                        خانه
+                                    </a>
+                                    <a class="ham-item" href="/views/courses.html">دوره ها</a>
+                                    <a class="ham-item" href="/views/blogs.html">وبلاگ</a>
+                                    <a class="ham-item" href="/views/padcasts.html"> پادکست ها</a>
+                                    <a class="ham-item" href="/views/about.html">درباره من</a>
+                                    <a class="ham-item" href="/views/contactus.html">تماس</a>
+                                </nav>
+                            </div>
+
+                        </div>
+                    </div>
+                </header>
+                <!-- /////padcasts  section/// -->
+                <section class="padcasts-filter-section">
+                    <div class="section-header">
+                        <div class="title">
+                            <i class="icon mn-tag-horizontal d-none d-sm-block"></i>
+                            <div class="text d-none d-sm-block pt-1">
+                                <span class="text-primary">پادکــست‌ها </span>
+                            </div>
+                            <div class="text d-block d-sm-none pt-2">
+                                <span class="text-primary">پادکست ها</span>
+                            </div>
+                        </div>
+                        <div class="filter-section d-flex">
+                            <form action="" class="d-none d-md-flex">
+                                <div class="input-group md b-0">
+                                    <input type="text" placeholder="جستجو کنید">
+                                    <button class="btn transparent p-0  ms-3">
+                                        <i class="icon mn-search text-primary"></i>
+                                    </button>
+                                </div>
+                            </form>
+                            <button class="btn white square toggle-padcasts-category d-flex d-md-none">
+                                <i class="icon li-category"></i>
+                                <span class="d-none d-sm-inline"> دسته بندی ها</span>
+                            </button>
+                            <div class="filter-dropdown">
+                                <div class="filter-toggler-item">
+                                    <button class="btn white square">
+                                        <i class="icon  mn-filter1"></i>
+                                    </button>
+                                </div>
+                                <ul class="filter-menu">
+                                    <form action="" class="filter-form">
+                                        <input type="text" placeholder="جستجو کنید" class="md">
+                                        <button class="btn sm filter-show-result w-100">نشان دادن نتایج</button>
+                                    </form>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row medium-g">
+                        <div class="col-md-5 col-lg-4 col-xxxl-3">
+                            <form action="" class="padcast-category">
+                                <div class="header">
+                                    <div class="title">
+                                        - دسته بندی پادکست ها </div>
+                                </div>
+                                <div class="checkbox-list">
+                                    <label class="ckeckbox-container">مصاحبه
+                                        <input type="checkbox" checked="checked">
+                                        <span class="checkmark"></span>
+                                        <span class="number">۱۲</span>
+                                    </label>
+                                    <label class="ckeckbox-container">نصب و راه اندازی
+                                        <input type="checkbox">
+                                        <span class="checkmark"></span>
+                                        <span class="number">۱</span>
+                                    </label>
+                                    <label class="ckeckbox-container">راهنمایی ابزار آلات
+                                        <input type="checkbox" checked="checked">
+                                        <span class="checkmark"></span>
+                                        <span class="number">۲۲</span>
+                                    </label>
+                                    <label class="ckeckbox-container"> دستگاه های صنعتی
+                                        <input type="checkbox">
+                                        <span class="checkmark"></span>
+                                        <span class="number">۸</span>
+                                    </label>
+                                    <label class="ckeckbox-container"> تهویه
+                                        <input type="checkbox">
+                                        <span class="checkmark"></span>
+                                        <span class="number">۲</span>
+                                    </label>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="col-12 col-md-7 col-lg-8 col-xxxl-9">
+                            <div class="row gy-4">
+                                <div class="col-12">
+                                    <a href="/views/padcast.html" class="card card-row space h-fit">
+                                        <div class="row">
+                                            <div class="col-12 col-lg-5 align-items-center  d-flex">
+                                                <div class="guide h-100">
+                                                    <div class="thumbnail h-100">
+                                                        <img src="/assets\img\thumbnail\logh.png" alt="thumb1">
+                                                        <div class="info top-right no-gradient">
+                                                            <div class="badge sm">
+                                                                <i class="icon mn-microphone"></i>
+                                                                <span>پادکست</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-lg-7">
+                                                <div class="content gap-xs">
+                                                    <span class="title md">
+                                                        مصاحبه با لقمان آوند، برج ساز مطرح زعفرانیه
+                                                    </span>
+                                                    <div class="text">
+                                                        <p class="description fade truncate-overflow three-line">
+                                                            در پادکست مصاحبه با لقمان آوند، برج‌ساز معروف منطقه
+                                                            زعفرانیه، ایشان به
+                                                            تجربیات و
+                                                            داستان‌های موفقیت خود در صنعت ساخت و ساز و اداره پروژه‌های
+                                                            بزرگ
+                                                            می‌پردازند.
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-12">
+                                    <a href="/views/padcast.html" class="card card-row space h-fit">
+                                        <div class="row">
+                                            <div class="col-12 col-lg-5 align-items-center  d-flex">
+                                                <div class="guide h-100">
+                                                    <div class="thumbnail h-100">
+                                                        <img src="/assets\img\thumbnail\logh.png" alt="thumb1">
+                                                        <div class="info top-right no-gradient">
+                                                            <div class="badge sm">
+                                                                <i class="icon mn-microphone"></i>
+                                                                <span>پادکست</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-lg-7">
+                                                <div class="content gap-xs">
+                                                    <span class="title md">
+                                                        مصاحبه با لقمان آوند، برج ساز مطرح زعفرانیه
+                                                    </span>
+                                                    <div class="text">
+                                                        <p class="description fade truncate-overflow three-line">
+                                                            در پادکست مصاحبه با لقمان آوند، برج‌ساز معروف منطقه
+                                                            زعفرانیه، ایشان به
+                                                            تجربیات و
+                                                            داستان‌های موفقیت خود در صنعت ساخت و ساز و اداره پروژه‌های
+                                                            بزرگ
+                                                            می‌پردازند.
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-12">
+                                    <a href="/views/padcast.html" class="card card-row space h-fit">
+                                        <div class="row">
+                                            <div class="col-12 col-lg-5 align-items-center  d-flex">
+                                                <div class="guide h-100">
+                                                    <div class="thumbnail h-100">
+                                                        <img src="/assets\img\thumbnail\logh.png" alt="thumb1">
+                                                        <div class="info top-right no-gradient">
+                                                            <div class="badge sm">
+                                                                <i class="icon mn-microphone"></i>
+                                                                <span>پادکست</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-lg-7">
+                                                <div class="content gap-xs">
+                                                    <span class="title md">
+                                                        مصاحبه با لقمان آوند، برج ساز مطرح زعفرانیه
+                                                    </span>
+                                                    <div class="text">
+                                                        <p class="description fade truncate-overflow three-line">
+                                                            در پادکست مصاحبه با لقمان آوند، برج‌ساز معروف منطقه
+                                                            زعفرانیه، ایشان به
+                                                            تجربیات و
+                                                            داستان‌های موفقیت خود در صنعت ساخت و ساز و اداره پروژه‌های
+                                                            بزرگ
+                                                            می‌پردازند.
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pagination pt-4">
+                            <a class="transparent" href="">
+                                <i class="icon mn-chevron-right"></i>
+                            </a>
+                            <a class="" href="">
+                                ۱
+                            </a>
+                            <a class="active" href="">
+                                ۲
+                            </a>
+                            <a class="" href="#">
+                                ۳
+                            </a>
+                            <a class="transparent" href="">
+                                <i class="icon mn-chevron-left"></i>
+                            </a>
+                        </div>
+                    </div>
+                </section>
+                <!-- //////footer//// -->
+                <footer class="base-footer">
+                    <div class="overlay"></div>
+                    <div class="row justify-content-center">
+                        <div class="col-12 col-xxl-10 col-xxxl-9">
+                            <div class="float-form">
+                                <div class="row gx-sm">
+                                    <div class="col-12 col-lg-4">
+                                        <div class="image-wrapper">
+                                            <img src="/assets/img/footer.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-lg-8">
+                                        <form class="footer-form">
+                                            <div class="title">
+                                                درخواست مشاوره با من
+                                            </div>
+                                            <div class="row gy-3 gx-2">
+                                                <div class=" col-12 col-sm-6">
+                                                    <input class="transparent white" type="text" name="full_name"
+                                                        placeholder="نام و نام خانوادگی شما">
+                                                </div>
+                                                <div class=" col-12 col-sm-6">
+                                                    <input class="transparent white" type="text" name="work_phone"
+                                                        placeholder="شماره تماس کاری" />
+                                                </div>
+                                                <div class="col-12">
+                                                    <textarea class="transparent white md" name="message"
+                                                        placeholder="پیغام شما"></textarea>
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <button class="btn white mt-xs text-secondary"
+                                                    type="submit">ارسال</button>
+                                                <div class="wave-image">
+                                                    <img src="/assets\img\wave.png" alt="">
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row main-footer-content">
+                        <div class="col-12 col-sm-6 col-xl-3">
+                            <!-- ///footer list  -->
+                            <div class="footer-list ">
+                                <div class="header">
+                                    <span class="title">
+                                        درباره من </span>
+                                </div>
+                                <div class="content">
+                                    <p class="text p-left">
+                                        متن آزمــایشی توضیح دوره
+                                        بصـــــورت کــــوتاه و خـــــلاصه!
+                                        معنی خاصه نـــــداره و فـــقط
+                                        برای پرکردن فضا استــفاده
+                                        شده است!
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-xl-3">
+                            <!-- ///footer list  -->
+                            <div class="footer-list">
+                                <div class="header">
+                                    <span class="title">
+                                        ارتباط با ما </span>
+                                </div>
+                                <div class="content">
+                                    <ul class="list">
+                                        <li class="bullet">البرز، فردیس، فلکه سوم</li>
+                                        <a href="tel:0216653333">
+                                            <li class="bullet">۰۲۱-۶۶۵-۳۳-۳۳</li>
+                                        </a>
+                                        <a href="tel:09124561212">
+                                            <li class="bullet">۰۹۱۲-۴۵۶-۱۲-۱۲</li>
+                                        </a>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-xl-3">
+                            <!-- ///footer list  -->
+                            <div class="footer-list">
+                                <div class="header">
+                                    <span class="title">
+                                        دسترسی سریع
+                                    </span>
+                                </div>
+                                <div class="content">
+                                    <ul class="list">
+                                        <a href="/views/about.html">
+                                            <li class="bullet">درباره من
+                                            </li>
+                                        </a>
+                                        <a href="">
+                                            <li class="bullet">
+                                                قوانین و مقررات
+                                            </li>
+                                        </a>
+                                        <a href="/views/courses.html">
+                                            <li class="bullet">لیست دوره ها</li>
+                                        </a>
+                                        <a href="">
+                                            <li class="bullet">شرکت آتلانتیک</li>
+                                        </a>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-xl-3 last-col">
+                            <!-- ///footer list  -->
+                            <div class="footer-list">
+                                <div class="header">
+                                    <span class="title">
+                                        در مــجازی
+                                    </span>
+                                </div>
+                                <div class="content">
+                                    <ul class="list">
+                                        <a href="">
+                                            <li class="mb-xs">
+                                                <div class="badge badge-white xl badge-shadow">
+                                                    <i class="icon mn-instagram"></i>
+                                                    <span class="title">اینستاگرام</span>
+                                                </div>
+                                            </li>
+                                        </a>
+                                        <a href="">
+                                            <li>
+                                                <div class="badge badge-white xl badge-shadow">
+                                                    <i class="icon mn-aparat"></i>
+                                                    <span class="title">صفحه آپارات</span>
+                                                </div>
+                                            </li>
+                                        </a>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="rights-preserve text-center">
+                                <span>تمامی حقوق <span class="text-primary">محفوظ</span> است</span>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

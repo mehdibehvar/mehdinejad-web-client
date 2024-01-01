@@ -1,0 +1,240 @@
+@font-face {
+  font-family: 'mni';
+  src:  url('fonts/mni.eot?9fricm');
+  src:  url('fonts/mni.eot?9fricm#iefix') format('embedded-opentype'),
+    url('fonts/mni.ttf?9fricm') format('truetype'),
+    url('fonts/mni.woff?9fricm') format('woff'),
+    url('fonts/mni.svg?9fricm#mni') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="mn-"], [class*=" mn-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'mni' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.mn-about:before {
+  content: "\e90e";
+  color: #0861be;
+}
+.mn-academic:before {
+  content: "\e90f";
+  color: #fff;
+}
+.mn-academic-cap:before {
+  content: "\e910";
+  color: #0861be;
+}
+.mn-aparat:before {
+  content: "\e911";
+}
+.mn-award1:before {
+  content: "\e912";
+}
+.mn-bag-2:before {
+  content: "\e913";
+}
+.mn-bill:before {
+  content: "\e914";
+  color: #0861be;
+}
+.mn-bookmark1:before {
+  content: "\e915";
+}
+.mn-cart:before {
+  content: "\e916";
+}
+.mn-categ:before {
+  content: "\e917";
+  color: #0861be;
+}
+.mn-chevron-left1:before {
+  content: "\e918";
+  color: #0861be;
+}
+.mn-chevron-down1:before {
+  content: "\e919";
+}
+.mn-chevron-left2:before {
+  content: "\e91a";
+}
+.mn-chevron-left-arrow:before {
+  content: "\e91b";
+}
+.mn-chevron-right1:before {
+  content: "\e91c";
+}
+.mn-chevron-up1:before {
+  content: "\e91d";
+}
+.mn-corner-left-down1:before {
+  content: "\e91e";
+}
+.mn-corner-right-up1:before {
+  content: "\e91f";
+}
+.mn-Dialog-3:before {
+  content: "\e920";
+  color: #0861be;
+}
+.mn-filter1:before {
+  content: "\e921";
+  color: #0861be;
+}
+.mn-folder1:before {
+  content: "\e922";
+  color: #0861be;
+}
+.mn-folder-f:before {
+  content: "\e923";
+  color: #fff;
+}
+.mn-instagram:before {
+  content: "\e924";
+  color: #0861be;
+}
+.mn-instagram-1:before {
+  content: "\e925";
+  color: #0861be;
+}
+.mn-Layers .path1:before {
+  content: "\e926";
+  color: rgb(8, 97, 190);
+}
+.mn-Layers .path2:before {
+  content: "\e927";
+  margin-left: -1em;
+  color: rgb(8, 97, 190);
+}
+.mn-Layers .path3:before {
+  content: "\e928";
+  margin-left: -1em;
+  color: rgb(8, 97, 190);
+  opacity: 0.7;
+}
+.mn-Layers .path4:before {
+  content: "\e929";
+  margin-left: -1em;
+  color: rgb(8, 97, 190);
+  opacity: 0.4;
+}
+.mn-Letter-Opened:before {
+  content: "\e92a";
+  color: #0861be;
+}
+.mn-lines:before {
+  content: "\e92b";
+}
+.mn-magnifying-glass:before {
+  content: "\e92c";
+}
+.mn-map-point:before {
+  content: "\e92d";
+  color: #0861be;
+}
+.mn-messages:before {
+  content: "\e92e";
+  color: #0861be;
+}
+.mn-microphone:before {
+  content: "\e92f";
+  color: #0861be;
+}
+.mn-notebook:before {
+  content: "\e930";
+  color: #0861be;
+}
+.mn-pause-circle1:before {
+  content: "\e931";
+}
+.mn-phone-calling:before {
+  content: "\e932";
+  color: #0861be;
+}
+.mn-play-circle:before {
+  content: "\e933";
+  color: #0861be;
+}
+.mn-play1:before {
+  content: "\e934";
+}
+.mn-search:before {
+  content: "\e935";
+}
+.mn-server-square:before {
+  content: "\e936";
+  color: #0861be;
+}
+.mn-tag-horizontal:before {
+  content: "\e937";
+  color: #0861be;
+}
+.mn-twitter1:before {
+  content: "\e938";
+}
+.mn-videocamera:before {
+  content: "\e939";
+  color: #0861be;
+}
+.mn-whatsapp1:before {
+  content: "\e93a";
+  color: #0861be;
+}
+.mn-youtube:before {
+  content: "\e93b";
+  color: #0861be;
+}
+.mn-whatsapp:before {
+  content: "\e900";
+}
+.mn-award:before {
+  content: "\e901";
+}
+.mn-bookmark:before {
+  content: "\e902";
+}
+.mn-chevron-down:before {
+  content: "\e903";
+}
+.mn-chevron-left:before {
+  content: "\e904";
+}
+.mn-chevron-right:before {
+  content: "\e905";
+}
+.mn-chevron-up:before {
+  content: "\e906";
+}
+.mn-corner-left-down:before {
+  content: "\e907";
+}
+.mn-corner-right-up:before {
+  content: "\e908";
+}
+.mn-filter:before {
+  content: "\e909";
+}
+.mn-folder:before {
+  content: "\e90a";
+}
+.mn-pause-circle:before {
+  content: "\e90b";
+}
+.mn-play:before {
+  content: "\e90c";
+}
+.mn-twitter:before {
+  content: "\e90d";
+}

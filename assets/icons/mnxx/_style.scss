@@ -1,0 +1,201 @@
+@font-face {
+  font-family: 'mni';
+  src: url('../icons/mn/fonts/mni.woff?rm8ynq') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="mn-"], [class*=" mn-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'mni' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.mn-about:before {
+  content: "\e90e";
+
+}
+.mn-academic:before {
+  content: "\e90f";
+}
+.mn-academic-cap:before {
+  content: "\e910";
+
+}
+.mn-aparat:before {
+  content: "\e911";
+}
+.mn-award1:before {
+  content: "\e912";
+}
+.mn-bag-2:before {
+  content: "\e913";
+}
+.mn-bill:before {
+  content: "\e914";
+
+}
+.mn-bookmark1:before {
+  content: "\e915";
+}
+.mn-cart:before {
+  content: "\e916";
+}
+.mn-categ:before {
+  content: "\e917";
+
+}
+.mn-chevron-left1:before {
+  content: "\e918";
+
+}
+.mn-chevron-down1:before {
+  content: "\e919";
+}
+.mn-chevron-left2:before {
+  content: "\e91a";
+}
+.mn-chevron-left-arrow:before {
+  content: "\e91b";
+}
+.mn-chevron-right1:before {
+  content: "\e91c";
+}
+.mn-chevron-up1:before {
+  content: "\e91d";
+}
+.mn-corner-left-down1:before {
+  content: "\e91e";
+}
+.mn-corner-right-up1:before {
+  content: "\e91f";
+}
+.mn-Dialog-3:before {
+  content: "\e920";
+}
+.mn-filter1:before {
+  content: "\e921";
+}
+.mn-folder1:before {
+  content: "\e922";
+}
+.mn-folder-f:before {
+  content: "\e923";
+}
+.mn-instagram:before {
+  content: "\e924";
+}
+.mn-instagram-1:before {
+  content: "\e925";
+}
+.mn-Letter-Opened:before {
+  content: "\e92a";
+}
+.mn-lines:before {
+  content: "\e92b";
+}
+.mn-magnifying-glass:before {
+  content: "\e92c";
+}
+.mn-map-point:before {
+  content: "\e92d";
+}
+.mn-messages:before {
+  content: "\e92e";
+}
+.mn-microphone:before {
+  content: "\e92f";
+}
+.mn-notebook:before {
+  content: "\e930";
+}
+.mn-pause-circle1:before {
+  content: "\e931";
+}
+.mn-phone-calling:before {
+  content: "\e932";
+
+}
+.mn-play-circle:before {
+  content: "\e933";
+}
+.mn-play1:before {
+  content: "\e934";
+}
+.mn-search:before {
+  content: "\e935";
+}
+.mn-server-square:before {
+  content: "\e936";
+
+}
+.mn-tag-horizontal:before {
+  content: "\e937";
+
+}
+.mn-twitter1:before {
+  content: "\e938";
+}
+.mn-videocamera:before {
+  content: "\e939";
+}
+.mn-whatsapp1:before {
+  content: "\e93a";
+
+}
+.mn-youtube:before {
+  content: "\e93b";
+
+}
+.mn-whatsapp:before {
+  content: "\e900";
+}
+.mn-award:before {
+  content: "\e901";
+}
+.mn-bookmark:before {
+  content: "\e902";
+}
+.mn-chevron-down:before {
+  content: "\e903";
+}
+.mn-chevron-left:before {
+  content: "\e904";
+}
+.mn-chevron-right:before {
+  content: "\e905";
+}
+.mn-chevron-up:before {
+  content: "\e906";
+}
+.mn-corner-left-down:before {
+  content: "\e907";
+}
+.mn-corner-right-up:before {
+  content: "\e908";
+}
+.mn-filter:before {
+  content: "\e909";
+}
+.mn-folder:before {
+  content: "\e90a";
+}
+.mn-pause-circle:before {
+  content: "\e90b";
+}
+.mn-play:before {
+  content: "\e90c";
+}
+.mn-twitter:before {
+  content: "\e90d";
+}

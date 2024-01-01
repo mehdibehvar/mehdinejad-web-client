@@ -1,0 +1,46 @@
+.video-js-wrapper {
+    position: relative;
+   
+    .video-js-overlay {
+        position: absolute;
+        inset: 0;
+        display: flex;
+        justify-content: center;
+        align-items: end;
+        background: linear-gradient(0deg, #000 -32.67%, rgba(0, 0, 0, 0.00) 104.83%);
+
+        .video-title {
+            text-align: center;
+            color: #FFF;
+            font-size: 40px;
+            font-weight: 800;
+            line-height: 123%;
+            @include secondFont;
+            padding-bottom: 58px;
+
+        }
+    }
+
+    #video-js {
+        width: 100%;
+        min-height: inherit;
+        overflow: hidden;
+
+        .vjs-big-play-button {
+            height: calc(var(--base-gutter) * 2) !important;
+            width: calc(var(--base-gutter) * 2) !important;
+            border: 2px solid var(--white) !important;
+            border-radius: 50% !important;
+            padding: 25px !important;
+            background: transparent;
+            z-index: 2;
+        }
+
+        .vjs-big-play-button .vjs-icon-placeholder:before {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: calc(var(--base-gutter) * 2.5);
+        }
+    }
+}

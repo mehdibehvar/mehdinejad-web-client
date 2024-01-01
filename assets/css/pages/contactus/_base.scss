@@ -1,0 +1,46 @@
+.contact-us-header-content {
+    .section-header {
+        margin-top: 117px;
+        margin-bottom: 29px;
+    }
+
+    .contact-us-card {
+        padding: 0 70px;
+       .card-row{
+        .p-right{
+            padding-right: 40px;
+        }
+       }
+        .mapouter {
+            position: relative;
+            height: 290px;
+            width: 100%;
+            max-width: 420px;
+            background: #fff;
+            border-radius: var(--rounded-lg, 10px);
+            overflow: hidden;
+            .maprouter {
+                a {
+                    color: #fff !important;
+                    position: absolute !important;
+                    top: 0 !important;
+                    z-index: 0 !important;
+                }
+            }
+
+            .gmap_canvas {
+                overflow: hidden;
+                height: 290px!important;
+                width: 100%;
+            }
+
+            .gmap_canvas {
+                iframe {
+                    position: relative;
+                    z-index: 2
+                }
+            }
+        }
+    }
+
+}

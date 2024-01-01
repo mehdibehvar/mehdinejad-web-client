@@ -1,0 +1,278 @@
+@font-face {
+  font-family: 'mni';
+  src: url('../icons/mn/fonts/mni.woff?rm8ynq') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="mn-"], [class*=" mn-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'mni' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.mn-about:before {
+  content: "\e900";
+ 
+}
+.mn-academic:before {
+  content: "\e901";
+ 
+}
+.mn-academic-cap:before {
+  content: "\e902";
+ 
+}
+.mn-Alt-Arrow-Left:before {
+  content: "\e903";
+}
+.mn-Alt-Arrow-Right:before {
+  content: "\e904";
+}
+.mn-aparat:before {
+  content: "\e905";
+}
+.mn-award:before {
+  content: "\e906";
+}
+.mn-award1:before {
+  content: "\e907";
+}
+.mn-bag-2:before {
+  content: "\e908";
+}
+.mn-bill:before {
+  content: "\e909";
+ 
+}
+.mn-bookmark:before {
+  content: "\e90a";
+}
+.mn-bookmark1:before {
+  content: "\e90b";
+}
+.mn-calendar:before {
+  content: "\e90c";
+}
+.mn-cart:before {
+  content: "\e90d";
+}
+.mn-categ:before {
+  content: "\e90e";
+ 
+}
+.mn-chevron-down:before {
+  content: "\e90f";
+}
+.mn-chevron-down1:before {
+  content: "\e910";
+}
+.mn-chevron-left:before {
+  content: "\e911";
+}
+.mn-chevron-left1:before {
+  content: "\e912";
+ 
+}
+.mn-chevron-left2:before {
+  content: "\e913";
+}
+.mn-chevron-left-arrow:before {
+  content: "\e914";
+}
+.mn-chevron-right:before {
+  content: "\e915";
+}
+.mn-chevron-right1:before {
+  content: "\e916";
+}
+.mn-chevron-up:before {
+  content: "\e917";
+}
+.mn-chevron-up1:before {
+  content: "\e918";
+}
+.mn-comp:before {
+  content: "\e919";
+ 
+}
+.mn-Component-2:before {
+  content: "\e91a";
+ 
+}
+.mn-corner-left-down:before {
+  content: "\e91b";
+}
+.mn-corner-left-down1:before {
+  content: "\e91c";
+}
+.mn-corner-right-up:before {
+  content: "\e91d";
+}
+.mn-corner-right-up1:before {
+  content: "\e91e";
+}
+.mn-Dialog-4:before {
+  content: "\e91f";
+ 
+}
+.mn-Dialog-3:before {
+  content: "\e920";
+ 
+}
+.mn-filter:before {
+  content: "\e921";
+}
+.mn-filter1:before {
+  content: "\e922";
+ 
+}
+.mn-folder:before {
+  content: "\e923";
+}
+.mn-folder1:before {
+  content: "\e924";
+ 
+}
+.mn-folder-f:before {
+  content: "\e925";
+ 
+}
+.mn-Frame-1486:before {
+  content: "\e926";
+ 
+}
+.mn-frame:before {
+  content: "\e927";
+ 
+}
+.mn-heart:before {
+  content: "\e928";
+}
+.mn-instagram:before {
+  content: "\e929";
+ 
+}
+.mn-instagram-1:before {
+  content: "\e92a";
+ 
+}
+
+.mn-Letter-Opened:before {
+  content: "\e933";
+ 
+}
+.mn-Letter-Opened1:before {
+  content: "\e934";
+ 
+}
+.mn-lines:before {
+  content: "\e935";
+}
+.mn-Magnifer:before {
+  content: "\e936";
+}
+.mn-magnifying-glass:before {
+  content: "\e937";
+}
+.mn-map-point:before {
+  content: "\e938";
+ 
+}
+.mn-menu1:before {
+  content: "\e939";
+}
+.mn-messages:before {
+  content: "\e93a";
+ 
+}
+.mn-microphone:before {
+  content: "\e93b";
+ 
+}
+.mn-notebook:before {
+  content: "\e93c";
+ 
+}
+.mn-pause-circle:before {
+  content: "\e93d";
+}
+.mn-pause-circle1:before {
+  content: "\e93e";
+}
+.mn-phone-calling:before {
+  content: "\e93f";
+ 
+}
+.mn-play:before {
+  content: "\e940";
+}
+.mn-play1:before {
+  content: "\e941";
+}
+.mn-play-circle:before {
+  content: "\e942";
+ 
+}
+.mn-reply:before {
+  content: "\e943";
+
+}
+.mn-reply-2:before {
+  content: "\e944";
+
+}
+.mn-search:before {
+  content: "\e945";
+}
+.mn-server-square:before {
+  content: "\e946";
+ 
+}
+.mn-settings:before {
+  content: "\e947";
+}
+.mn-study:before {
+  content: "\e948";
+}
+.mn-tag:before {
+  content: "\e949";
+}
+.mn-tag-horizontal:before {
+  content: "\e94a";
+ 
+}
+.mn-twitter:before {
+  content: "\e94b";
+}
+.mn-twitter1:before {
+  content: "\e94c";
+}
+.mn-user:before {
+  content: "\e94d";
+}
+.mn-videocamera:before {
+  content: "\e94e";
+ 
+}
+.mn-whatsapp:before {
+  content: "\e94f";
+}
+.mn-whatsapp1:before {
+  content: "\e950";
+ 
+}
+.mn-youtube:before {
+  content: "\e951";
+ 
+}

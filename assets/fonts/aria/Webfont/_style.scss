@@ -1,0 +1,16 @@
+//IranSansX
+@font-face {
+  font-family: 'IRANSansX';
+  src: url('assets/fonts/iransans/iransansxv.woff') format('woff-variations'),
+  url('assets/fonts/iransans/iransansxv.woff') format('woff');
+  font-weight: 100 900;
+  font-display: fallback;
+}
+//aria
+@font-face {
+  font-family: 'aria';
+  src: url('assets/fonts/aria/Webfont/AriaWebVF.woff') format('woff'),
+  url('assets/fonts/aria/AriaVFGX.ttf') format('ttf');
+  font-weight: 100 900;
+  font-display: fallback;
+}

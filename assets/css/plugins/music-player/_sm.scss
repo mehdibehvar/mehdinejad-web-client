@@ -1,0 +1,42 @@
+.padcast-card {
+    gap: 20px;
+    .cover {
+        width: 42px;
+        height: 42px;
+
+        img {
+            width: 42px;
+            height: 42px;
+        }
+    }
+
+    .controls {
+        gap: 12px;
+
+        .play-button {
+            font-size: 43px;
+            color: var(--primary);
+        }
+    }
+    &.swiper-padcast-card{
+        padding: 12px;
+        gap: 20px;
+        .cover {
+            width: 52px;
+            height: 52px;
+            img {
+                width: 52px;
+                height: 52px;
+            }
+        }
+    }
+    &.sticky {
+        padding: 1px 8px;
+        .padcast-badge {
+            padding:0;
+            .padcast-title {
+            display: none;
+            }
+        }
+    }
+}

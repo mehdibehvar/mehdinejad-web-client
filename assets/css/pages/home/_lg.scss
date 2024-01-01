@@ -1,0 +1,21 @@
+.videos-section {
+        .section-header{
+            justify-content: space-between;
+        }
+.card-list{
+    margin-top: 24px;
+}
+}
+.padcasts-section {
+    .main-content {
+        .padcast-swiper-container {
+            // overflow-x: hidden;
+            .padcast-swiper {
+                overflow-x: hidden;
+                padding-top: 30px;
+                // margin-left:0;
+                // margin-right:0;
+            }
+        }
+    }
+}

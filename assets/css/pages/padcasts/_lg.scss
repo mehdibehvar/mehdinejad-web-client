@@ -1,0 +1,21 @@
+
+.padcasts-filter-section{
+    margin-top: 80px;
+    .medium-g{
+        --bs-gutter-x:16px;
+       }
+    .card-row,.space{
+       .row{
+        --bs-gutter-y: 12px;
+       }
+        .content{
+            padding: 8px;
+            .title{
+                text-align: center;
+            }
+        }
+    }
+}
+
+
+

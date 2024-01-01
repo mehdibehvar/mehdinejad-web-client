@@ -1,0 +1,27 @@
+//blogs page///
+.articles-card{
+    margin-top: 98px;
+    .car-row,.space{
+        .row{
+            --bs-gutter-x: 42px;
+            --bs-gutter-y:16px;
+        }
+    }
+}
+.last-articles{
+    margin-top: 197px;
+    >.section-header{
+        .filter-section{
+            gap: 10px;
+            >form{
+                gap: 16px;
+            }
+        }
+    }
+    .articles{
+        >.row{
+            --bs-gutter-y: 50px;
+            --bs-gutter-x:35px;
+        }
+    }
+}

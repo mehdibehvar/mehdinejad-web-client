@@ -1,0 +1,100 @@
+.avatar{
+    --size: 47px;
+    width: var(--size) !important;
+    height: var(--size) !important;
+    border-radius: 50%;
+    object-fit: cover;
+    flex-shrink: 0;
+    background-size: 100%;
+    &.xs{
+        --size: 24px;
+    }
+    &.sm{
+        --size: 34px;
+    }
+    &.md{
+        --size: 50px;
+    }
+    &.lg{
+        --size: 60px;
+    }
+    &.xl{
+        --size: 100px;
+    }
+    &.xxl{
+        --size: 140px;
+    }
+}
+.teacher-statistics {
+    display: flex;
+    align-items: center;
+    gap: 39px;
+    margin-bottom: 24px;
+    width: fit-content;
+    >.info {
+        display: flex;
+        align-items: center;
+        gap: 6px;
+
+        >.thumbnail {
+            border-radius: var(--rounded-sm, 0px);
+            overflow: hidden;
+
+            img {
+                width: 33px;
+                height: 33px;
+                object-fit: cover;
+            }
+
+            &.drop-shadow {
+                filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+            }
+        }
+
+        .title {
+            color: var(--secondary, #2A354A);
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 120%;
+        }
+    }
+
+    .statistics {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-grow: 1;
+        gap: 23px;
+
+        .statistic {
+            display: flex;
+            align-items: center;
+            gap: 3px;
+
+            .icon {
+                color: var(--primary);
+                font-size: 24px;
+            }
+
+            span {
+                color: var(--secondary, #2A354A);
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 120%;
+            }
+        }
+    }
+}
+.banner {
+    border-radius: var(--rounded-lg, 10px);
+    overflow: hidden;
+    margin-top: 48px;
+    width: 100%;
+
+    img {
+        position: relative;
+        width: 100%;
+    }
+}

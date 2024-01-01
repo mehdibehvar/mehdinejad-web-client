@@ -1,0 +1,27 @@
+.section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 42px;
+
+    .title {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+
+        .icon {
+            font-size: 40px;
+            color: var(--primary);
+        }
+
+        .text {
+            color: var(--secondary, #2A354A);
+            text-align: right;
+           @include secondFont;
+            font-size: 40px;
+            font-style: normal;
+            font-weight: 800;
+            line-height: 123%;
+        }
+    }
+}

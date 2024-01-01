@@ -1,0 +1,22 @@
+//blogs page///
+.header-banner {
+    margin-top: 112px;
+    .float-text-wrapper {
+        display: flex;
+        justify-content: center;
+    }
+    .banner-statistics{
+        display: flex;
+        justify-content: center;
+        margin-top: 21px;
+    }
+}
+.blog-main-content{
+    margin-top: 150px;
+}
+.comments-section{
+    margin-top: 164px;
+    >.comments-and-answers{
+        margin-top: 74px;
+    }
+}

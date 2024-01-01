@@ -1,0 +1,51 @@
+
+.filter-dropdown {
+    position: relative;
+    overflow: inherit !important;
+    z-index: 2;
+
+    .filter-toggler-item {
+        height: 100%;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .filter-menu {
+        display: none;
+        flex-direction: column;
+        align-items: start;
+        position: absolute;
+        top: calc(100% + 5px);
+        left: calc(100% - 56px);
+        width: 300px;
+        padding: 16px 12px;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        gap: 11px;
+        border-radius: var(--rounded-sm, 5px);
+        background: #FFF;
+        cursor: initial;
+        overflow-y: scroll;
+        -ms-overflow-style: none;
+        /* IE and Edge */
+        scrollbar-width: none;
+        /* Firefox */
+        &::-webkit-scrollbar {
+            display: none;
+        }
+        .filter-form{
+            display: none;
+            flex-direction: column;
+            gap: 16px;
+            width: 100%;
+        }
+        &.show {
+
+            display: -webkit-flex;
+
+        }
+
+    }
+}

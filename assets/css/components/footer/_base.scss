@@ -1,0 +1,109 @@
+footer.base-footer {
+    background-color: rgba(255, 255, 255, 0.1);
+    filter: drop-shadow(28px 25px 117px rgba(58, 143, 244, 0.14));
+    border-radius: 20px;
+    margin-top: 615px;
+    margin-bottom: 80px;
+    padding: 0 100px;
+    .main-footer-content{
+           margin-top: 58px;
+    }
+    .overlay {
+        position: absolute;
+        inset: 0;
+        background-color: rgba(255, 255, 255, 0.60);
+        filter: drop-shadow(28px 25px 117px rgba(58, 143, 244, 0.14));
+        border-radius: 15px;
+        z-index: -1;
+    }
+
+
+    .float-form {
+        border-radius: var(--rounded-sm, 5px);
+        background: linear-gradient(96deg, #2D81F7 45.34%, #A1C8FF 115.84%);
+        margin-top: -295px;
+        position: relative;
+
+        .image-wrapper {
+            position: absolute;
+            inset: 0;
+            top: -34px;
+            border-radius: var(--rounded-sm, 5px);
+            overflow: hidden;
+              display: flex;
+            img {
+                object-fit: cover;
+            }
+
+        }
+
+
+        .footer-form {
+            padding: 40px 0 30px 100px;
+            position: relative;
+            .btn.white{
+                    color: var(--secondary)!important;
+                    &:hover{
+                        color: var(--primary)!important;
+                        background: var(--white);
+                    }
+            }
+            .title {
+                color: #FFF;
+                @include secondFont;
+                font-size: 30px;
+                font-style: normal;
+                font-weight: 700;
+                margin-bottom: 23px;
+            }
+
+            .wave-image {
+                position: absolute;
+                bottom: 40px;
+                left: -20px;
+            }
+        }
+    }
+
+    .last-col {
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer-list {
+        >.content {
+            .text {
+                &.p-left {
+                    padding-left: 55px;
+                }
+            }
+
+            >ul.list {
+                gap: 8px;
+
+                li {
+                    .badge {
+                        min-width: 172px;
+                    }
+                }
+            }
+        }
+
+    }
+
+    .rights-preserve {
+        color: var(--black, #191C20);
+        text-align: right;
+       @include secondFont;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 123.5%;
+        padding-top: 24px;
+        padding-bottom: 26px;
+    }
+
+    &.top-md {
+        margin-top: 436px;
+    }
+}

@@ -1,0 +1,53 @@
+$colors: (
+  "primary": #0861BE,
+  "secondary": #2A354A,
+  "black": #191C20,
+  "white": #FFFFFF,
+  "success": #1ECE9A,
+  "warning": #ffbf38,
+  "danger": #FB5252,
+  ) !default;
+
+$tintColors: (
+        "primary-tint-1": #04366A,
+        "primary-tint-2": #054384,
+        "primary-tint-3": #06509D,
+        "primary-tint-4": #075DB7,
+        "primary-tint-5": #086AD1,
+        "primary-tint-6": #0977EA,
+        "primary-tint-7": #1885F6,
+        "primary-tint-8": #3192F7,
+        "primary-tint-9": #4BA0F8,
+        "primary-tint-10": #65AEF9,
+        "primary-tint-11": #98C9FB,
+        "primary-tint-12": #B2D6FC,
+        "primary-tint-13": #CCE4FD,
+        "primary-tint-14": #E5F1FE,
+        "white-shade-2": #F2F2F2,
+        "white-shade-3": #E6E6E6,
+        "white-shade-4": #D9D9D9,
+        "white-shade-5": #CCCCCC,
+        "white-shade-6": #BFBFBF,
+        "white-shade-7": #B3B3B3,
+        "white-shade-8": #A6A6A6,
+        "white-shade-9": #999999,
+        "white-shade-10": #8C8C8C,
+        "white-shade-11": #808080,
+        "white-shade-12": #737373,
+        "white-shade-13": #666666,
+        "white-shade-14": #595959,
+        "white-shade-15": #4C4C4C,
+        "white-shade-16": #404040,
+        "white-shade-17": #333333,
+        "white-shade-18": #262626,
+        "white-shade-19": #191919,
+        "white-shade-20": #0D0D0D,
+) !default;
+
+$mergedColors: map-merge($colors, $tintColors);
+
+@mixin colors {
+  @each $name, $code in $mergedColors {
+    --#{$name}: #{$code};
+  }
+}

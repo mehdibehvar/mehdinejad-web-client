@@ -1,0 +1,24 @@
+@include utility-max-mixin('--lg');
+
+.fixed-bottom{
+  position: fixed;
+  bottom: calc(var(--gutter-xs) * 1.5);
+  z-index: 10000;
+  width: 100%;
+  background: white;
+  bottom: 0;
+  @include shadow-mix;
+  border-bottom: solid 2px var(--primary);
+  .content {
+    padding: calc(var(--gutter-xs) * 1) 0;
+    border-bottom: none;
+    box-shadow: none;
+    &:before{
+      display: none;
+    }
+  }
+  .row{
+    --bs-gutter-x: calc(var(--gutter-xs) * 1);
+    --bs-gutter-y: calc(var(--gutter-xs) * 1);
+  }
+}

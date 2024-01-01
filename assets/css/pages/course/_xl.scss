@@ -1,0 +1,23 @@
+.course-header-container {
+    .course-header {
+        .row {
+            --bs-gutter-x: 30px;
+        }
+        .right-section{
+            .box{
+                .main{
+                    .text{
+                        font-size: 48px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+section.services {
+    margin-top: 32px;
+    .simple-card {
+        padding: 20px 25px;
+    }
+}

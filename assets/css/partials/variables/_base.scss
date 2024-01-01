@@ -1,0 +1,5 @@
+:root {
+  @include design-system;
+  --radius-lg: 12px;
+  @include colors;
+}

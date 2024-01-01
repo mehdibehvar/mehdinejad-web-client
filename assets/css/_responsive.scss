@@ -1,0 +1,401 @@
+@media (max-width: 1599.98px) {
+    //partials
+    @import "partials/utilities/xxxl-max";
+    @import "partials/variables/xxxl";
+    //components
+    @import "components/utilities/xxxl";
+    @import "components/typography/xxxl";
+    @import "components/alert/xxxl";
+    @import "components/accordions/xxxl";
+    @import "components/breadcrumb/xxxl";
+    @import "components/badge/xxxl";
+    @import "components/button/xxxl";
+    @import "components/card/xxxl";
+    @import "components/collapse/xxxl";
+    @import "components/countdown/xxxl";
+    @import "components/dropdown/xxxl";
+    @import "components/footer/xxxl";
+    @import "components/form/xxxl";
+    @import "components/list/xxxl";
+    @import "components/modal/xxxl";
+    @import "components/pagination/xxxl";
+    @import "components/progress/xxxl";
+    @import "components/quote/xxxl";
+    @import "components/nav/xxxl";
+    @import "components/header/xxxl";
+    @import "components/table/xxxl";
+    @import "components/sections-header/xxxl";
+    @import "components/category-navbar/xxxl";
+    @import "components/comment/xxxl";
+    @import "components/common/xxxl";
+    @import "components/sticky-padcast/xxxl";
+    //@import "components/toast/xxxl";
+    @import "components/video/xxxl";
+    @import "components/spinner/xxxl";
+    //sections
+    @import "sections/sample/xxxl";
+    //pages
+    @import "pages/sample/xxxl";
+    @import "pages/home/xxxl";
+    @import "pages/video/xxxl";
+    @import "pages/blog/xxxl";
+    @import "pages/blogs/xxxl";
+    @import "pages/padcast/xxxl";
+    @import "pages/padcasts/xxxl";
+    @import "pages/about/xxxl";
+    @import "pages/contactus/xxxl";
+    @import "pages/courses/xxxl";
+    @import "pages/course/xxxl";
+    //plugins
+    @import "plugins/music-player/xxxl";
+}
+
+@media (max-width: 1399.98px) {
+    //partials
+    @import "partials/utilities/xxl-max";
+    @import "partials/variables/xxl";
+    //components
+    @import "components/utilities/xxl";
+    @import "components/typography/xxl";
+    @import "components/alert/xxl";
+    @import "components/accordions/xxl";
+    @import "components/breadcrumb/xxl";
+    @import "components/badge/xxl";
+    @import "components/button/xxl";
+    @import "components/card/xxl";
+    @import "components/collapse/xxl";
+    @import "components/countdown/xxl";
+    @import "components/dropdown/xxl";
+    @import "components/footer/xxl";
+    @import "components/form/xxl";
+    @import "components/list/xxl";
+    @import "components/modal/xxl";
+    @import "components/pagination/xxl";
+    @import "components/progress/xxl";
+    @import "components/quote/xxl";
+    @import "components/nav/xxl";
+    @import "components/header/xxl";
+    @import "components/table/xxl";
+    @import "components/comment/xxl";
+    @import "components/sticky-padcast/xxl";
+    @import "components/common/xxl";
+
+    //@import "components/toast/xxl";
+    @import "components/video/xxl";
+    @import "components/spinner/xxl";
+    @import "components/sections-header/xxl";
+    @import "components/category-navbar/xxl";
+    //sections
+    @import "sections/sample/xxl";
+    //pages
+    @import "pages/sample/xxl";
+    @import "pages/home/xxl";
+    @import "pages/video/xxl";
+    @import "pages/blog/xxl";
+    @import "pages/blogs/xxl";
+    @import "pages/padcast/xxl";
+    @import "pages/padcasts/xxl";
+    @import "pages/about/xxl";
+    @import "pages/contactus/xxl";
+    @import "pages/courses/xxl";
+
+    @import "pages/course/xxl"; //plugins
+    @import "plugins/music-player/xxl";
+}
+
+@media (max-width: 1199.98px) {
+    //partials
+    @import "partials/utilities/xl-max";
+    @import "partials/variables/xl";
+    //components
+    @import "components/utilities/xl";
+    @import "components/typography/xl";
+    @import "components/alert/xl";
+    @import "components/accordions/xl";
+    @import "components/breadcrumb/xl";
+    @import "components/badge/xl";
+    @import "components/button/xl";
+    @import "components/card/xl";
+    @import "components/collapse/xl";
+    @import "components/countdown/xl";
+    @import "components/dropdown/xl";
+    @import "components/footer/xl";
+    @import "components/form/xl";
+    @import "components/list/xl";
+    @import "components/modal/xl";
+    @import "components/pagination/xl";
+    @import "components/progress/xl";
+    @import "components/quote/xl";
+    @import "components/nav/xl";
+    @import "components/header/xl";
+    @import "components/table/xl";
+    @import "components/comment/xl";
+    @import "components/sticky-padcast/xl";
+    @import "components/common/xl";
+    //@import "components/toast/xl";
+    @import "components/video/xl";
+    @import "components/spinner/xl";
+    @import "components/sections-header/xl";
+    @import "components/category-navbar/xl";
+    //sections
+    @import "sections/sample/xl";
+    //pages
+    @import "pages/sample/xl";
+    @import "pages/home/xl";
+    @import "pages/video/xl";
+    @import "pages/blog/xl";
+    @import "pages/blogs/xl";
+    @import "pages/padcast/xl";
+    @import "pages/padcasts/xl";
+    @import "pages/about/xl";
+    @import "pages/contactus/xl";
+    @import "pages/courses/xl";
+    @import "pages/course/xl"; //plugins
+    @import "plugins/music-player/xl";
+}
+
+@media (max-width: 991.98px) {
+    //partials
+    @import "partials/utilities/lg-max";
+    @import "partials/variables/lg";
+    //components
+    @import "components/utilities/lg";
+    @import "components/typography/lg";
+    @import "components/alert/lg";
+    @import "components/accordions/lg";
+    @import "components/breadcrumb/lg";
+    @import "components/badge/lg";
+    @import "components/button/lg";
+    @import "components/card/lg";
+    @import "components/collapse/lg";
+    @import "components/countdown/lg";
+    @import "components/dropdown/lg";
+    @import "components/footer/lg";
+    @import "components/form/lg";
+    @import "components/list/lg";
+    @import "components/modal/lg";
+    @import "components/pagination/lg";
+    @import "components/progress/lg";
+    @import "components/quote/lg";
+    @import "components/nav/lg";
+    @import "components/header/lg";
+    @import "components/table/lg";
+    @import "components/video/lg";
+    @import "components/spinner/lg";
+    @import "components/sections-header/lg";
+    @import "components/category-navbar/lg";
+    @import "components/comment/lg";
+    @import "components/sticky-padcast/lg";
+    @import "components/common/lg";
+    //sections
+    @import "sections/sample/lg";
+    //pages
+    @import "pages/sample/lg";
+    @import "pages/home/lg";
+    @import "pages/video/lg";
+    @import "pages/blog/lg";
+    @import "pages/blogs/lg";
+    @import "pages/padcast/lg";
+    @import "pages/padcasts/lg";
+    @import "pages/about/lg";
+    @import "pages/contactus/lg";
+    @import "pages/courses/lg";
+    @import "pages/course/lg"; //plugins
+    @import "plugins/music-player/lg";
+}
+
+@media (max-width: 767.98px) {
+    //partials
+    @import "partials/utilities/md-max";
+    @import "partials/variables/md";
+    //components
+    @import "components/utilities/md";
+    @import "components/typography/md";
+    @import "components/alert/md";
+    @import "components/accordions/md";
+    @import "components/breadcrumb/md";
+    @import "components/badge/md";
+    @import "components/button/md";
+    @import "components/card/md";
+    @import "components/collapse/md";
+    @import "components/countdown/md";
+    @import "components/dropdown/md";
+    @import "components/footer/md";
+    @import "components/form/md";
+    @import "components/list/md";
+    @import "components/modal/md";
+    @import "components/pagination/md";
+    @import "components/progress/md";
+    @import "components/quote/md";
+    @import "components/nav/md";
+    @import "components/header/md";
+    @import "components/table/md";
+    @import "components/video/md";
+    @import "components/spinner/md";
+    @import "components/sections-header/md";
+    @import "components/category-navbar/md";
+    @import "components/comment/md";
+    @import "components/sticky-padcast/md";
+    @import "components/common/md";
+    @import "pages/contactus/md";
+    //sections
+    @import "sections/sample/md";
+    //pages
+    @import "pages/sample/md";
+    @import "pages/home/md";
+    @import "pages/video/md";
+    @import "pages/blog/md";
+    @import "pages/blogs/md";
+    @import "pages/padcast/md";
+    @import "pages/padcasts/md";
+    @import "pages/about/md";
+    @import "pages/courses/md";
+    @import "pages/course/md"; //plugins
+    @import "plugins/music-player/md";
+}
+
+@media (max-width: 575.98px) {
+    //partials
+    @import "partials/bootstrap-grid/sm-max";
+    @import "partials/utilities/sm-max";
+    @import "partials/variables/sm";
+    //components
+    @import "components/utilities/sm";
+    @import "components/typography/sm";
+    @import "components/alert/sm";
+    @import "components/accordions/sm";
+    @import "components/breadcrumb/sm";
+    @import "components/badge/sm";
+    @import "components/button/sm";
+    @import "components/card/sm";
+    @import "components/collapse/sm";
+    @import "components/countdown/sm";
+    @import "components/dropdown/sm";
+    @import "components/footer/sm";
+    @import "components/form/sm";
+    @import "components/list/sm";
+    @import "components/modal/sm";
+    @import "components/pagination/sm";
+    @import "components/progress/sm";
+    @import "components/quote/sm";
+    @import "components/nav/sm";
+    @import "components/header/sm";
+    @import "components/table/sm";
+    @import "components/video/sm";
+    @import "components/spinner/sm";
+    @import "components/sections-header/sm";
+    @import "components/category-navbar/sm";
+    @import "components/comment/sm";
+    @import "components/sticky-padcast/sm";
+    @import "components/common/sm";
+    @import "pages/contactus/sm";
+    //sections
+    @import "sections/sample/sm";
+    //pages
+    @import "pages/sample/sm";
+    @import "pages/home/sm";
+    @import "pages/video/sm";
+    @import "pages/blog/sm";
+    @import "pages/blogs/sm";
+    @import "pages/padcast/sm";
+    @import "pages/padcasts/sm";
+    @import "pages/about/sm";
+    @import "pages/courses/sm";
+    @import "pages/course/sm"; //plugins
+    @import "plugins/music-player/sm";
+    @import "plugins/music-player/sm";
+    @import "plugins/videojs/sm";
+}
+
+@media (max-width: 399.98px) {
+    //partials
+    @import "partials/variables/xs";
+    //components
+    @import "components/utilities/xs";
+    @import "components/typography/xs";
+    @import "components/alert/xs";
+    @import "components/accordions/xs";
+    @import "components/breadcrumb/xs";
+    @import "components/badge/xs";
+    @import "components/button/xs";
+    @import "components/card/xs";
+    @import "components/collapse/xs";
+    @import "components/countdown/xs";
+    @import "components/dropdown/xs";
+    @import "components/footer/xs";
+    @import "components/form/xs";
+    @import "components/list/xs";
+    @import "components/modal/xs";
+    @import "components/pagination/xs";
+    @import "components/progress/xs";
+    @import "components/quote/xs";
+    @import "components/nav/xs";
+    @import "components/header/xs";
+    @import "components/table/xs";
+    @import "components/video/xs";
+    @import "components/spinner/xs";
+    @import "components/sections-header/xs";
+    @import "components/category-navbar/xs";
+    @import "components/comment/xs";
+    @import "components/sticky-padcast/xs";
+    @import "components/common/xs";
+    @import "pages/padcast/xs";
+    //sections
+    @import "sections/sample/xs";
+    //pages
+    @import "pages/sample/xs";
+    @import "pages/home/xs";
+    @import "pages/video/xs";
+    @import "pages/blog/xs";
+    @import "pages/blogs/xs";
+    @import "pages/about/xs";
+    @import "pages/padcast/xs";
+    @import "pages/padcasts/xs";
+    @import "pages/contactus/xs";
+    @import "pages/courses/xs";
+    @import "pages/course/xs"; //plugins
+    @import "plugins/music-player/xs";
+}
+
+//sm
+@media (min-width: 576px) {
+    //partials
+    @import "partials/bootstrap-grid/sm";
+    @import "partials/utilities/sm";
+}
+
+//md
+@media (min-width: 768px) {
+    //partials
+    @import "partials/bootstrap-grid/md";
+    @import "partials/utilities/md";
+    //components
+    @import "components/form/min-md";
+}
+
+//lg
+@media (min-width: 992px) {
+    //partials
+    @import "partials/bootstrap-grid/lg";
+    @import "partials/utilities/lg";
+}
+
+//xl
+@media (min-width: 1200px) {
+    //partials
+    @import "partials/bootstrap-grid/xl";
+    @import "partials/utilities/xl";
+}
+
+//xxl
+@media (min-width: 1400px) {
+    //partials
+    @import "partials/bootstrap-grid/xxl";
+    @import "partials/utilities/xxl";
+}
+
+//xxl
+@media (min-width: 1600px) {
+    //partials
+    @import "partials/bootstrap-grid/xxxl";
+}

@@ -1,0 +1,25 @@
+footer.base-footer {
+    margin-top: 100px;
+    margin-bottom: 65px;
+    padding:32px;
+    .main-footer-content{
+        --bs-gutter-y:24px;
+        margin-top: 24px;
+    }
+    .float-form {
+        margin-top:0px;
+        .image-wrapper {
+            display: none;
+        }
+        .footer-form {
+            padding: 24px;
+          
+            .wave-image {
+             display: none;
+            }
+        }
+    }
+    &.top-md {
+        margin-top: 150px;
+    }
+}

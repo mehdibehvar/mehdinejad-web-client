@@ -1,0 +1,176 @@
+body.course-page {
+    background-image: none;
+}
+
+.course-header-container {
+    border-radius: 20px;
+    background: rgba(9, 114, 255, 0.06);
+    background-image: url('/assets/img/course-bg-2.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 26px 32px 0 32px;
+
+    .course-header {
+       .row{
+        --bs-gutter-x: 200px;
+       }
+       .right-section{
+        .box{
+            .main{
+                .text{
+                    margin-bottom: 27px;
+                }
+            }
+        }
+       }
+    }
+}
+
+
+.card-video {
+    border-radius: var(--rounded-sm, 5px);
+    background: #EFF7FF;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    padding: 19px;
+    width: 100%;
+
+    >.video-wrapper {
+        border-radius: var(--rounded-sm, 5px);
+        overflow: hidden;
+
+        .video-js-wrapper {
+            #video-js {
+                width: 100%;
+
+                .vjs-big-play-button {
+                    height: 59px !important;
+                    width: 59px !important;
+                    border: none !important;
+                    // border-radius: 50% !important;
+                    padding: 0 !important;
+                    background: rgba(16, 15, 15, 0.32) !important;
+                    z-index: 2;
+                    background-image: url('/assets/img/little-play.svg') !important;
+                    background-repeat: no-repeat !important;
+                    object-fit: cover !important;
+                    box-shadow: none !important;
+                    background-position: center !important;
+                    transform: translateX(25%);
+
+                    .vjs-icon-placeholder {
+                        &::before {
+                            content: '' !important;
+                        }
+                    }
+                }
+            }
+
+            .video-js-overlay {
+                background: linear-gradient(0deg, rgba(7, 7, 7, 0.65) 0%, rgba(7, 7, 7, 0.65) 100%);
+
+            }
+        }
+
+        .info {
+            position: absolute;
+            bottom: 12px;
+            left: 8px;
+
+            .video-score {
+                color: var(--primary, #0861BE);
+                border-radius: 13px;
+                background: var(--white);
+                padding: 7px 15px;
+                display: flex;
+                align-items: center;
+                gap: 3px;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: normal;
+
+                i.icon {
+                    font-size: 20px;
+                    padding-bottom: 3px;
+                }
+            }
+        }
+    }
+
+    .footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        border-radius: var(--rounded-sm, 4.522px);
+        background: #FFF;
+        padding: 16px 20px;
+
+        .text {
+            display: flex;
+            gap: 29px;
+            font-family: iransansxv;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 120%;
+            letter-spacing: -0.48px;
+        }
+
+        .title {
+            color: var(--primary, #0861BE);
+        }
+
+        .subtitle {
+            color: var(--secondary, #2A354A);
+        }
+    }
+}
+
+
+section.course-description {
+    margin-top: 108px;
+
+    .section-header {
+        margin-bottom: 18px;
+    }
+
+
+}
+
+section.services {
+    margin-top: 54px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    width: 100% !important;
+
+    .simple-card {
+        &:first-child {
+            width: 30%;
+        }
+
+        &:nth-child(2) {
+            width: 38%;
+        }
+
+        &:last-child {
+            width: 32%;
+        }
+    }
+}
+
+section.course-title {
+    margin-top: 141px;
+    .section-header {
+        margin-bottom: 32px;
+    }
+}
+
+section.course-teacher {
+    margin-bottom: 194px;
+    margin-top: 181px;
+}

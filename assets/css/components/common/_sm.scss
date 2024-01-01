@@ -1,0 +1,19 @@
+.avatar{
+    --size: 42px;
+}
+
+.teacher-statistics {
+    gap: 12px;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    .statistics {
+        .statistic{
+            flex-direction: column;
+        }
+
+    }
+}
+.banner {
+    margin-top:32px;
+}

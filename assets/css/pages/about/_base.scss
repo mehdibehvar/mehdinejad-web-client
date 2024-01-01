@@ -1,0 +1,162 @@
+.about-header-content {
+    .header-banner {
+        margin-top: 74px;
+        .float-video {
+            border-radius: 15px;
+            background: #FFF;
+            box-shadow: 15px 29px 50px 0px rgba(8, 97, 190, 0.05);
+            padding: 60px 48px;
+            max-height: 219px;
+            position: relative;
+            margin-top: -82px;
+            display: flex;
+            align-items: center;
+            gap: 60px;
+
+            .right-section {
+                gap: 47px;
+                .text {
+                    color: var(--secondary, #2A354A);
+                    text-align: center;
+                    @include secondFont;
+                    font-size: 40px;
+                    font-style: normal;
+                    font-weight: 800;
+                    line-height: 123%;
+                }
+    
+                .arrows {
+                    .icon {
+                        font-size: 24px;
+                        color: #1C274C;
+    
+                        &:last-child {
+                            opacity: 0.2;
+                        }
+    
+                        &:nth-child(2) {
+                            opacity: 0.6;
+                        }
+                    }
+    
+                }
+            }
+            .video-poster {
+                width: 216px;
+                height: 351px;
+                position: absolute;
+                bottom: -6px;
+                left: 75px;
+                border-radius: 14.824px;
+                display: flex;
+                align-items: center;
+                justify-content: end;
+
+                .first-rect {
+                    border-radius: 14.824px;
+                    background: var(--primary-tint-12, #B2D6FC);
+                    width: 100%;
+                    height: 254px;
+                    position: absolute;
+                    bottom: -24px;
+                    left: -17px;
+                }
+
+                .second-rect {
+                    overflow: hidden;
+                    background: var(--primary-tint-8, #3192F7);
+                    box-shadow: -6.811px 5.449px 32.012px 0px #3095FF;
+                    background-image: url('/assets/img/air1.png');
+                    position: top;
+                    background-repeat: no-repeat;
+                    width: 100%;
+                    height: 254px;
+                    position: absolute;
+                    bottom: -6px;
+                    left: -1px;
+                    border-radius: 14.824px;
+                }
+
+                .img-wrapper {
+                    border-radius: 14.824px;
+                    overflow: hidden;
+                    position: absolute;
+                    bottom: -5.5px;
+
+                }
+
+                img.wave {
+                    margin-left: -33px;
+                    z-index: 10;
+                }
+
+                .play-modal-button {
+                    i.icon {
+                        font-size: 64px;
+                        color: var(--white);
+                    }
+
+                    background-color: #000;
+                    border-radius: 50%;
+                    border: 0;
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-13px, 10px);
+                    width: 52px;
+                    height: 52px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+
+                div.overlay {
+                    border-radius: 11.859px;
+                    background: linear-gradient(0deg, #000 -96.79%, rgba(0, 0, 0, 0.00) 75.69%);
+                    position: absolute;
+                    inset: 0;
+
+                }
+            }
+        }
+    }
+}
+
+.start-adventure {
+    margin-top: 185px;
+
+    .description {
+        margin-top: 17px;
+    }
+
+    .achivments {
+        margin-top: 65px;
+    }
+}
+
+.gallery {
+    margin-top: 130px;
+
+    .section-header {
+        margin-bottom: 30px;
+    }
+
+    .image-frame {
+        border-radius: var(--rounded-lg, 10px);
+        background: #D9D9D9;
+        overflow: hidden;
+        width: 100%;
+        height: 100%;
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+       
+        }
+    }
+}
+
+.aboutme-modal-content {
+    border-radius: var(--rounded-sm, 5px);
+    overflow: hidden;
+}

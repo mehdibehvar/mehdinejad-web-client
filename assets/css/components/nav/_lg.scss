@@ -1,0 +1,21 @@
+.navbar {
+    .navbar-brand {
+        img{
+            width: 100px;
+        }
+    }
+
+    nav.nav-menu {
+        display: none;
+    }
+
+    .hamburger-menu-btn {
+        display: -webkit-inline-flex;
+    }
+    .search-section{
+        width: 100%;
+        display: flex;
+        justify-content: end;
+
+    }
+}

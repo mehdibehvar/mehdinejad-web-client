@@ -1,0 +1,7 @@
+.hamburger-menu {
+  --hm-py: 16px !important;
+  --hm-px: 12px !important;
+  > * {
+    --py: 13px;
+  }
+}

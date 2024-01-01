@@ -1,0 +1,114 @@
+
+.text-float {
+    border-radius: var(--rounded-sm, 5px);
+    background: #FFF;
+    box-shadow: 15px 29px 50px 0px rgba(8, 97, 190, 0.05);
+    padding: 44px 82px;
+    position: relative;
+    margin-top: -100px;
+
+    .text {
+        color: var(--secondary, #2A354A);
+        text-align: center;
+        @include secondFont;
+        font-size: 50px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 123%;
+ 
+    }
+}
+
+.rate {
+    position: relative;
+    font-size: 18px;
+    color: var(--white-shade-4) !important;
+    font-family: 'li' !important;
+    font-style: normal;
+    width: fit-content;
+
+    &:before {
+        content: "\e947\e947\e947\e947\e947";
+    }
+
+    &:after {
+        position: absolute;
+        left: 0;
+        content: var(--rate);
+        color: var(--warning);
+    }
+
+    &.r-1 {
+        --rate: "\e947"
+    }
+
+    &.r-2 {
+        --rate: "\e947\e947"
+    }
+
+    &.r-3 {
+        --rate: "\e947\e947\e947"
+    }
+
+    &.r-4 {
+        --rate: "\e947\e947\e947\e947"
+    }
+
+    &.r-5 {
+        --rate: "\e947\e947\e947\e947\e947"
+    }
+}
+
+.ratingbar {
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    --icon: "\e947";
+    --icon-active: "\e947";
+    --icon-color: var(white-shade-4);
+    --icon-checked-color: var(--warning);
+    --icon-hover-color: #bb7616;
+    --color: var(--secondary);
+    --size: 32px;
+
+    input {
+        width: var(--size);
+        display: flex;
+        align-items: center;
+        background: none !important;
+        border: none !important;
+        font-size: var(--size);
+        cursor: pointer;
+        color: var(--icon-color);
+
+        &:before {
+            font-family: 'li' !important;
+            font-style: normal;
+            content: var(--icon);
+            width: var(--size);
+            height: var(--size);
+            display: -webkit-flex;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        &:checked,
+        &:checked~input {
+            color: var(--icon-checked-color);
+        }
+
+        &:hover,
+        &:hover~input {
+            color: var(--icon-hover-color) !important;
+        }
+    }
+}
+
+.see-all {
+    margin-top: 70px;
+    &.mt-medium{
+        margin-top: 55px;
+    }
+}

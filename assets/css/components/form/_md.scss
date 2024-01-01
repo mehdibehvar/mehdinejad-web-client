@@ -1,0 +1,43 @@
+:root {
+  --input-height: var(--input-height-sm);
+  --input-font-size: var(--input-font-size-sm);
+  --input-line-height: var(--input-line-height-sm);
+  --input-font-weight: var(--input-font-weight-sm);
+  --input-group-icon-size: 20px;
+  --textarea-line-height: 27px;
+  --select-icon-position-y: var(--select-icon-position-y-sm);
+}
+
+.input-group,
+textarea,
+input:not(input[type="radio"],
+  input[type="checkbox"]) {
+  &.lg {
+    min-height: 49px;
+  }
+
+  &.md {
+    min-height: 49px;
+  }
+
+  &.sm {
+    height: 49px;
+  }
+}
+
+select {
+  background-position-x: 10px;
+  min-height: 49px;
+}
+form.padcast-category {
+height: 0;
+padding: 0;
+overflow: hidden;
+
+&.show{
+  height: fit-content;
+  padding-top: 29px;
+
+}
+
+}

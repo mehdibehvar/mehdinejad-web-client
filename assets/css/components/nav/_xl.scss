@@ -1,0 +1,28 @@
+.navbar {
+
+.search-section{
+flex-grow: 1;
+text-align: end;
+    .input-group{
+        width: 0;
+        overflow: hidden;
+        opacity: 0;
+    }
+    .toggle-search-bar{
+        display: inline;
+    }
+}
+    div.actions {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+
+        button.btn {
+            display: none;
+        }
+
+        .login-btn {
+            display: block;
+        }
+    }
+}

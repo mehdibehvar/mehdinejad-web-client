@@ -1,0 +1,45 @@
+.modal{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 100000;
+  display: none;
+  overflow-x: hidden;
+  overflow-y: auto;
+  align-items: center;
+  flex-direction: column;
+  background: rgba(42, 53, 84, 0.9);
+  padding: 60px 0;
+  > *{
+    width: 800px;
+    max-width: calc(100% - 24px);
+    overflow-x: hidden;
+    overflow-y: auto;
+    max-height: 100%;
+  }
+  &.show{
+    display: -webkit-flex;
+    display: flex;
+  }
+  &.sm > *{
+    width: 440px;
+  }
+  &.lg > *{
+    width: 1200px;
+  }
+  .close-modal{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 60px;
+    .close-modal-btn{
+      padding: 0;
+      .icon{
+        color: var(--white);
+        font-size: 45px;
+      }
+    }
+ 
+  }
+}

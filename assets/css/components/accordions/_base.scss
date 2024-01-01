@@ -1,0 +1,117 @@
+.accordions {
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+    --space: 24px;
+    gap: 13px;
+    --icon-size: 24px;
+    .accordion {
+        position: relative;
+        display: -webkit-flex;
+        display: flex;
+        flex-direction: column;
+        border-radius: var(--rounded-sm, 5px);
+        background: #FFF;
+        margin: -1px 0;
+
+        &:after {
+            position: relative;
+            content: '';
+            height: 1px;
+            width: calc(100% - (var(--base-radius) * 4));
+            right: calc(var(--base-radius) * 2);
+            background: var(--primary-15);
+        }
+
+        .title {
+            display: -webkit-flex;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            position: relative;
+            cursor: pointer;
+            transition: .05s;
+            gap: 20px;
+            color: var(--secondary, #2A354A);
+            @include secondFont;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 123.5%;
+            padding: var(--space) 39px var(--space) 23px;
+         
+            i.icon {
+                color: var(--primary);
+                font-size: 24px;
+            }
+
+            &:after {
+                font-family: 'mni' !important;
+                font-size: var(--icon-size);
+                width: var(--icon-size);
+                height: var(--icon-size);
+                display: -webkit-flex;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                content: "\e911";
+                font-weight: normal;
+                transition: all ease-in-out .15s;
+            }
+           &.no-after{
+            &:after {
+                content: "";
+            
+            }
+           }
+            // &:hover {
+            //     color: var(--primary)
+            // }
+        }
+
+        .content {
+            overflow: hidden;
+            opacity: 0;
+            max-height: 0;
+            transition: all ease-in-out .15s;
+            height: fit-content;
+            padding: 0 calc(var(--space) * 1.5);
+        }
+
+        &.expanded {
+            background: white;
+            z-index: 1;
+
+            &:after {
+                background: white;
+            }
+
+            .title {
+                color: var(--primary);
+
+                &:after {
+                    content: "\e911";
+                    transform: rotate(-90deg);
+                }
+            }
+
+            .content {
+                opacity: 1;
+                max-height: fit-content;
+                margin-bottom: var(--space);
+            }
+        }
+
+        &:last-of-type {
+            &:after {
+                display: none;
+            }
+        }
+    }
+    &.no-bg{
+        .accordion{
+            background:transparent;
+        }
+
+    }
+}

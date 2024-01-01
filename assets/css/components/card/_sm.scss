@@ -1,0 +1,72 @@
+.card {
+    &.card-row {
+        .row {
+            --bs-gutter-x: 16px;
+        }
+    
+    }
+
+
+
+    &.card-float {
+        overflow: visible;
+        .guide {
+            width: 50%;
+            margin-top: -45px;
+        }
+
+        .content {
+            padding: 5px 20px;
+
+            .title {
+                font-weight: 900;
+            }
+        }
+
+        .footer {
+            padding: 0;
+            width: 100%;
+        }
+    }
+
+   &.space{
+    &-xl {
+        gap: 40px;
+        padding: 20px;
+
+        .content {
+            padding: 8px;
+        }
+    }
+   }
+   &.br-xl {
+    border-radius: 5PX;
+}
+}
+
+.simple-card {
+    &.row-simple {
+        padding: 33px 38px;
+
+    }
+
+}
+.register-card {
+    padding:25px 18px;
+    .summary {
+        padding: 0 18px;
+        .title {
+            color: var(--secondary, #2A354A);
+            @include secondFont;
+            font-size: 40px;
+            font-style: normal;
+            font-weight: 800;
+            line-height: 123%;
+        }
+
+        .subtitle {
+            margin-top: 18px;
+            margin-bottom: 8px;
+        }
+    }
+}

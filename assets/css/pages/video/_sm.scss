@@ -1,0 +1,35 @@
+.header-video {
+    margin-top: 24px;
+    .video-js-wrapper {
+          max-height:180px;
+        #video-js {
+            height: 180px;
+            .vjs-big-play-button {
+                height: 38px !important;
+                width: 38px !important;
+                background-size: 18px 18px !important;
+            }
+        }
+        .video-js-overlay{
+            .video-title{
+                padding-bottom: 24px;
+                font-size: 18px;
+            
+            }
+        }
+    }
+}
+.video-main-content {
+    margin-top: 48px;
+    .description {
+      >.t-title {
+            margin-top: 32px;
+        }
+    }
+    .comments-section {
+        margin-top: 48px;
+        .comments-and-answers{
+            margin-top: 18px;
+        }
+    }
+}

@@ -1,0 +1,87 @@
+@mixin design-system {
+    --base-font-family: 'iransansxv', 'aria', tahoma !important;
+    --base-font-size: 1rem;
+    --base-font-weight: normal;
+    --base-line-height: 1rem;
+    --base-color: var(--secondary);
+    --base-bg: #EDF6FF;
+    --rounded-none: 0;
+    --rounded-sm: 5px;
+    --rounded-lg: 10px;
+    --rounded-xl: 15px;
+    --base-max-width: 1550px;
+    --icon-color: var(white-shade-4);
+    //Components
+    //Button
+    --btn-bg: var(--primary);
+    --btn-bg-hover: var(--primary-tint-8);
+    --btn-bg-focus: var(--primary-tint-13, #E5F1FE);
+    ;
+    --btn-color: var(--white, #FFF);
+    --btn-color-hover: var(--white, #FFF);
+    --btn-color-focus: var(--primary, #0861BE);
+    --btn-border: var(--primary);
+    --btn-border-hover: var(--primary);
+    --btn-border-focus: var(--primary);
+    --btn-radius: var(--rounded-sm);
+    --btn-rounded-radius: 54px;
+    --btn-gap: 12px;
+    --btn-transition: '';
+    --btn-padding-x: 30px;
+    --btn-padding-y: 15px;
+    --btn-padding: var(--btn-padding-y) var(--btn-padding-x);
+    --btn-font-size: 17px;
+    --btn-line-height: 24px;
+    --btn-font-weight: 400;
+
+    --btn-shadow: '';
+    --btn-shadow-hover: '';
+    --btn-shadow-focus: '';
+
+    --btn-icon-font-size: 21px;
+    --btn-icon-font-size-xs: 14px;
+    --btn-icon-font-size-sm: 20px;
+    --btn-icon-font-size-lg: 24px;
+
+    //Forms
+    //base
+    --input-bg: white;
+    --input-padding-single: 20px;
+    --input-padding: 0 var(--input-padding-single)!important;
+    --input-radius: var(--rounded-sm);
+    --input-switch-radius: 12px;
+    --input-border: var(--white-shade-5);
+    --input-clickable-border: var(--secondary-30);
+    --input-theme-focus: var(--primary);
+    --input-checked-bg: var(--primary);
+    --input-group-child-border: var(--secondary-10);
+    --input-group-label-bg: var(--secondary-2);
+    --input-card-checked-bg: white;
+    --input-card-checked-bg-hover: var(--secondary-2);
+    --input-card-checked-bg-checked: var(--success);
+    --input-height: 49px;
+    --input-font-size: 16px;
+    --input-line-height: 120%;
+    --input-font-weight: 700;
+    --input-font-family: iransansxv;
+    --textarea-line-height: 35px;
+    --input-group-icon-size: 24px;
+    --select-icon-position-y: 20px;
+    --select-icon-position-y-sm: 19px;
+    --select-padding-start: 60px;
+    --btn-circle-size: 17px;
+    --input-height-sm: 49px;
+    //Pagination
+    --pagination-gap: 10px;
+    --pagination-item-bg: var(--white);
+    --pagination-item-bg-hover: var(--primary-tint-8);
+    --pagination-item-bg-focus: var(--primary);
+    --pagination-item-color: var(--black);
+    --pagination-item-color-hover: var(--white);
+    --pagination-item-color-focus: var(--white);
+    --pagination-item-radius: 6px;
+    --pagination-item-size: 35px;
+    --pagination-font-size: 21px;
+    --pagination-font-weight: 700;
+    --pagination-icon-size: 25px;
+}

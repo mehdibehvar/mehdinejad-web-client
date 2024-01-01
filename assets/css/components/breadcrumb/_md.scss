@@ -1,0 +1,11 @@
+.breadcrumb {
+  font-size: 15px;
+  > * {
+    &:not(:first-child){
+      padding-right: 8px;
+      &:before {
+        padding-left: 4px;
+      }
+    }
+  }
+}

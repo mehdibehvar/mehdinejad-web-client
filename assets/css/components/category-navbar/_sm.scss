@@ -1,0 +1,23 @@
+.category-nav {
+    gap: 24px;
+    .right-section {
+        .title {
+            margin-right: 0;
+            padding-top: 0;
+            font-size: 26px;
+        }
+    }
+
+    .middle-section {
+        display: none;
+    }
+
+  
+    .categories {
+        .category{
+            flex-direction: column;
+            justify-content: center;
+        }
+    }
+
+}

@@ -1,0 +1,60 @@
+@mixin truncate{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.truncate{
+  @include truncate
+}
+.shadow-0{
+  box-shadow: none !important;
+}
+@mixin shadow-xs{
+    box-shadow: 0 0 7px rgba(66, 141, 237, 0.1);
+}
+.shadow-xs{
+  @include shadow-xs
+}
+@mixin shadow-sm{
+    box-shadow: 0 0 14px rgba(66, 141, 237, 0.1);
+}
+.shadow-sm{
+  @include shadow-sm
+}
+@mixin shadow{
+    box-shadow: 0 0 50px rgba(66, 141, 237, 0.1);
+}
+.shadow{
+  @include shadow
+}
+@mixin shadow-lg{
+  box-shadow: 0 0 70px rgba(66, 141, 237, 0.45);
+}
+.shadow-lg{
+  @include shadow-lg
+}
+@mixin shadow-mix{
+  box-shadow: 0 0 50px rgba(66, 141, 237, 0.1) , 0 0 14px rgba(66, 141, 237, 0.1);
+}
+.shadow-mix{
+  @include shadow-mix
+}
+.shadow{
+  @include shadow
+}
+%hoverable,.hoverable{
+    cursor: pointer;
+  &:hover{
+    opacity: .75;
+  }
+}
+%hoverable-reverse,.hoverable-reverse{
+  &:not(:hover){
+    opacity: .6;
+  }
+}
+@mixin hoverable-mixin {
+  &:hover{
+    opacity: .75;
+  }
+}

@@ -1,0 +1,20 @@
+:root{
+    --btn-padding-x: 25px;
+    --btn-padding-y: 10px;
+}
+
+.btn {
+  
+
+    &.sm {
+        padding: 10px 25px;
+    }
+
+    &.lg {
+        padding: 10px 25px;
+    }
+
+    &.xl {
+        padding: 10px 25px;
+    }
+}
