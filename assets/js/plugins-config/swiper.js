@@ -61,7 +61,7 @@ const articlesSwiper = new Swiper('.articles-swiper', {
 
   direction: 'horizontal',
   loop: false,
-  slidesPerView: 1.3,
+  slidesPerView: 1.2,
   effect: "cards",
   spaceBetween: 22,
   breakpoints: {
@@ -88,7 +88,7 @@ const coursesSwiper = new Swiper('.courses-swiper', {
   modules: [Navigation],
   direction: 'horizontal',
   loop: false,
-  slidesPerView: 1.3,
+  slidesPerView: 1.2,
   effect: "cards",
   spaceBetween: 22,
   breakpoints: {

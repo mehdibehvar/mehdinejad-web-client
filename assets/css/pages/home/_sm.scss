@@ -7,6 +7,7 @@
     margin-top: 100px;
     .articles-swiper {
         margin-left: 0;
+        overflow: visible;
     }
 }
 .padcasts-section {
@@ -54,5 +55,6 @@
 .courses-section {
     .courses-swiper {
         margin-left: 0;
+        overflow: visible;
     }
 }
