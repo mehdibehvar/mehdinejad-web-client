@@ -5,6 +5,9 @@
 
 .articles-section {
     margin-top: 100px;
+    .articles-swiper {
+        margin-left: 0;
+    }
 }
 .padcasts-section {
     margin-top: 100px;
@@ -46,5 +49,10 @@
                 }
             }
         }
+    }
+}
+.courses-section {
+    .courses-swiper {
+        margin-left: 0;
     }
 }
