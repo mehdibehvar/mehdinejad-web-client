@@ -1,9 +1,11 @@
 .course-header-container {
-
-
+ header{
     .course-header {
-       .row{
-        --bs-gutter-x: 160px;
-       }
-    }
+        margin-top: 110px;
+        margin-bottom:90px;
+        .row{
+         --bs-gutter-x: 160px;
+        }
+     }
+ }
 }
