@@ -22,6 +22,7 @@ export default {
         courses: resolve(__dirname, 'views/courses.html'),
         padcast: resolve(__dirname, 'views/padcast.html'),
         padcasts: resolve(__dirname, 'views/padcasts.html'),
+        videos: resolve(__dirname, 'views/videos.html'),
         video: resolve(__dirname, 'views/video.html'),
       },
     },
