@@ -59,7 +59,7 @@ ul.list {
             font-style: normal;
             font-weight: 500;
             line-height: 170%;
-
+            display: flex;
             &.bullet {
                 &::before {
                     content: "";
@@ -75,6 +75,9 @@ ul.list {
 
         .time {
             margin-left: -5px;
+            margin-right: auto;
+            color: var(--white-shade-8);
+            font-size: 14px;
         }
     }
 
@@ -112,13 +115,14 @@ ul.list {
         li {
             &:hover {
                 color: var(--primary) !important;
-                .badge{
-                    .title{
+
+                .badge {
+                    .title {
                         color: var(--primary) !important;
                     }
                 }
             }
-            
+
         }
     }
 
@@ -142,7 +146,7 @@ ul.list {
         .title {
             color: var(--secondary, #2A354A);
             text-align: center;
-           @include secondFont;
+            @include secondFont;
             font-size: 30px;
             font-style: normal;
             font-weight: 700;

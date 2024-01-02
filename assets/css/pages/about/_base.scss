@@ -124,9 +124,12 @@
 
 .start-adventure {
     margin-top: 185px;
-
     .description {
-        margin-top: 17px;
+        margin-top: 30px;
+        p.t-paragraph{
+            line-height: 210%;
+            text-align: start;
+        }
     }
 
     .achivments {
@@ -136,7 +139,6 @@
 
 .gallery {
     margin-top: 130px;
-
     .section-header {
         margin-bottom: 30px;
     }

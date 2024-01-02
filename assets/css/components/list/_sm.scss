@@ -1,9 +1,13 @@
 ul.list {
 
   &.gray {
+    li {
+      gap: 10px;
       .time {
-          margin-left: -26px;
-      }
+        margin-left: -26px;
+    }
+    }
+    
   }
 
 

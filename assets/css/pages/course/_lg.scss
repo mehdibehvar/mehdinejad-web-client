@@ -1,7 +1,9 @@
 .course-header-container {
     .course-header {
         margin-top: 32px !important;
-
+        .row {
+            --bs-gutter-y: 24px;
+        }
         .right-section {
             .box {
                 padding-top: 0;

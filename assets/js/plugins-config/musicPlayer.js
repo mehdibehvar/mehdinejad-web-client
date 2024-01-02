@@ -8,6 +8,9 @@ const stickyCurrentTimeDisplay = document.querySelector('.sticky-current-time');
 const stickyDurationDisplay = document.querySelector(".sticky-duration-time");
 const padcastSticky = document.querySelector('.sticky-padcast');
 const stickyPlayButton = document.querySelector('.sticky-play-button');
+const closeStickyBtn=document.querySelector('.close-sticky-btn');
+let currentAudio = audioPlayers[0];
+let currentPlayButton=playButtons[0];
 const audioPauseFun = (audio, button) => {
   audio.pause();
   button.classList.remove('mn-pause-circle');
@@ -31,8 +34,7 @@ const hideSticky = () => {
 
 if (padcastSticky) {
   stickyPlayButton.addEventListener('click', function () {
-    let currentAudio = audioPlayers[0];
-    let currentPlayButton=playButtons[0]
+
     if (currentAudio.paused) {
       audioPlayFun(currentAudio, currentPlayButton);
       stickyPlayButton.classList.remove('mn-play-circle');
@@ -43,6 +45,10 @@ if (padcastSticky) {
       audioPauseFun(currentAudio, currentPlayButton);
     }
   });
+  closeStickyBtn.addEventListener('click',function () {
+    hideSticky()
+    audioPauseFun(currentAudio, currentPlayButton);
+  })
 }
 
 playButtons.forEach((button, index) => {

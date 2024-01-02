@@ -4,17 +4,20 @@
 }
 
 .btn {
-  
-
+  font-size: 16px;
+  padding: 15px 25px;
     &.sm {
-        padding: 10px 25px;
+        padding: 15px 25px;
+        font-size: 16px;
     }
 
     &.lg {
-        padding: 10px 25px;
+        padding: 15px 25px;
+        font-size: 16px;
     }
 
     &.xl {
-        padding: 10px 25px;
+        padding: 15px 25px;
+        font-size: 16px;
     }
 }

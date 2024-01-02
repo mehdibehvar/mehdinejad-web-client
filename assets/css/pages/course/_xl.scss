@@ -1,5 +1,8 @@
 .course-header-container {
+header{
     .course-header {
+        margin-top: 80px;
+        margin-bottom: 60px;
         .row {
             --bs-gutter-x: 30px;
         }
@@ -13,6 +16,7 @@
             }
         }
     }
+}
 }
 
 section.services {
