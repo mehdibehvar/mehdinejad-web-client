@@ -1,0 +1,18 @@
+
+.contact-us-header-content {
+    .contact-us-card {
+        padding: 0;
+        .card-row{
+          .content{
+            .footer-list{
+                .list-sm-row{
+                    flex-direction: row;
+                    justify-content: space-around;
+                    width: 100%;
+                }
+            }
+          }
+           }
+    }
+
+}

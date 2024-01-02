@@ -3,7 +3,7 @@
   --color-icon: var(--secondary-60);
   --color-hover: var(--primary);
   --hm-px: 20px;
-  --hm-py: 22px;
+  --hm-py: 25px;
   --w: 340px;
   --hidden: calc(var(--w) * -1);
   --show: 0;
@@ -40,10 +40,12 @@
   .hamburger-menu-header {
     display: -webkit-flex;
     display: flex;
+    align-items: center;
     gap: 16px;
-    padding: 12px 4px 22px 16px;
+    padding: 12px 10px 22px 16px;
     border-bottom: 1px solid var(--white-shade-2);
     margin-bottom: 22px;
+
   }
 
   &.show {
