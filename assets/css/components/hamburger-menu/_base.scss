@@ -20,7 +20,7 @@
   flex-direction: column;
   align-items: stretch;
   background: white;
-  z-index: 100000;
+  z-index: 100;
   padding: var(--hm-py) var(--hm-px) calc(var(--hm-py) * 5);
   margin: 0;
   border: none;
@@ -52,8 +52,4 @@
     right: var(--show);
     @include shadow;
   }
-
-
-
-
 }

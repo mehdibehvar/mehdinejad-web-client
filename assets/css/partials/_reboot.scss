@@ -14,16 +14,15 @@ body {
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: transparent;
   -webkit-font-smoothing: antialiased;
-  overflow-x: hidden;
   padding: 0;
   margin: 0;
   min-height: 100vh;
-  z-index: -10;
   background-image: url('/assets/img/body-bg.png'),url('/assets/img/footer-bg.png');
   background-repeat: no-repeat,no-repeat;
   background-position:
   top left,
   bottom right;
+  overflow-x: hidden;
 }
 
 * {

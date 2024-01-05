@@ -66,19 +66,19 @@ const articlesSwiper = new Swiper('.articles-swiper', {
   spaceBetween: 22,
   breakpoints: {
     575: {
-      slidesPerView: 2,///more than 575px
+      slidesPerView: 1.95,///more than 575px
       spaceBetween: 42,
     },
     1200: {
-      slidesPerView: 3,
+      slidesPerView: 2.9,
       spaceBetween: 42,
     },
     1400: {
-      slidesPerView: 4,
+      slidesPerView: 3.9,
       spaceBetween: 42,
     },
     1920: {
-      slidesPerView: 4.5,
+      slidesPerView: 4.9,
       spaceBetween: 42,
     },
   },
@@ -93,19 +93,19 @@ const coursesSwiper = new Swiper('.courses-swiper', {
   spaceBetween: 22,
   breakpoints: {
     575: {
-      slidesPerView: 2,///more than 575px
+      slidesPerView: 1.95,///more than 575px
       spaceBetween: 42,
     },
     1200: {
-      slidesPerView: 3,
+      slidesPerView: 2.9,
       spaceBetween: 42,
     },
     1400: {
-      slidesPerView: 4,
+      slidesPerView: 3.9,
       spaceBetween: 42,
     },
     1920: {
-      slidesPerView: 5,
+      slidesPerView: 4.9,
       spaceBetween: 42,
     },
   },

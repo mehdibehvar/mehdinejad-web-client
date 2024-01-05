@@ -6,8 +6,8 @@
 .articles-section {
     margin-top: 100px;
     .articles-swiper {
-        margin-left: 0;
-        overflow: visible;
+        margin-left: calc((var(--bs-width) - 100vw)* 0.5);
+
     }
 }
 .padcasts-section {
@@ -54,7 +54,7 @@
 }
 .courses-section {
     .courses-swiper {
-        margin-left: 0;
-        overflow: visible;
+        margin-left: calc((var(--bs-width) - 100vw)* 0.5);
+
     }
 }
