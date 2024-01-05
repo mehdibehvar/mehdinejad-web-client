@@ -20,7 +20,7 @@
 
     .main-content {
         .padcast-swiper-container {
-            // background: var(--base-bg);
+            background: var(--base-bg);
             width: 100%;
             .padcast-swiper {
                 overflow-x: hidden;
@@ -42,8 +42,9 @@
                         opacity: 1;
                         z-index: 10;
                         transform: scale(1);
+                        background: rgba(237, 246, 255, 0.7);
                         // margin-top: -30px;
-                        background: rgba(#FFF, 0.7);
+                        // background: rgba(#FFF, 0.6);
                         // align-items: end;
                     }
 
