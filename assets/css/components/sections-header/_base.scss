@@ -3,7 +3,7 @@
     justify-content: space-between;
     align-items: center;
     margin-bottom: 42px;
-
+    z-index: 2;
     .title {
         display: flex;
         align-items: center;
@@ -17,7 +17,7 @@
         .text {
             color: var(--secondary, #2A354A);
             text-align: right;
-           @include secondFont;
+            @include secondFont;
             font-size: 40px;
             font-style: normal;
             font-weight: 800;
