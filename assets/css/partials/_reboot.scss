@@ -22,6 +22,8 @@ body {
   background-position:
   top left,
   bottom right;
+  position: relative;
+  z-index: 0;
 }
 
 * {
