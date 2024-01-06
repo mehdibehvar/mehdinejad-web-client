@@ -8,3 +8,14 @@
         }
     }
 }
+.articles-section {
+    .articles-swiper {
+        margin-left: calc((var(--bs-width) - 100vw - 20px)* 0.5);
+    }
+}
+
+.courses-section {
+    .courses-swiper {
+        margin-left: calc((var(--bs-width) - 100vw - 20px)* 0.5);
+    }
+}

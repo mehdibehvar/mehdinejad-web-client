@@ -1,3 +1,23 @@
+:root{
+    --btn-padding-x: 18px;
+    --btn-padding-y: 8px;
+}
+
 .btn {
-    padding: 8px 18px;
+  font-size: 14px;
+  padding: 8px 18px;
+    &.sm {
+        padding: 8px 12px;
+        font-size: 10px;
+    }
+
+    &.lg {
+        padding: 8px 18px;
+        font-size: 12px;
+    }
+
+    &.xl {
+        padding: 8px 18px;
+        font-size: 12px;
+    }
 }
