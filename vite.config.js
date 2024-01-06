@@ -27,4 +27,12 @@ export default {
       },
     },
   },
+ //change port for production
+ preview: {
+  port: 3001,
+},
+// for dev
+server: {
+  port: 3000,
+},
 };
