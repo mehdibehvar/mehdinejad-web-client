@@ -1,7 +1,14 @@
+.container.footer-container{
+    padding-left: 0;
+    padding-right: 0;
+}
 footer.base-footer {
     margin-top: 100px;
-    margin-bottom: 25px;
-    padding: 16px;
+    margin-bottom: 0;
+    padding: 28px;
+    .overlay {
+        border-radius: 0px;
+    }
     .main-footer-content{
         --bs-gutter-y:40px;
           margin-top: 0;

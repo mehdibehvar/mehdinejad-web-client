@@ -1,1044 +1,1222 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="fa" dir="rtl">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>خانه</title>
-    <link rel="stylesheet" href="./assets/css/app.scss">
+    <link rel="stylesheet" href="./assets/css/app.scss" />
     <script type="module" src="./assets/js/app.js"></script>
-</head>
+  </head>
 
-<body>
+  <body>
+    <div class="container header-container">
+      <div class="row">
+        <div class="col-12">
+          <header>
+            <!-- /////navbar section////// -->
+            <div class="row">
+              <div class="col-12 pe-0 ps-0 pe-sm-3 ps-sm-3">
+                <div class="navbar">
+                  <!-- <button class="icon mn-menu1 hamburger-menu-btn">
+                                      
+                                    </button> -->
+                  <button
+                    class="navbar-toggle icon mn-menu1 hamburger-menu-btn"
+                    data-jsc="hamburger-menu-toggle"
+                    data-toggle-target=".hamburger-menu-navbar"
+                  ></button>
+                  <a class="navbar-brand" href="/">
+                    <img src="/assets/img/logo.png" alt="" />
+                  </a>
+                  <nav class="nav-menu">
+                    <a class="active" href="/">خانه </a>
+                    <a href="/views/courses.html">دوره ها</a>
+                    <a href="/views/blogs.html">وبلاگ</a>
+                    <a href="/views/padcasts.html"> پادکست ها</a>
+                    <a href="/views/about.html">درباره من</a>
+                    <a href="/views/contactus.html">تماس</a>
+                  </nav>
+                  <form class="search-section">
+                    <div class="input-group secondary b-0 search-bar">
+                      <input type="text" placeholder="در سایت جستجو کنید" />
+                      <button type="submit" class="btn icon">
+                        <i class="icon mn-search"></i>
+                      </button>
+                    </div>
+                    <button
+                      type="button"
+                      class="icon mn-search toggle-search-bar"
+                    >
+                      <!-- <i class="icon mn-search"></i> -->
+                    </button>
+                  </form>
+                  <div class="actions">
+                    <a class="btn icon"> <i class="icon li-bag-2"></i> </a>
+                    <button class="btn light">ثبت نام / ورود</button>
+                    <button class="icon li-login login-btn"></button>
+                  </div>
+                  <nav class="hamburger-menu-navbar hamburger-menu">
+                    <div class="hamburger-menu-header">
+                      <button
+                        class="icon mn-menu1 hamburger-menu-btn"
+                        onclick="$('.hamburger-menu').removeClass('show')"
+                      ></button>
+                      <a class="navbar-brand" href="/">
+                        <img src="/assets/img/logo.png" alt="" />
+                      </a>
+                    </div>
+                    <a class="ham-item active" href="/"> خانه </a>
+                    <a class="ham-item" href="/views/courses.html">دوره ها</a>
+                    <a class="ham-item" href="/views/blogs.html">وبلاگ</a>
+                    <a class="ham-item" href="/views/padcasts.html">
+                      پادکست ها</a
+                    >
+                    <a class="ham-item" href="/views/about.html">درباره من</a>
+                    <a class="ham-item" href="/views/contactus.html">تماس</a>
+                  </nav>
+                </div>
+              </div>
+            </div>
+            <!-- /////header content/// -->
+            <section class="header-content">
+              <div class="row g-xs--sm g-md--xl g-xl--xxxl">
+                <div class="col-12 col-lg-6">
+                  <div class="right-section">
+                    <div class="box d-flex justify-content-start">
+                      <div class="bar">
+                        <div class="slot"></div>
+                      </div>
+                      <div class="main">
+                        <a href="#">
+                          <button class="btn white">
+                            <i class="icon li-work"></i>
+                            حســین مهدی نژاد
+                          </button>
+                        </a>
+                        <div class="text">
+                          <span class="text-primary">مسئولیت ما</span> ارتقا
+                          <div>سطــح دانش در بازار</div>
+                          <div>تهویه مطبوع ایران</div>
+                        </div>
+                        <div class="footer d-flex align-items-center">
+                          <button class="btn">آخرین ویدیو ها</button>
+                          <a href="/views/about.html">
+                            <button class="btn transparent">درباره من</button>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-lg-6">
+                  <div class="left-section d-flex">
+                    <div class="image-wrapper">
+                      <img src="/assets/img/left-image.png" alt="" />
+                      <div class="info">
+                        <div class="verified">
+                          <i class="icon">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              width="41"
+                              height="41"
+                              viewBox="0 0 41 41"
+                              fill="none"
+                            >
+                              <path
+                                fill-rule="evenodd"
+                                clip-rule="evenodd"
+                                d="M22.3948 23.0625C21.3028 22.1319 19.6966 22.1319 18.6046 23.0625C18.1366 23.4613 17.5548 23.7023 16.9419 23.7512C15.5116 23.8653 14.3759 25.0011 14.2617 26.4313C14.2128 27.0442 13.9718 27.6261 13.573 28.094C12.6424 29.1861 12.6424 30.7922 13.573 31.8843C13.9718 32.3522 14.2128 32.9341 14.2617 33.547C14.3759 34.9772 15.5116 36.113 16.9419 36.2271C17.5548 36.276 18.1366 36.517 18.6046 36.9158C19.6966 37.8464 21.3028 37.8464 22.3948 36.9158C22.8628 36.517 23.4446 36.276 24.0575 36.2271C25.4878 36.113 26.6235 34.9772 26.7376 33.547C26.7865 32.9341 27.0275 32.3522 27.4263 31.8843C28.357 30.7922 28.357 29.1861 27.4263 28.094C27.0275 27.6261 26.7865 27.0442 26.7376 26.4313C26.6235 25.0011 25.4878 23.8653 24.0575 23.7512C23.4446 23.7023 22.8628 23.4613 22.3948 23.0625ZM23.9367 29.2178C24.454 28.735 24.482 27.9242 23.9992 27.4069C23.5164 26.8896 22.7056 26.8617 22.1883 27.3445L19.4018 29.9452L18.8117 29.3945C18.2944 28.9117 17.4837 28.9396 17.0008 29.4569C16.518 29.9742 16.546 30.785 17.0633 31.2678L18.5276 32.6345C19.0198 33.0939 19.7837 33.0939 20.276 32.6345L23.9367 29.2178Z"
+                                fill="#0861BE"
+                              />
+                              <path
+                                opacity="0.5"
+                                d="M3.41667 20.5V13.6667C3.41667 8.83477 3.41667 6.41882 4.91775 4.91774C6.41883 3.41666 8.83477 3.41666 13.6667 3.41666H27.3333C32.1652 3.41666 34.5812 3.41666 36.0823 4.91774C37.5833 6.41882 37.5833 8.83477 37.5833 13.6667V20.5C37.5833 25.3319 37.5833 27.7478 36.0823 29.2489C34.6545 30.6767 32.3989 30.7464 28.0239 30.7498C28.2673 29.8449 28.0682 28.8472 27.4263 28.094C27.0275 27.6261 26.7865 27.0442 26.7376 26.4313C26.6235 25.0011 25.4878 23.8653 24.0575 23.7512C23.4446 23.7023 22.8628 23.4613 22.3948 23.0625C21.3028 22.1319 19.6966 22.1319 18.6046 23.0625C18.1366 23.4613 17.5548 23.7023 16.9419 23.7512C15.5116 23.8653 14.3759 25.0011 14.2618 26.4313C14.2128 27.0442 13.9718 27.6261 13.573 28.094C12.9312 28.8472 12.732 29.8449 12.9755 30.7498C8.60087 30.7464 6.34548 30.6767 4.91775 29.2489C3.41667 27.7478 3.41667 25.3319 3.41667 20.5Z"
+                                fill="#0861BE"
+                              />
+                              <path
+                                d="M14.0937 10.25C14.0937 9.54239 14.6674 8.96875 15.375 8.96875H25.625C26.3326 8.96875 26.9062 9.54239 26.9062 10.25C26.9062 10.9576 26.3326 11.5312 25.625 11.5312H15.375C14.6674 11.5312 14.0937 10.9576 14.0937 10.25Z"
+                                fill="#0861BE"
+                              />
+                              <path
+                                d="M11.9583 14.9479C11.2507 14.9479 10.6771 15.5216 10.6771 16.2292C10.6771 16.9368 11.2507 17.5104 11.9583 17.5104H29.0417C29.7493 17.5104 30.3229 16.9368 30.3229 16.2292C30.3229 15.5216 29.7493 14.9479 29.0417 14.9479H11.9583Z"
+                                fill="#0861BE"
+                              />
+                            </svg>
+                          </i>
+                          <span> 17 ســال تجربه </span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </header>
+        </div>
+      </div>
+    </div>
     <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <header>
-                    <!-- /////navbar section////// -->
-                    <div class="row">
-                        <div class="col-12 pe-0 ps-0 pe-sm-3 ps-sm-3">
-                            <div class="navbar">
-                                <!-- <button class="icon mn-menu1 hamburger-menu-btn">
-                                  
-                                </button> -->
-                                <button class="navbar-toggle icon mn-menu1 hamburger-menu-btn"
-                                    data-jsc="hamburger-menu-toggle"
-                                    data-toggle-target=".hamburger-menu-navbar"></button>
-                                <a class="navbar-brand" href="/">
-                                    <img src="/assets/img/logo.png" alt="">
-                                </a>
-                                <nav class="nav-menu">
-                                    <a class="active " href="/">خانه </a>
-                                    <a href="/views/courses.html">دوره ها</a>
-                                    <a href="/views/blogs.html">وبلاگ</a>
-                                    <a href="/views/padcasts.html"> پادکست ها</a>
-                                    <a href="/views/about.html">درباره من</a>
-                                    <a href="/views/contactus.html">تماس</a>
-                                </nav>
-                                <form class="search-section">
-                                    <div class="input-group  secondary b-0 search-bar">
-                                        <input type="text" placeholder="در سایت جستجو کنید">
-                                        <button type="submit" class="btn icon">
-                                            <i class="icon mn-search"></i>
-                                        </button>
-                                    </div>
-                                    <button type="button" class="icon mn-search toggle-search-bar">
-                                        <!-- <i class="icon mn-search"></i> -->
-                                    </button>
-                                </form>
-                                <div class="actions">
-                                    <a class="btn icon"> <i class="icon li-bag-2"></i>
-                                    </a>
-                                    <button class="btn light">ثبت نام / ورود</button>
-                                    <button class="icon li-login login-btn"></button>
-                                </div>
-                                <nav class="hamburger-menu-navbar hamburger-menu">
-                                    <div class="hamburger-menu-header">
-                                        <button class="icon mn-menu1 hamburger-menu-btn"
-                                            onclick="$('.hamburger-menu').removeClass('show')"></button>
-                                        <a class="navbar-brand" href="/">
-                                            <img src="/assets/img/logo.png" alt="">
-                                        </a>
-                                    </div>
-                                    <a class="ham-item active " href="/">
-                                        خانه
-                                    </a>
-                                    <a class="ham-item" href="/views/courses.html">دوره ها</a>
-                                    <a class="ham-item" href="/views/blogs.html">وبلاگ</a>
-                                    <a class="ham-item" href="/views/padcasts.html"> پادکست ها</a>
-                                    <a class="ham-item" href="/views/about.html">درباره من</a>
-                                    <a class="ham-item" href="/views/contactus.html">تماس</a>
-                                </nav>
-                            </div>
+      <div class="row">
+        <div class="col-12">
+          <!-- /////category section//// -->
+          <section class="category-navbar">
+            <div class="row">
+              <div class="col-12">
+                <div class="category-nav">
+                  <div class="right-section">
+                    <i class="icon mn-bill"></i>
 
-                        </div>
+                    <div class="title d-flex align-items-center">
+                      <span class="">دسته‌بندی‌ها</span>
                     </div>
-                    <!-- /////header content/// -->
-                    <section class="header-content">
-                        <div class="row g-xs--sm g-md--xl g-xl--xxxl">
-                            <div class="col-12 col-lg-6">
-                                <div class="right-section">
-                                    <div class="box d-flex justify-content-start">
-                                        <div class="bar">
-                                            <div class="slot"></div>
-                                        </div>
-                                        <div class="main">
-                                            <a href="#">
-                                                <button class="btn white ">
-                                                    <i class="icon li-work"></i>
-                                                    حســین مهدی نژاد
-                                                </button>
-                                            </a>
-                                            <div class="text">
-                                                <span class="text-primary">مسئولیت ما</span> ارتقا
-                                                <div>
-                                                    سطــح دانش در بازار
-                                                </div>
-                                                <div>
-                                                    تهویه مطبوع ایران
-                                                </div>
-                                            </div>
-                                            <div class="footer d-flex align-items-center">
-                                                <button class="btn">آخرین ویدیو ها</button>
-                                                <a href="/views/about.html">
-                                                    <button class="btn transparent">درباره من</button>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-12 col-lg-6">
-                                <div class="left-section d-flex">
-                                    <div class="image-wrapper">
-                                        <img src="/assets/img/left-image.png" alt="">
-                                        <div class="info">
-                                            <div class="verified">
-                                                <i class="icon">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" width="41" height="41"
-                                                        viewBox="0 0 41 41" fill="none">
-                                                        <path fill-rule="evenodd" clip-rule="evenodd"
-                                                            d="M22.3948 23.0625C21.3028 22.1319 19.6966 22.1319 18.6046 23.0625C18.1366 23.4613 17.5548 23.7023 16.9419 23.7512C15.5116 23.8653 14.3759 25.0011 14.2617 26.4313C14.2128 27.0442 13.9718 27.6261 13.573 28.094C12.6424 29.1861 12.6424 30.7922 13.573 31.8843C13.9718 32.3522 14.2128 32.9341 14.2617 33.547C14.3759 34.9772 15.5116 36.113 16.9419 36.2271C17.5548 36.276 18.1366 36.517 18.6046 36.9158C19.6966 37.8464 21.3028 37.8464 22.3948 36.9158C22.8628 36.517 23.4446 36.276 24.0575 36.2271C25.4878 36.113 26.6235 34.9772 26.7376 33.547C26.7865 32.9341 27.0275 32.3522 27.4263 31.8843C28.357 30.7922 28.357 29.1861 27.4263 28.094C27.0275 27.6261 26.7865 27.0442 26.7376 26.4313C26.6235 25.0011 25.4878 23.8653 24.0575 23.7512C23.4446 23.7023 22.8628 23.4613 22.3948 23.0625ZM23.9367 29.2178C24.454 28.735 24.482 27.9242 23.9992 27.4069C23.5164 26.8896 22.7056 26.8617 22.1883 27.3445L19.4018 29.9452L18.8117 29.3945C18.2944 28.9117 17.4837 28.9396 17.0008 29.4569C16.518 29.9742 16.546 30.785 17.0633 31.2678L18.5276 32.6345C19.0198 33.0939 19.7837 33.0939 20.276 32.6345L23.9367 29.2178Z"
-                                                            fill="#0861BE" />
-                                                        <path opacity="0.5"
-                                                            d="M3.41667 20.5V13.6667C3.41667 8.83477 3.41667 6.41882 4.91775 4.91774C6.41883 3.41666 8.83477 3.41666 13.6667 3.41666H27.3333C32.1652 3.41666 34.5812 3.41666 36.0823 4.91774C37.5833 6.41882 37.5833 8.83477 37.5833 13.6667V20.5C37.5833 25.3319 37.5833 27.7478 36.0823 29.2489C34.6545 30.6767 32.3989 30.7464 28.0239 30.7498C28.2673 29.8449 28.0682 28.8472 27.4263 28.094C27.0275 27.6261 26.7865 27.0442 26.7376 26.4313C26.6235 25.0011 25.4878 23.8653 24.0575 23.7512C23.4446 23.7023 22.8628 23.4613 22.3948 23.0625C21.3028 22.1319 19.6966 22.1319 18.6046 23.0625C18.1366 23.4613 17.5548 23.7023 16.9419 23.7512C15.5116 23.8653 14.3759 25.0011 14.2618 26.4313C14.2128 27.0442 13.9718 27.6261 13.573 28.094C12.9312 28.8472 12.732 29.8449 12.9755 30.7498C8.60087 30.7464 6.34548 30.6767 4.91775 29.2489C3.41667 27.7478 3.41667 25.3319 3.41667 20.5Z"
-                                                            fill="#0861BE" />
-                                                        <path
-                                                            d="M14.0937 10.25C14.0937 9.54239 14.6674 8.96875 15.375 8.96875H25.625C26.3326 8.96875 26.9062 9.54239 26.9062 10.25C26.9062 10.9576 26.3326 11.5312 25.625 11.5312H15.375C14.6674 11.5312 14.0937 10.9576 14.0937 10.25Z"
-                                                            fill="#0861BE" />
-                                                        <path
-                                                            d="M11.9583 14.9479C11.2507 14.9479 10.6771 15.5216 10.6771 16.2292C10.6771 16.9368 11.2507 17.5104 11.9583 17.5104H29.0417C29.7493 17.5104 30.3229 16.9368 30.3229 16.2292C30.3229 15.5216 29.7493 14.9479 29.0417 14.9479H11.9583Z"
-                                                            fill="#0861BE" />
-                                                    </svg>
-                                                </i>
-                                                <span>
-                                                    17 ســال تجربه
-                                                </span>
-                                            </div>
-                                        </div>                                       
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-
-                </header>
-                <!-- /////category section//// -->
-                <section class="category-navbar">
-                    <div class="row">
-                        <div class="col-12">
-                            <div class="category-nav">
-                                <div class="right-section">
-
-                                    <i class="icon mn-bill"></i>
-
-                                    <div class="title d-flex align-items-center">
-                                        <span class="">دسته‌بندی‌ها</span>
-                                    </div>
-                                </div>
-                                <div class="middle-section">
-                                    <i class="icon mn-chevron-left"></i>
-                                    <i class="icon mn-chevron-left"></i>
-                                    <i class="icon mn-chevron-left"></i>
-                                    <i class="icon mn-chevron-left"></i>
-                                </div>
-                                <div class="categories">
-                                    <a href="/views/videos.html" class="category">
-                                        <div class="btn">
-                                            <i class="icon mn-videocamera"></i>
-                                        </div>
-                                        <span>
-                                            ویدیو ها
-                                        </span>
-                                    </a>
-                                    <a href="/views/padcast.html" class="category">
-                                        <div class="btn">
-                                            <i class="icon mn-microphone"></i>
-                                        </div>
-                                        <span>
-                                            پادکست
-                                        </span>
-                                    </a>
-                                    <a href="/views/blogs.html" class="category">
-                                        <div class="btn" href="">
-                                            <i class="icon mn-notebook"></i>
-                                        </div>
-                                        <span>
-                                            مقالات رایگان
-                                        </span>
-                                    </a>
-                                    <a href="/views/courses.html" class="category">
-                                        <div class="btn" href="">
-                                            <i class="icon mn-academic"></i>
-                                        </div>
-                                        <span class="title">
-                                            دوره های آموزشی
-                                        </span>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
+                  </div>
+                  <div class="middle-section">
+                    <i class="icon mn-chevron-left"></i>
+                    <i class="icon mn-chevron-left"></i>
+                    <i class="icon mn-chevron-left"></i>
+                    <i class="icon mn-chevron-left"></i>
+                  </div>
+                  <div class="categories">
+                    <a href="/views/videos.html" class="category">
+                      <div class="btn">
+                        <i class="icon mn-videocamera"></i>
+                      </div>
+                      <span> ویدیو ها </span>
+                    </a>
+                    <a href="/views/padcast.html" class="category">
+                      <div class="btn">
+                        <i class="icon mn-microphone"></i>
+                      </div>
+                      <span> پادکست </span>
+                    </a>
+                    <a href="/views/blogs.html" class="category">
+                      <div class="btn" href="">
+                        <i class="icon mn-notebook"></i>
+                      </div>
+                      <span> مقالات رایگان </span>
+                    </a>
+                    <a href="/views/courses.html" class="category">
+                      <div class="btn" href="">
+                        <i class="icon mn-academic"></i>
+                      </div>
+                      <span class="title"> دوره های آموزشی </span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- ///////videos section/// -->
+          <section class="videos-section mt-lg--xl mt-xxl">
+            <div class="row">
+              <div class="col-12">
+                <div class="section-header">
+                  <div class="title justify-content-center">
+                    <i class="icon mn-play-circle"></i>
+                    <div class="text">
+                      <span class="text-primary">ویدیو‌ </span>
+                      <span>ها</span>
                     </div>
-                </section>
-                <!-- ///////videos section/// -->
-                <section class="videos-section mt-lg--xl mt-xxl">
-                    <div class="row">
-                        <div class="col-12">
-                            <div class="section-header">
-                                <div class="title justify-content-center">
-                                    <i class="icon mn-play-circle"></i>
-                                    <div class="text">
-                                        <span class="text-primary">ویدیو‌ </span>
-                                        <span>ها</span>
-                                    </div>
-                                </div>
-                                <div class="actions d-flex d-lg-none">
-                                    <button class="btn outlined">مشاهده همه</button>
-                                </div>
-                            </div>
+                  </div>
+                  <div class="actions d-flex d-lg-none">
+                    <button class="btn outlined">مشاهده همه</button>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-12 col-lg-7">
+                    <div class="video-js-wrapper">
+                      <video
+                        id="video-js"
+                        class="video-js vjs-16-9"
+                        controls
+                        preload="auto"
+                        data-setup="{}"
+                      >
+                        <source
+                          src="/assets/videos/video12.mp4"
+                          type="video/mp4"
+                        />
+                        <p class="vjs-no-js">
+                          To view this video please enable JavaScript, and
+                          consider upgrading to a web browser that
+                          <a
+                            href="https://videojs.com/html5-video-support/"
+                            target="_blank"
+                            >supports HTML5 video</a
+                          >
+                        </p>
+                      </video>
+                      <div class="video-js-overlay">
+                        <div class="video-title">هایلایت رویداد</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12 col-lg-5">
+                    <div class="card-list bg-none">
+                      <div class="list-content">
+                        <a href="/views/video.html">
+                          <div class="card card-row space-sm">
                             <div class="row">
-                                <div class="col-12 col-lg-7">
-                                    <div class="video-js-wrapper">
-                                        <video id="video-js" class="video-js vjs-16-9" controls preload="auto"
-                                            data-setup="{}">
-                                            <source src="/assets/videos/video12.mp4" type="video/mp4" />
-                                            <p class="vjs-no-js">
-                                                To view this video please enable JavaScript, and consider upgrading to a
-                                                web browser that
-                                                <a href="https://videojs.com/html5-video-support/"
-                                                    target="_blank">supports HTML5 video</a>
-                                            </p>
-                                        </video>
-                                        <div class="video-js-overlay">
-                                            <div class="video-title">هایلایت رویداد</div>
+                              <div class="col-4">
+                                <div class="guide">
+                                  <div class="thumbnail">
+                                    <img
+                                      src="/assets/img/thumbnail/Rectangle 46.png"
+                                      alt="thumb1"
+                                    />
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-8">
+                                <div class="content">
+                                  <span class="title truncate-overflow">
+                                    چرا باید مراحل نصب سیستم‌ها چرا باید مراحل
+                                    نصب سیستم‌ها توسط متخصصین دنبال شود؟ توسط
+                                    متخصصین دنبال شود؟
+                                  </span>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </a>
+                        <a href="/views/video.html">
+                          <div class="card card-row space-sm">
+                            <div class="row">
+                              <div class="col-4">
+                                <div class="guide">
+                                  <div class="thumbnail">
+                                    <img
+                                      src="/assets/img/vid2-s.png"
+                                      alt="thumb1"
+                                    />
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-8">
+                                <div class="content">
+                                  <span class="title truncate-overflow">
+                                    زیر ساخت مناسب برای سیستم های صنعتی
+                                  </span>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </a>
+                        <a href="/views/video.html">
+                          <div class="card card-row space-sm">
+                            <div class="row">
+                              <div class="col-4">
+                                <div class="guide">
+                                  <div class="thumbnail">
+                                    <img
+                                      src="/assets/img/thumbnail/Rectangle 46.png"
+                                      alt="thumb1"
+                                    />
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-8">
+                                <div class="content">
+                                  <span class="title truncate-overflow">
+                                    راهکـــــارهایی برای افزایش عمر دســــتگاه
+                                    ها
+                                  </span>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <div
+                      class="d-none d-lg-flex justify-content-center see-all mt-medium"
+                    >
+                      <button class="btn outlined">مشاهده همه</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- ///////last padcasts section/// -->
+          <section class="padcasts-section">
+            <div class="row">
+              <div class="col-12">
+                <div class="section-header mb-0">
+                  <div class="title justify-content-center w-100">
+                    <i class="icon li-voice-2 pb-xs"></i>
+                    <div class="text">
+                      <span class="d-none--sm">آخرین</span>
+                      <span class="text-primary"> پادکـست‌ </span>
+                      <span>ها</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="main-content">
+                  <div class="row justify-content-center">
+                    <div class="col-xl-10 col-12">
+                      <div class="padcast-swiper-container">
+                        <div class="padcast-swiper">
+                          <div class="swiper-wrapper">
+                            <!-- Slides -->
+                            <div class="swiper-slide">
+                              <div class="card-wrapper pt-md">
+                                <div class="card card-float not-hover">
+                                  <div class="guide w-50">
+                                    <div class="thumbnail">
+                                      <img
+                                        src="/assets/img/thumbnail/float.png"
+                                        alt="thumb1"
+                                      />
+                                    </div>
+                                  </div>
+                                  <div class="content">
+                                    <span class="title">
+                                      مصاحبه با لقمان آوند، برج ساز مطرح
+                                      زعفرانیه
+                                    </span>
+                                  </div>
+                                  <div class="footer">
+                                    <div
+                                      class="padcast-card swiper-padcast-card"
+                                    >
+                                      <div class="cover">
+                                        <img
+                                          src="/assets/img/thumbnail/padc.png"
+                                          alt="thumb1"
+                                        />
+                                      </div>
+                                      <div class="controls d-flex w-100">
+                                        <div class="info w-100 h-100">
+                                          <div class="progress sm">
+                                            <div
+                                              class="audio-progress progress-bar bg-primary"
+                                              role="progressbar"
+                                              aria-valuenow="25"
+                                              aria-valuemin="0"
+                                              aria-valuemax="100"
+                                            ></div>
+                                          </div>
+                                          <div
+                                            class="times-wrapper d-flex justify-content-between w-100"
+                                          >
+                                            <span class="duration-time"
+                                              >00:00</span
+                                            >
+                                            <span class="current-time"
+                                              >00:00</span
+                                            >
+                                          </div>
                                         </div>
+                                        <button
+                                          class="play-button icon mn-play-circle p-0"
+                                        ></button>
+                                        <audio class="audio-player">
+                                          <source
+                                            src="/assets/audio/Hotel-California_0.mp3"
+                                            type="audio/mpeg"
+                                          />
+                                          Your browser does not support the
+                                          audio element.
+                                        </audio>
+                                      </div>
                                     </div>
+                                  </div>
                                 </div>
-                                <div class="col-12 col-lg-5">
-                                    <div class="card-list bg-none">
-                                        <div class="list-content">
-                                            <a href="/views/video.html">
-                                                <div class="card card-row space-sm">
-                                                    <div class="row">
-                                                        <div class="col-4">
-                                                            <div class="guide">
-                                                                <div class="thumbnail">
-                                                                    <img src="/assets/img/thumbnail/Rectangle 46.png"
-                                                                        alt="thumb1">
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-8">
-                                                            <div class="content">
-                                                                <span class="title">
-                                                                    زیر ساخت مناسب برای
-                                                                    سیستم های صنعتی
-                                                                </span>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </a>
-                                            <a href="/views/video.html">
-                                                <div class="card card-row space-sm">
-                                                    <div class="row">
-                                                        <div class="col-4">
-                                                            <div class="guide">
-                                                                <div class="thumbnail">
-                                                                    <img src="/assets/img/vid2-s.png" alt="thumb1">
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-8">
-                                                            <div class="content">
-                                                                <span class="title">
-                                                                    زیر ساخت مناسب برای سیستم های صنعتی
-                                                                </span>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </a>
-                                            <a href="/views/video.html">
-                                                <div class="card card-row space-sm">
-                                                    <div class="row">
-                                                        <div class="col-4">
-                                                            <div class="guide">
-                                                                <div class="thumbnail">
-                                                                    <img src="/assets/img/thumbnail/Rectangle 46.png"
-                                                                        alt="thumb1">
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-8">
-                                                            <div class="content">
-                                                                <span class="title">
-                                                                    زیر ساخت مناسب برای
-                                                                    سیستم های صنعتی
-                                                                </span>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </a>
+                              </div>
+                            </div>
+                            <div class="swiper-slide">
+                              <div class="card-wrapper pt-md">
+                                <div class="card card-float not-hover">
+                                  <div class="guide w-50">
+                                    <div class="thumbnail">
+                                      <img
+                                        src="/assets/img/thumbnail/float.png"
+                                        alt="thumb1"
+                                      />
+                                    </div>
+                                  </div>
+                                  <div class="content">
+                                    <span class="title">
+                                      مصاحبه با لقمان آوند، برج ساز مطرح
+                                      زعفرانیه
+                                    </span>
+                                  </div>
+                                  <div class="footer">
+                                    <div
+                                      class="padcast-card swiper-padcast-card"
+                                    >
+                                      <div class="cover">
+                                        <img
+                                          src="/assets/img/thumbnail/padc.png"
+                                          alt="thumb1"
+                                        />
+                                      </div>
+                                      <div class="controls d-flex w-100">
+                                        <div class="info w-100 h-100">
+                                          <div class="progress sm">
+                                            <div
+                                              class="audio-progress progress-bar bg-primary"
+                                              role="progressbar"
+                                              aria-valuenow="25"
+                                              aria-valuemin="0"
+                                              aria-valuemax="100"
+                                            ></div>
+                                          </div>
+                                          <div
+                                            class="times-wrapper d-flex justify-content-between w-100"
+                                          >
+                                            <span class="duration-time"
+                                              >00:00</span
+                                            >
+                                            <span class="current-time"
+                                              >00:00</span
+                                            >
+                                          </div>
                                         </div>
+                                        <button
+                                          class="play-button icon mn-play-circle p-0"
+                                        ></button>
+                                        <audio class="audio-player">
+                                          <source
+                                            src="/assets/audio/Hotel-California_0.mp3"
+                                            type="audio/mpeg"
+                                          />
+                                          Your browser does not support the
+                                          audio element.
+                                        </audio>
+                                      </div>
                                     </div>
+                                  </div>
                                 </div>
-                                <div class="col-12">
-                                    <div class=" d-none d-lg-flex justify-content-center see-all mt-medium">
-                                        <button class="btn outlined">مشاهده همه</button>
-                                    </div>
-                                </div>
+                              </div>
                             </div>
-                        </div>
-                    </div>
-                </section>
-                <!-- ///////last padcasts section/// -->
-                <section class="padcasts-section">
-                    <div class="row">
-                        <div class="col-12">
-                            <div class="section-header mb-0">
-                                <div class="title justify-content-center w-100">
-                                    <i class="icon li-voice-2 pb-xs"></i>
-                                    <div class="text">
-                                        <span class="d-none--sm">آخرین</span>
-                                        <span class="text-primary"> پادکـست‌ </span>
-                                        <span>ها</span>
+                            <div class="swiper-slide">
+                              <div class="card-wrapper pt-md">
+                                <div class="card card-float not-hover">
+                                  <div class="guide w-50">
+                                    <div class="thumbnail">
+                                      <img
+                                        src="/assets/img/thumbnail/float.png"
+                                        alt="thumb1"
+                                      />
                                     </div>
-                                </div>
-                            </div>
-                            <div class="main-content">
-                                <div class="row justify-content-center">
-                                    <div class="col-xl-10 col-12">
-                                        <div class="padcast-swiper-container">
-                                            <div class="padcast-swiper">
-                                                <div class="swiper-wrapper">
-                                                    <!-- Slides -->
-                                                    <div class="swiper-slide">
-                                                        <div class="card-wrapper pt-md">
-                                                            <div class="card card-float not-hover">
-                                                                <div class="guide w-50">
-                                                                    <div class="thumbnail">
-                                                                        <img src="/assets/img/thumbnail/float.png"
-                                                                            alt="thumb1">
-                                                                    </div>
-                                                                </div>
-                                                                <div class="content">
-                                                                    <span class="title"> مصاحبه با لقمان آوند، برج ساز مطرح زعفرانیه </span>
-                                                                </div>
-                                                                <div class="footer">
-                                                                    <div class="padcast-card swiper-padcast-card">
-                                                                        <div class="cover">
-                                                                            <img src="/assets/img/thumbnail/padc.png" alt="thumb1">
-                                                                        </div>
-                                                                        <div class="controls d-flex  w-100">
-                                                                            <div class="info w-100 h-100">
-                                                                                <div class="progress sm ">
-                                                                                    <div class="audio-progress progress-bar bg-primary" role="progressbar"
-                                                                                        aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
-                                                                                    </div>
-                                                                                </div>
-                                                                                <div class="times-wrapper d-flex justify-content-between w-100">
-                                                                                    <span class="duration-time">00:00</span>
-                                                                                    <span class="current-time">00:00</span>
-                                                                                </div>
-                                                                            </div>
-                                                                            <button class="play-button icon mn-play-circle  p-0">
-                                        
-                                                                            </button>
-                                                                            <audio class="audio-player">
-                                                                                <source src="/assets/audio/Hotel-California_0.mp3" type="audio/mpeg">
-                                                                                Your browser does not
-                                                                                support
-                                                                                the audio element.
-                                                                            </audio>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="swiper-slide">
-                                                        <div class="card-wrapper pt-md">
-                                                            <div class="card card-float not-hover">
-                                                                <div class="guide w-50">
-                                                                    <div class="thumbnail">
-                                                                        <img src="/assets/img/thumbnail/float.png"
-                                                                            alt="thumb1">
-                                                                    </div>
-                                                                </div>
-                                                                <div class="content">
-                                                                    <span class="title"> مصاحبه با لقمان آوند، برج ساز مطرح زعفرانیه </span>
-                                                                </div>
-                                                                <div class="footer">
-                                                                    <div class="padcast-card swiper-padcast-card">
-                                                                        <div class="cover">
-                                                                            <img src="/assets/img/thumbnail/padc.png" alt="thumb1">
-                                                                        </div>
-                                                                        <div class="controls d-flex  w-100">
-                                                                            <div class="info w-100 h-100">
-                                                                                <div class="progress sm ">
-                                                                                    <div class="audio-progress progress-bar bg-primary" role="progressbar"
-                                                                                        aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
-                                                                                    </div>
-                                                                                </div>
-                                                                                <div class="times-wrapper d-flex justify-content-between w-100">
-                                                                                    <span class="duration-time">00:00</span>
-                                                                                    <span class="current-time">00:00</span>
-                                                                                </div>
-                                                                            </div>
-                                                                            <button class="play-button icon mn-play-circle  p-0">
-                                        
-                                                                            </button>
-                                                                            <audio class="audio-player">
-                                                                                <source src="/assets/audio/Hotel-California_0.mp3" type="audio/mpeg">
-                                                                                Your browser does not
-                                                                                support
-                                                                                the audio element.
-                                                                            </audio>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="swiper-slide">
-                                                        <div class="card-wrapper pt-md">
-                                                            <div class="card card-float not-hover">
-                                                                <div class="guide w-50">
-                                                                    <div class="thumbnail">
-                                                                        <img src="/assets/img/thumbnail/float.png"
-                                                                            alt="thumb1">
-                                                                    </div>
-                                                                </div>
-                                                                <div class="content">
-                                                                    <span class="title"> مصاحبه با لقمان آوند، برج ساز مطرح زعفرانیه </span>
-                                                                </div>
-                                                                <div class="footer">
-                                                                    <div class="padcast-card swiper-padcast-card">
-                                                                        <div class="cover">
-                                                                            <img src="/assets/img/thumbnail/padc.png" alt="thumb1">
-                                                                        </div>
-                                                                        <div class="controls d-flex  w-100">
-                                                                            <div class="info w-100 h-100">
-                                                                                <div class="progress sm ">
-                                                                                    <div class="audio-progress progress-bar bg-primary" role="progressbar"
-                                                                                        aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
-                                                                                    </div>
-                                                                                </div>
-                                                                                <div class="times-wrapper d-flex justify-content-between w-100">
-                                                                                    <span class="duration-time">00:00</span>
-                                                                                    <span class="current-time">00:00</span>
-                                                                                </div>
-                                                                            </div>
-                                                                            <button class="play-button icon mn-play-circle  p-0">
-                                        
-                                                                            </button>
-                                                                            <audio class="audio-player">
-                                                                                <source src="/assets/audio/Hotel-California_0.mp3" type="audio/mpeg">
-                                                                                Your browser does not
-                                                                                support
-                                                                                the audio element.
-                                                                            </audio>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="swiper-slide">
-                                                        <div class="card-wrapper pt-md">
-                                                            <div class="card card-float not-hover">
-                                                                <div class="guide w-50">
-                                                                    <div class="thumbnail">
-                                                                        <img src="/assets/img/thumbnail/float.png"
-                                                                            alt="thumb1">
-                                                                    </div>
-                                                                </div>
-                                                                <div class="content">
-                                                                    <span class="title"> مصاحبه با لقمان آوند، برج ساز مطرح زعفرانیه </span>
-                                                                </div>
-                                                                <div class="footer">
-                                                                    <div class="padcast-card swiper-padcast-card">
-                                                                        <div class="cover">
-                                                                            <img src="/assets/img/thumbnail/padc.png" alt="thumb1">
-                                                                        </div>
-                                                                        <div class="controls d-flex  w-100">
-                                                                            <div class="info w-100 h-100">
-                                                                                <div class="progress sm ">
-                                                                                    <div class="audio-progress progress-bar bg-primary" role="progressbar"
-                                                                                        aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
-                                                                                    </div>
-                                                                                </div>
-                                                                                <div class="times-wrapper d-flex justify-content-between w-100">
-                                                                                    <span class="duration-time">00:00</span>
-                                                                                    <span class="current-time">00:00</span>
-                                                                                </div>
-                                                                            </div>
-                                                                            <button class="play-button icon mn-play-circle  p-0">
-                                        
-                                                                            </button>
-                                                                            <audio class="audio-player">
-                                                                                <source src="/assets/audio/Hotel-California_0.mp3" type="audio/mpeg">
-                                                                                Your browser does not
-                                                                                support
-                                                                                the audio element.
-                                                                            </audio>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="swiper-slide">
-                                                        <div class="card-wrapper pt-md">
-                                                            <div class="card card-float not-hover">
-                                                                <div class="guide w-50">
-                                                                    <div class="thumbnail">
-                                                                        <img src="/assets/img/thumbnail/float.png"
-                                                                            alt="thumb1">
-                                                                    </div>
-                                                                </div>
-                                                                <div class="content">
-                                                                    <span class="title"> مصاحبه با لقمان آوند، برج ساز مطرح زعفرانیه </span>
-                                                                </div>
-                                                                <div class="footer">
-                                                                    <div class="padcast-card swiper-padcast-card">
-                                                                        <div class="cover">
-                                                                            <img src="/assets/img/thumbnail/padc.png" alt="thumb1">
-                                                                        </div>
-                                                                        <div class="controls d-flex  w-100">
-                                                                            <div class="info w-100 h-100">
-                                                                                <div class="progress sm ">
-                                                                                    <div class="audio-progress progress-bar bg-primary" role="progressbar"
-                                                                                        aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
-                                                                                    </div>
-                                                                                </div>
-                                                                                <div class="times-wrapper d-flex justify-content-between w-100">
-                                                                                    <span class="duration-time">00:00</span>
-                                                                                    <span class="current-time">00:00</span>
-                                                                                </div>
-                                                                            </div>
-                                                                            <button class="play-button icon mn-play-circle  p-0">
-                                        
-                                                                            </button>
-                                                                            <audio class="audio-player">
-                                                                                <source src="/assets/audio/Hotel-California_0.mp3" type="audio/mpeg">
-                                                                                Your browser does not
-                                                                                support
-                                                                                the audio element.
-                                                                            </audio>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-
-
-                                                </div>
-                                                <i class="button-prev icon mn-chevron-right "></i>
-                                                <i class="button-next icon mn-chevron-left"></i>
-                                            </div>
+                                  </div>
+                                  <div class="content">
+                                    <span class="title">
+                                      مصاحبه با لقمان آوند، برج ساز مطرح
+                                      زعفرانیه
+                                    </span>
+                                  </div>
+                                  <div class="footer">
+                                    <div
+                                      class="padcast-card swiper-padcast-card"
+                                    >
+                                      <div class="cover">
+                                        <img
+                                          src="/assets/img/thumbnail/padc.png"
+                                          alt="thumb1"
+                                        />
+                                      </div>
+                                      <div class="controls d-flex w-100">
+                                        <div class="info w-100 h-100">
+                                          <div class="progress sm">
+                                            <div
+                                              class="audio-progress progress-bar bg-primary"
+                                              role="progressbar"
+                                              aria-valuenow="25"
+                                              aria-valuemin="0"
+                                              aria-valuemax="100"
+                                            ></div>
+                                          </div>
+                                          <div
+                                            class="times-wrapper d-flex justify-content-between w-100"
+                                          >
+                                            <span class="duration-time"
+                                              >00:00</span
+                                            >
+                                            <span class="current-time"
+                                              >00:00</span
+                                            >
+                                          </div>
                                         </div>
+                                        <button
+                                          class="play-button icon mn-play-circle p-0"
+                                        ></button>
+                                        <audio class="audio-player">
+                                          <source
+                                            src="/assets/audio/Hotel-California_0.mp3"
+                                            type="audio/mpeg"
+                                          />
+                                          Your browser does not support the
+                                          audio element.
+                                        </audio>
+                                      </div>
                                     </div>
+                                  </div>
                                 </div>
+                              </div>
                             </div>
+                            <div class="swiper-slide">
+                              <div class="card-wrapper pt-md">
+                                <div class="card card-float not-hover">
+                                  <div class="guide w-50">
+                                    <div class="thumbnail">
+                                      <img
+                                        src="/assets/img/thumbnail/float.png"
+                                        alt="thumb1"
+                                      />
+                                    </div>
+                                  </div>
+                                  <div class="content">
+                                    <span class="title">
+                                      مصاحبه با لقمان آوند، برج ساز مطرح
+                                      زعفرانیه
+                                    </span>
+                                  </div>
+                                  <div class="footer">
+                                    <div
+                                      class="padcast-card swiper-padcast-card"
+                                    >
+                                      <div class="cover">
+                                        <img
+                                          src="/assets/img/thumbnail/padc.png"
+                                          alt="thumb1"
+                                        />
+                                      </div>
+                                      <div class="controls d-flex w-100">
+                                        <div class="info w-100 h-100">
+                                          <div class="progress sm">
+                                            <div
+                                              class="audio-progress progress-bar bg-primary"
+                                              role="progressbar"
+                                              aria-valuenow="25"
+                                              aria-valuemin="0"
+                                              aria-valuemax="100"
+                                            ></div>
+                                          </div>
+                                          <div
+                                            class="times-wrapper d-flex justify-content-between w-100"
+                                          >
+                                            <span class="duration-time"
+                                              >00:00</span
+                                            >
+                                            <span class="current-time"
+                                              >00:00</span
+                                            >
+                                          </div>
+                                        </div>
+                                        <button
+                                          class="play-button icon mn-play-circle p-0"
+                                        ></button>
+                                        <audio class="audio-player">
+                                          <source
+                                            src="/assets/audio/Hotel-California_0.mp3"
+                                            type="audio/mpeg"
+                                          />
+                                          Your browser does not support the
+                                          audio element.
+                                        </audio>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="swiper-slide">
+                              <div class="card-wrapper pt-md">
+                                <div class="card card-float not-hover">
+                                  <div class="guide w-50">
+                                    <div class="thumbnail">
+                                      <img
+                                        src="/assets/img/thumbnail/float.png"
+                                        alt="thumb1"
+                                      />
+                                    </div>
+                                  </div>
+                                  <div class="content">
+                                    <span class="title">
+                                      مصاحبه با لقمان آوند، برج ساز مطرح
+                                      زعفرانیه
+                                    </span>
+                                  </div>
+                                  <div class="footer">
+                                    <div
+                                      class="padcast-card swiper-padcast-card"
+                                    >
+                                      <div class="cover">
+                                        <img
+                                          src="/assets/img/thumbnail/padc.png"
+                                          alt="thumb1"
+                                        />
+                                      </div>
+                                      <div class="controls d-flex w-100">
+                                        <div class="info w-100 h-100">
+                                          <div class="progress sm">
+                                            <div
+                                              class="audio-progress progress-bar bg-primary"
+                                              role="progressbar"
+                                              aria-valuenow="25"
+                                              aria-valuemin="0"
+                                              aria-valuemax="100"
+                                            ></div>
+                                          </div>
+                                          <div
+                                            class="times-wrapper d-flex justify-content-between w-100"
+                                          >
+                                            <span class="duration-time"
+                                              >00:00</span
+                                            >
+                                            <span class="current-time"
+                                              >00:00</span
+                                            >
+                                          </div>
+                                        </div>
+                                        <button
+                                          class="play-button icon mn-play-circle p-0"
+                                        ></button>
+                                        <audio class="audio-player">
+                                          <source
+                                            src="/assets/audio/Hotel-California_0.mp3"
+                                            type="audio/mpeg"
+                                          />
+                                          Your browser does not support the
+                                          audio element.
+                                        </audio>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <i class="button-prev icon mn-chevron-right"></i>
+                          <i class="button-next icon mn-chevron-left"></i>
                         </div>
+                      </div>
                     </div>
-                </section>
-                <!-- /////////articles section/// -->
-                <section class="articles-section">
-                    <div class="row">
-                        <div class="col-12">
-                            <div class="section-header">
-                                <div class="title">
-                                    <i class="icon li-document"></i>
-                                    <div class="text">
-                                        <span>مقالات</span>
-                                    </div>
-                                </div>
-                                <div class="actions">
-                                    <button class="btn outlined">مشاهده همه</button>
-                                </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- /////////articles section/// -->
+          <section class="articles-section">
+            <div class="row">
+              <div class="col-12">
+                <div class="section-header">
+                  <div class="title">
+                    <i class="icon li-document"></i>
+                    <div class="text">
+                      <span>مقالات</span>
+                    </div>
+                  </div>
+                  <div class="actions">
+                    <button class="btn outlined">مشاهده همه</button>
+                  </div>
+                </div>
+                <div class="articles-swiper">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                      <a href="/views/blog.html" class="card">
+                        <div class="guide">
+                          <div class="thumbnail no-bottom-raduis">
+                            <img
+                              src="/assets/img/thumbnail/wall.png"
+                              alt="thumb1"
+                            />
+                            <div class="info">
+                              <div class="d-flex gap-1">
+                                <i class="icon li-message"></i>
+                                <span>۱۲</span>
+                              </div>
+                              <div class="d-flex gap-1">
+                                <i class="icon li-calendar"></i>
+                                <span>۱۳ شهریور</span>
+                              </div>
                             </div>
-                            <div class="articles-swiper">
-                                <div class="swiper-wrapper">
-                                    <div class="swiper-slide">
-
-                                        <a href="/views/blog.html" class="card">
-                                            <div class="guide">
-                                                <div class="thumbnail  no-bottom-raduis">
-                                                    <img src="/assets/img/thumbnail/wall.png" alt="thumb1">
-                                                    <div class="info">
-                                                        <div class="d-flex gap-1">
-                                                            <i class="icon li-message"></i>
-                                                            <span>۱۲</span>
-                                                        </div>
-                                                        <div class="d-flex gap-1">
-                                                            <i class="icon li-calendar"></i>
-                                                            <span>۱۳ شهریور</span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="content">
-                                                <span class="title"> استفاده از انرژی‌های تجدیدپذیر در سیستم‌های HVAC </span>
-                                            </div>
-
-                                        </a>
-
-                                    </div>
-                                    <div class="swiper-slide">
-
-                                        <a href="/views/blog.html" class="card">
-                                            <div class="guide">
-                                                <div class="thumbnail  no-bottom-raduis">
-                                                    <img src="/assets/img/thumbnail/wall.png" alt="thumb1">
-                                                    <div class="info">
-                                                        <div class="d-flex gap-1">
-                                                            <i class="icon li-message"></i>
-                                                            <span>۱۲</span>
-                                                        </div>
-                                                        <div class="d-flex gap-1">
-                                                            <i class="icon li-calendar"></i>
-                                                            <span>۱۳ شهریور</span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="content">
-                                                <span class="title"> استفاده از انرژی‌های تجدیدپذیر در سیستم‌های HVAC </span>
-                                            </div>
-
-                                        </a>
-
-                                    </div>
-                                    <div class="swiper-slide">
-
-                                        <a href="/views/blog.html" class="card">
-                                            <div class="guide">
-                                                <div class="thumbnail  no-bottom-raduis">
-                                                    <img src="/assets/img/thumbnail/wall.png" alt="thumb1">
-                                                    <div class="info">
-                                                        <div class="d-flex gap-1">
-                                                            <i class="icon li-message"></i>
-                                                            <span>۱۲</span>
-                                                        </div>
-                                                        <div class="d-flex gap-1">
-                                                            <i class="icon li-calendar"></i>
-                                                            <span>۱۳ شهریور</span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="content">
-                                                <span class="title"> استفاده از انرژی‌های تجدیدپذیر در سیستم‌های HVAC </span>
-                                            </div>
-
-                                        </a>
-
-                                    </div>
-                                    <div class="swiper-slide">
-
-                                        <a href="/views/blog.html" class="card">
-                                            <div class="guide">
-                                                <div class="thumbnail  no-bottom-raduis">
-                                                    <img src="/assets/img/thumbnail/wall.png" alt="thumb1">
-                                                    <div class="info">
-                                                        <div class="d-flex gap-1">
-                                                            <i class="icon li-message"></i>
-                                                            <span>۱۲</span>
-                                                        </div>
-                                                        <div class="d-flex gap-1">
-                                                            <i class="icon li-calendar"></i>
-                                                            <span>۱۳ شهریور</span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="content">
-                                                <span class="title"> استفاده از انرژی‌های تجدیدپذیر در سیستم‌های HVAC </span>
-                                            </div>
-
-                                        </a>
-
-                                    </div>
-                                    <div class="swiper-slide">
-
-                                        <a href="/views/blog.html" class="card">
-                                            <div class="guide">
-                                                <div class="thumbnail  no-bottom-raduis">
-                                                    <img src="/assets/img/thumbnail/wall.png" alt="thumb1">
-                                                    <div class="info">
-                                                        <div class="d-flex gap-1">
-                                                            <i class="icon li-message"></i>
-                                                            <span>۱۲</span>
-                                                        </div>
-                                                        <div class="d-flex gap-1">
-                                                            <i class="icon li-calendar"></i>
-                                                            <span>۱۳ شهریور</span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="content">
-                                                <span class="title"> استفاده از انرژی‌های تجدیدپذیر در سیستم‌های HVAC </span>
-                                            </div>
-
-                                        </a>
-
-                                    </div>
-                                    <div class="swiper-slide">
-
-                                        <a href="/views/blog.html" class="card">
-                                            <div class="guide">
-                                                <div class="thumbnail  no-bottom-raduis">
-                                                    <img src="/assets/img/thumbnail/wall.png" alt="thumb1">
-                                                    <div class="info">
-                                                        <div class="d-flex gap-1">
-                                                            <i class="icon li-message"></i>
-                                                            <span>۱۲</span>
-                                                        </div>
-                                                        <div class="d-flex gap-1">
-                                                            <i class="icon li-calendar"></i>
-                                                            <span>۱۳ شهریور</span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="content">
-                                                <span class="title"> استفاده از انرژی‌های تجدیدپذیر در سیستم‌های HVAC </span>
-                                            </div>
-
-                                        </a>
-
-                                    </div>
-                                    <!-- ///emptey slide// -->
-                                    <div class="swiper-slide">
-                                    </div>
-                                </div>
-                            </div>
+                          </div>
                         </div>
-                    </div>
-                </section>
-                <!-- /////////Education Courses section/// -->
-                <section class="courses-section">
-                    <div class="row">
-                        <div class="col-12">
-                            <div class="section-header">
-                                <div class="title">
-                                    <i class="icon mn-tag-horizontal"></i>
-                                    <div class="text">
-                                        <span class="d-none d-sm-inline">دوره های</span>
-                                        <span class="text-primary d-none d-sm-inline">آموزشی</span>
-                                        <span class="d-inline d-sm-none">دوره ها</span>
-                                    </div>
-                                </div>
-                                <div class="actions">
-                                    <button class="btn outlined">مشاهده همه</button>
-                                </div>
-                            </div>
-                            <div class="courses-swiper">
-                                <div class="swiper-wrapper">
-                                    <div class="swiper-slide">
-                                        <a href="/views/course.html" class="card">
-                                            <div class="guide">
-                                                <div class="thumbnail">
-                                                    <img src="/assets/img/cards/card11.png" alt="thumb1">
-                                                </div>
-                                            </div>
-                                            <div class="content">
-                                                <span class="title"> تکنیک‌های کاهش مصرف انرژی در تهویه منازل </span>
-                                            </div>
-                                            <div class="footer">
-                                                <div class="text">
-                                                    <span class="title">۱,۳۰۰,۰۰۰</span>
-                                                    <span class="subtitle">تومان</span>
-                                                </div>
-                                                <button class="btn sm">جزئیات دوره</button>
-                                            </div>
-                                        </a>
-                                    </div>
-                                    <div class="swiper-slide">
-                                        <a href="/views/course.html" class="card">
-                                            <div class="guide">
-                                                <div class="thumbnail no-bottom-raduis ">
-                                                    <img src="/assets/img/thumbnail/IMAGE.png" alt="thumb1">
-                                                </div>
-                                            </div>
-                                            <div class="content">
-                                                <span class="title"> مفهوم و کاربردهای اتوماسیون </span>
-                                            </div>
-                                            <div class="footer">
-                                                <div class="text">
-                                                    <span class="title">۱,۳۰۰,۰۰۰</span>
-                                                    <span class="subtitle">تومان</span>
-                                                </div>
-                                                <button class="btn sm">جزئیات دوره</button>
-                                            </div>
-                                        </a>
-                                    </div>
-                                    <div class="swiper-slide">
-                                        <a href="/views/course.html" class="card">
-                                            <div class="guide">
-                                                <div class="thumbnail">
-                                                    <img src="/assets/img/cards/card11.png" alt="thumb1">
-                                                </div>
-                                            </div>
-                                            <div class="content">
-                                                <span class="title"> تکنیک‌های کاهش مصرف انرژی در تهویه منازل </span>
-                                            </div>
-                                            <div class="footer">
-                                                <div class="text">
-                                                    <span class="title">۱,۳۰۰,۰۰۰</span>
-                                                    <span class="subtitle">تومان</span>
-                                                </div>
-                                                <button class="btn sm">جزئیات دوره</button>
-                                            </div>
-                                        </a>
-                                    </div>
-                                    <div class="swiper-slide">
-                                        <a href="/views/course.html" class="card">
-                                            <div class="guide">
-                                                <div class="thumbnail no-bottom-raduis ">
-                                                    <img src="/assets/img/thumbnail/IMAGE.png" alt="thumb1">
-                                                </div>
-                                            </div>
-                                            <div class="content">
-                                                <span class="title"> مفهوم و کاربردهای اتوماسیون </span>
-                                            </div>
-                                            <div class="footer">
-                                                <div class="text">
-                                                    <span class="title">۱,۳۰۰,۰۰۰</span>
-                                                    <span class="subtitle">تومان</span>
-                                                </div>
-                                                <button class="btn sm">جزئیات دوره</button>
-                                            </div>
-                                        </a>
-                                    </div>
-                                    <div class="swiper-slide">
-                                        <a href="/views/course.html" class="card">
-                                            <div class="guide">
-                                                <div class="thumbnail">
-                                                    <img src="/assets/img/thumbnail/IMAGE.png" alt="thumb1">
-                                                </div>
-                                            </div>
-                                            <div class="content">
-                                                <span class="title"> تکنیک‌های کاهش مصرف انرژی در تهویه منازل </span>
-                                            </div>
-                                            <div class="footer">
-                                                <div class="text">
-                                                    <span class="title">۱,۳۰۰,۰۰۰</span>
-                                                    <span class="subtitle">تومان</span>
-                                                </div>
-                                                <button class="btn sm">جزئیات دوره</button>
-                                            </div>
-                                        </a>
-                                    </div>
-                                    <div class="swiper-slide">
-                                        <a href="/views/course.html" class="card">
-                                            <div class="guide">
-                                                <div class="thumbnail no-bottom-raduis ">
-                                                    <img src="/assets/img/thumbnail/IMAGE.png" alt="thumb1">
-                                                </div>
-                                            </div>
-                                            <div class="content">
-                                                <span class="title"> مفهوم و کاربردهای اتوماسیون </span>
-                                            </div>
-                                            <div class="footer">
-                                                <div class="text">
-                                                    <span class="title">۱,۳۰۰,۰۰۰</span>
-                                                    <span class="subtitle">تومان</span>
-                                                </div>
-                                                <button class="btn sm">جزئیات دوره</button>
-                                            </div>
-                                        </a>
-                                    </div>
-                                    <!-- ///emptey slide// -->
-                                    <div class="swiper-slide">
-                                    </div>
-                                </div>
-                            </div>
+                        <div class="content">
+                          <span class="title">
+                            استفاده از انرژی‌های تجدیدپذیر در سیستم‌های HVAC
+                          </span>
                         </div>
+                      </a>
                     </div>
-                </section>
-                <!-- //////footer//// -->
-                <footer class="base-footer">
+                    <div class="swiper-slide">
+                      <a href="/views/blog.html" class="card">
+                        <div class="guide">
+                          <div class="thumbnail no-bottom-raduis">
+                            <img
+                              src="/assets/img/thumbnail/wall.png"
+                              alt="thumb1"
+                            />
+                            <div class="info">
+                              <div class="d-flex gap-1">
+                                <i class="icon li-message"></i>
+                                <span>۱۲</span>
+                              </div>
+                              <div class="d-flex gap-1">
+                                <i class="icon li-calendar"></i>
+                                <span>۱۳ شهریور</span>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="content">
+                          <span class="title">
+                            استفاده از انرژی‌های تجدیدپذیر در سیستم‌های HVAC
+                          </span>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="swiper-slide">
+                      <a href="/views/blog.html" class="card">
+                        <div class="guide">
+                          <div class="thumbnail no-bottom-raduis">
+                            <img
+                              src="/assets/img/thumbnail/wall.png"
+                              alt="thumb1"
+                            />
+                            <div class="info">
+                              <div class="d-flex gap-1">
+                                <i class="icon li-message"></i>
+                                <span>۱۲</span>
+                              </div>
+                              <div class="d-flex gap-1">
+                                <i class="icon li-calendar"></i>
+                                <span>۱۳ شهریور</span>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="content">
+                          <span class="title">
+                            استفاده از انرژی‌های تجدیدپذیر در سیستم‌های HVAC
+                          </span>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="swiper-slide">
+                      <a href="/views/blog.html" class="card">
+                        <div class="guide">
+                          <div class="thumbnail no-bottom-raduis">
+                            <img
+                              src="/assets/img/thumbnail/wall.png"
+                              alt="thumb1"
+                            />
+                            <div class="info">
+                              <div class="d-flex gap-1">
+                                <i class="icon li-message"></i>
+                                <span>۱۲</span>
+                              </div>
+                              <div class="d-flex gap-1">
+                                <i class="icon li-calendar"></i>
+                                <span>۱۳ شهریور</span>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="content">
+                          <span class="title">
+                            استفاده از انرژی‌های تجدیدپذیر در سیستم‌های HVAC
+                          </span>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="swiper-slide">
+                      <a href="/views/blog.html" class="card">
+                        <div class="guide">
+                          <div class="thumbnail no-bottom-raduis">
+                            <img
+                              src="/assets/img/thumbnail/wall.png"
+                              alt="thumb1"
+                            />
+                            <div class="info">
+                              <div class="d-flex gap-1">
+                                <i class="icon li-message"></i>
+                                <span>۱۲</span>
+                              </div>
+                              <div class="d-flex gap-1">
+                                <i class="icon li-calendar"></i>
+                                <span>۱۳ شهریور</span>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="content">
+                          <span class="title">
+                            استفاده از انرژی‌های تجدیدپذیر در سیستم‌های HVAC
+                          </span>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="swiper-slide">
+                      <a href="/views/blog.html" class="card">
+                        <div class="guide">
+                          <div class="thumbnail no-bottom-raduis">
+                            <img
+                              src="/assets/img/thumbnail/wall.png"
+                              alt="thumb1"
+                            />
+                            <div class="info">
+                              <div class="d-flex gap-1">
+                                <i class="icon li-message"></i>
+                                <span>۱۲</span>
+                              </div>
+                              <div class="d-flex gap-1">
+                                <i class="icon li-calendar"></i>
+                                <span>۱۳ شهریور</span>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="content">
+                          <span class="title">
+                            استفاده از انرژی‌های تجدیدپذیر در سیستم‌های HVAC
+                          </span>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- /////////Education Courses section/// -->
+          <section class="courses-section">
+            <div class="row">
+              <div class="col-12">
+                <div class="section-header">
+                  <div class="title">
+                    <i class="icon mn-tag-horizontal"></i>
+                    <div class="text">
+                      <span class="d-none d-sm-inline">دوره های</span>
+                      <span class="text-primary d-none d-sm-inline"
+                        >آموزشی</span
+                      >
+                      <span class="d-inline d-sm-none">دوره ها</span>
+                    </div>
+                  </div>
+                  <div class="actions">
+                    <button class="btn outlined">مشاهده همه</button>
+                  </div>
+                </div>
+                <div class="courses-swiper">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                      <a href="/views/course.html" class="card">
+                        <div class="guide">
+                          <div class="thumbnail">
+                            <img
+                              src="/assets/img/cards/card11.png"
+                              alt="thumb1"
+                            />
+                          </div>
+                        </div>
+                        <div class="content">
+                          <span class="title">
+                            تکنیک‌های کاهش مصرف انرژی در تهویه منازل
+                          </span>
+                        </div>
+                        <div class="footer">
+                          <div class="text">
+                            <span class="title">۱,۳۰۰,۰۰۰</span>
+                            <span class="subtitle">تومان</span>
+                          </div>
+                          <button class="btn sm">جزئیات دوره</button>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="swiper-slide">
+                      <a href="/views/course.html" class="card">
+                        <div class="guide">
+                          <div class="thumbnail no-bottom-raduis">
+                            <img
+                              src="/assets/img/thumbnail/IMAGE.png"
+                              alt="thumb1"
+                            />
+                          </div>
+                        </div>
+                        <div class="content">
+                          <span class="title">
+                            مفهوم و کاربردهای اتوماسیون
+                          </span>
+                        </div>
+                        <div class="footer">
+                          <div class="text">
+                            <span class="title">۱,۳۰۰,۰۰۰</span>
+                            <span class="subtitle">تومان</span>
+                          </div>
+                          <button class="btn sm">جزئیات دوره</button>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="swiper-slide">
+                      <a href="/views/course.html" class="card">
+                        <div class="guide">
+                          <div class="thumbnail">
+                            <img
+                              src="/assets/img/cards/card11.png"
+                              alt="thumb1"
+                            />
+                          </div>
+                        </div>
+                        <div class="content">
+                          <span class="title">
+                            تکنیک‌های کاهش مصرف انرژی در تهویه منازل
+                          </span>
+                        </div>
+                        <div class="footer">
+                          <div class="text">
+                            <span class="title">۱,۳۰۰,۰۰۰</span>
+                            <span class="subtitle">تومان</span>
+                          </div>
+                          <button class="btn sm">جزئیات دوره</button>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="swiper-slide">
+                      <a href="/views/course.html" class="card">
+                        <div class="guide">
+                          <div class="thumbnail no-bottom-raduis">
+                            <img
+                              src="/assets/img/thumbnail/IMAGE.png"
+                              alt="thumb1"
+                            />
+                          </div>
+                        </div>
+                        <div class="content">
+                          <span class="title">
+                            مفهوم و کاربردهای اتوماسیون
+                          </span>
+                        </div>
+                        <div class="footer">
+                          <div class="text">
+                            <span class="title">۱,۳۰۰,۰۰۰</span>
+                            <span class="subtitle">تومان</span>
+                          </div>
+                          <button class="btn sm">جزئیات دوره</button>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="swiper-slide">
+                      <a href="/views/course.html" class="card">
+                        <div class="guide">
+                          <div class="thumbnail">
+                            <img
+                              src="/assets/img/thumbnail/IMAGE.png"
+                              alt="thumb1"
+                            />
+                          </div>
+                        </div>
+                        <div class="content">
+                          <span class="title">
+                            تکنیک‌های کاهش مصرف انرژی در تهویه منازل
+                          </span>
+                        </div>
+                        <div class="footer">
+                          <div class="text">
+                            <span class="title">۱,۳۰۰,۰۰۰</span>
+                            <span class="subtitle">تومان</span>
+                          </div>
+                          <button class="btn sm">جزئیات دوره</button>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="swiper-slide">
+                      <a href="/views/course.html" class="card">
+                        <div class="guide">
+                          <div class="thumbnail no-bottom-raduis">
+                            <img
+                              src="/assets/img/thumbnail/IMAGE.png"
+                              alt="thumb1"
+                            />
+                          </div>
+                        </div>
+                        <div class="content">
+                          <span class="title">
+                            مفهوم و کاربردهای اتوماسیون
+                          </span>
+                        </div>
+                        <div class="footer">
+                          <div class="text">
+                            <span class="title">۱,۳۰۰,۰۰۰</span>
+                            <span class="subtitle">تومان</span>
+                          </div>
+                          <button class="btn sm">جزئیات دوره</button>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </div>
+    <div class="container footer-container">
+                  <!-- //////footer//// -->
+                  <footer class="base-footer">
                     <div class="overlay"></div>
                     <div class="row justify-content-center">
-                        <div class="col-12 col-xxl-10 col-xxxl-9">
-                            <div class="float-form">
-                                <div class="row gx-sm">
-                                    <div class="col-12 col-lg-4">
-                                        <div class="image-wrapper">
-                                            <img src="/assets/img/footer.png" alt="">
-                                        </div>
-                                    </div>
-                                    <div class="col-12 col-lg-8">
-                                        <form class="footer-form">
-                                            <div class="title">
-                                                درخواست مشاوره با من
-                                            </div>
-                                            <div class="row gy-3 gx-2">
-                                                <div class=" col-12 col-sm-6">
-                                                    <input class="transparent white" type="text" name="full_name"
-                                                        placeholder="نام و نام خانوادگی شما">
-                                                </div>
-                                                <div class=" col-12 col-sm-6">
-                                                    <input class="transparent white" type="text" name="work_phone"
-                                                        placeholder="شماره تماس کاری" />
-                                                </div>
-                                                <div class="col-12">
-                                                    <textarea class="transparent white md" name="message"
-                                                        placeholder="پیغام شما"></textarea>
-                                                </div>
-                                            </div>
-                                            <div>
-                                                <button class="btn white mt-xs "
-                                                    type="submit">ارسال</button>
-                                                <div class="wave-image">
-                                                    <img src="/assets/img/wave.png" alt="">
-                                                </div>
-                                            </div>
-                                        </form>
-                                    </div>
-                                </div>
+                      <div class="col-12 col-xxl-10 col-xxxl-9">
+                        <div class="float-form">
+                          <div class="row gx-sm">
+                            <div class="col-12 col-lg-4">
+                              <div class="image-wrapper">
+                                <img src="/assets/img/footer.png" alt="" />
+                              </div>
                             </div>
+                            <div class="col-12 col-lg-8">
+                              <form class="footer-form">
+                                <div class="title">درخواست مشاوره با من</div>
+                                <div class="row gy-3 gx-2">
+                                  <div class="col-12 col-sm-6">
+                                    <input
+                                      class="transparent white"
+                                      type="text"
+                                      name="full_name"
+                                      placeholder="نام و نام خانوادگی شما"
+                                    />
+                                  </div>
+                                  <div class="col-12 col-sm-6">
+                                    <input
+                                      class="transparent white"
+                                      type="text"
+                                      name="work_phone"
+                                      placeholder="شماره تماس کاری"
+                                    />
+                                  </div>
+                                  <div class="col-12">
+                                    <textarea
+                                      class="transparent white md"
+                                      name="message"
+                                      placeholder="پیغام شما"
+                                    ></textarea>
+                                  </div>
+                                </div>
+                                <div>
+                                  <button class="btn white mt-xs" type="submit">
+                                    ارسال
+                                  </button>
+                                  <div class="wave-image">
+                                    <img src="/assets/img/wave.png" alt="" />
+                                  </div>
+                                </div>
+                              </form>
+                            </div>
+                          </div>
                         </div>
+                      </div>
                     </div>
                     <div class="row main-footer-content">
-                        <div class="col-12 col-sm-6 col-xl-3">
-                            <!-- ///footer list  -->
-                            <div class="footer-list ">
-                                <div class="header">
-                                    <span class="title">
-                                        درباره من </span>
-                                </div>
-                                <div class="content">
-                                    <p class="text p-left">
-                                        متن آزمــایشی توضیح دوره
-                                        بصـــــورت کــــوتاه و خـــــلاصه!
-                                        معنی خاصه نـــــداره و فـــقط
-                                        برای پرکردن فضا استــفاده
-                                        شده است!
-                                    </p>
-                                </div>
-                            </div>
+                      <div class="col-12 col-sm-6 col-xl-3">
+                        <!-- ///footer list  -->
+                        <div class="footer-list">
+                          <div class="header">
+                            <span class="title"> درباره من </span>
+                          </div>
+                          <div class="content">
+                            <p class="text p-left">
+                              متن آزمــایشی توضیح دوره بصـــــورت کــــوتاه و
+                              خـــــلاصه! معنی خاصه نـــــداره و فـــقط برای پرکردن فضا
+                              استــفاده شده است!
+                            </p>
+                          </div>
                         </div>
-                        <div class="col-12 col-sm-6 col-xl-3">
-                            <!-- ///footer list  -->
-                            <div class="footer-list">
-                                <div class="header">
-                                    <span class="title">
-                                        ارتباط با ما </span>
-                                </div>
-                                <div class="content">
-                                    <ul class="list">
-                                        <li class="bullet">البرز، فردیس، فلکه سوم</li>
-                                        <a href="tel:0216653333">
-                                            <li class="bullet">۰۲۱-۶۶۵-۳۳-۳۳</li>
-                                        </a>
-                                        <a href="tel:09124561212">
-                                            <li class="bullet">۰۹۱۲-۴۵۶-۱۲-۱۲</li>
-                                        </a>
-                                    </ul>
-                                </div>
-                            </div>
+                      </div>
+                      <div class="col-12 col-sm-6 col-xl-3">
+                        <!-- ///footer list  -->
+                        <div class="footer-list">
+                          <div class="header">
+                            <span class="title"> ارتباط با ما </span>
+                          </div>
+                          <div class="content">
+                            <ul class="list">
+                              <li class="bullet">البرز، فردیس، فلکه سوم</li>
+                              <a href="tel:0216653333">
+                                <li class="bullet">۰۲۱-۶۶۵-۳۳-۳۳</li>
+                              </a>
+                              <a href="tel:09124561212">
+                                <li class="bullet">۰۹۱۲-۴۵۶-۱۲-۱۲</li>
+                              </a>
+                            </ul>
+                          </div>
                         </div>
-                        <div class="col-12 col-sm-6 col-xl-3">
-                            <!-- ///footer list  -->
-                            <div class="footer-list">
-                                <div class="header">
-                                    <span class="title">
-                                        دسترسی سریع
-                                    </span>
-                                </div>
-                                <div class="content">
-                                    <ul class="list">
-                                        <a href="/views/about.html">
-                                            <li class="bullet">درباره من
-                                            </li>
-                                        </a>
-                                        <a href="">
-                                            <li class="bullet">
-                                                قوانین و مقررات
-                                            </li>
-                                        </a>
-                                        <a href="/views/courses.html">
-                                            <li class="bullet">لیست دوره ها</li>
-                                        </a>
-                                        <a href="">
-                                            <li class="bullet">شرکت آتلانتیک</li>
-                                        </a>
-                                    </ul>
-                                </div>
-                            </div>
+                      </div>
+                      <div class="col-12 col-sm-6 col-xl-3">
+                        <!-- ///footer list  -->
+                        <div class="footer-list">
+                          <div class="header">
+                            <span class="title"> دسترسی سریع </span>
+                          </div>
+                          <div class="content">
+                            <ul class="list">
+                              <a href="/views/about.html">
+                                <li class="bullet">درباره من</li>
+                              </a>
+                              <a href="">
+                                <li class="bullet">قوانین و مقررات</li>
+                              </a>
+                              <a href="/views/courses.html">
+                                <li class="bullet">لیست دوره ها</li>
+                              </a>
+                              <a href="">
+                                <li class="bullet">شرکت آتلانتیک</li>
+                              </a>
+                            </ul>
+                          </div>
                         </div>
-                        <div class="col-12 col-sm-6 col-xl-3 last-col">
-                            <!-- ///footer list  -->
-                            <div class="footer-list">
-                                <div class="header">
-                                    <span class="title">
-                                        در مــجازی
-                                    </span>
-                                </div>
-                                <div class="content">
-                                    <ul class="list">
-                                        <a href="">
-                                            <li class="mb-xs">
-                                                <div class="badge badge-white xl badge-shadow">
-                                                    <i class="icon mn-instagram"></i>
-                                                    <span class="title">اینستاگرام</span>
-                                                </div>
-                                            </li>
-                                        </a>
-                                        <a href="">
-                                            <li>
-                                                <div class="badge badge-white xl badge-shadow">
-                                                    <i class="icon mn-aparat"></i>
-                                                    <span class="title">صفحه آپارات</span>
-                                                </div>
-                                            </li>
-                                        </a>
-                                    </ul>
-                                </div>
-                            </div>
+                      </div>
+                      <div class="col-12 col-sm-6 col-xl-3 last-col">
+                        <!-- ///footer list  -->
+                        <div class="footer-list">
+                          <div class="header">
+                            <span class="title"> در مــجازی </span>
+                          </div>
+                          <div class="content">
+                            <ul class="list">
+                              <a href="">
+                                <li class="mb-xs">
+                                  <div class="badge badge-white xl badge-shadow">
+                                    <i class="icon mn-instagram"></i>
+                                    <span class="title">اینستاگرام</span>
+                                  </div>
+                                </li>
+                              </a>
+                              <a href="">
+                                <li>
+                                  <div class="badge badge-white xl badge-shadow">
+                                    <i class="icon mn-aparat"></i>
+                                    <span class="title">صفحه آپارات</span>
+                                  </div>
+                                </li>
+                              </a>
+                            </ul>
+                          </div>
                         </div>
+                      </div>
                     </div>
                     <div class="row">
-                        <div class="col-12">
-                            <div class="rights-preserve text-center">
-                                <span>تمامی حقوق <span class="text-primary">محفوظ</span> است</span>
-                            </div>
+                      <div class="col-12">
+                        <div class="rights-preserve text-center">
+                          <span
+                            >تمامی حقوق
+                            <span class="text-primary">محفوظ</span> است</span
+                          >
                         </div>
+                      </div>
                     </div>
-                </footer>
-            </div>
-        </div>
+                  </footer>
     </div>
-</body>
-
+  </body>
 </html>

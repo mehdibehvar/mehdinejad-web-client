@@ -1,67 +1,61 @@
 .card {
-    >.footer {
-        .title {
-            font-size: 18px;
-        }
-        .subtitle {
-            font-size: 14px;
-        }
+  > .footer {
+    .title {
+      font-size: 18px;
     }
-
-    &.card-row {
-        .row {
-            --bs-gutter-x: 12px;
-        }
-        .content {
-            .title {
-             font-size: 18px;
-             overflow: hidden;
-             display: -webkit-box;
-             -webkit-box-orient: vertical;
-             text-overflow: ellipsis;
-             -webkit-line-clamp: 2;
-          
-            }
-
-        }
+    .subtitle {
+      font-size: 14px;
     }
+  }
 
-    &.space {
-        .content {
-            >.title {
-                font-size: 22px;
-            }
-        }
-        &-sm {
-            gap: 12px;
-            .content {
-                >.title {
-                    font-size: 18px;
-                }
-            }
-        }
+  &.card-row {
+    .row {
+      --bs-gutter-x: 12px;
     }
+    .content {
+      .title {
+        font-size: 18px;
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        text-overflow: ellipsis;
+        -webkit-line-clamp: 2;
+      }
+    }
+  }
 
-
-
+  &.space {
+    .content {
+      > .title {
+        font-size: 22px;
+      }
+    }
+    &-sm {
+      gap: 12px;
+      .content {
+        > .title {
+          font-size: 18px;
+        }
+      }
+    }
+  }
 }
 
 .simple-card {
-    &.row-simple {
-        padding: 20px 16px;
-        .text {
-            font-size: 18px;
-            line-height: 20px;
-        }
+  &.row-simple {
+    padding: 20px 16px;
+    .text {
+      font-size: 18px;
+      line-height: 20px;
     }
-
+  }
 }
 .register-card {
-    .summary {
-        padding: 0 16px;
+  .summary {
+    padding: 0 16px;
 
-        .login-link {
-            font-size: 16px;
-        }
+    .login-link {
+      font-size: 16px;
     }
+  }
 }
