@@ -1,529 +1,555 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="fa" dir="rtl">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>blog list </title>
-    <link rel="stylesheet" href="/assets/css/app.scss">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>blog list</title>
+    <link rel="stylesheet" href="/assets/css/app.scss" />
     <script type="module" src="/assets/js/app.js"></script>
-</head>
+  </head>
 
-<body>
-    <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <header>
-                    <!-- /////navbar section////// -->
-                    <div class="row">
-                        <div class="col-12 pe-0 ps-0 pe-sm-3 ps-sm-3">
-                            <div class="navbar">
-                                <!-- <button class="icon mn-menu1 hamburger-menu-btn">
-                                  
-                                </button> -->
-                                <button class="navbar-toggle icon mn-menu1 hamburger-menu-btn"
-                                    data-jsc="hamburger-menu-toggle"
-                                    data-toggle-target=".hamburger-menu-navbar"></button>
-                                <a class="navbar-brand" href="/">
-                                    <img src="/assets/img/logo.png" alt="">
-                                </a>
-                                <nav class="nav-menu">
-                                    <a class="active " href="/">خانه </a>
-                                    <a href="/views/courses.html">دوره ها</a>
-                                    <a href="/views/blogs.html">وبلاگ</a>
-                                    <a href="/views/padcasts.html"> پادکست ها</a>
-                                    <a href="/views/about.html">درباره من</a>
-                                    <a href="/views/contactus.html">تماس</a>
-                                </nav>
-                                <form class="search-section">
-                                    <div class="input-group  secondary b-0 search-bar">
-                                        <input type="text" placeholder="در سایت جستجو کنید">
-                                        <button type="submit" class="btn icon">
-                                            <i class="icon mn-search"></i>
-                                        </button>
-                                    </div>
-                                    <button type="button" class="icon mn-search toggle-search-bar">
-                                        <!-- <i class="icon mn-search"></i> -->
-                                    </button>
-                                </form>
-                                <div class="actions">
-                                    <a class="btn icon"> <i class="icon li-bag-2"></i>
-                                    </a>
-                                    <button class="btn light">ثبت نام / ورود</button>
-                                    <button class="icon li-login login-btn"></button>
-                                </div>
-                                <nav class="hamburger-menu-navbar hamburger-menu">
-                                    <div class="hamburger-menu-header">
-                                        <button class="icon mn-menu1 hamburger-menu-btn"
-                                            onclick="$('.hamburger-menu').removeClass('show')"></button>
-                                        <a class="navbar-brand" href="/">
-                                            <img src="/assets/img/logo.png" alt="">
-                                        </a>
-                                    </div>
-                                    <a class="ham-item active " href="/">
-                                        خانه
-                                    </a>
-                                    <a class="ham-item" href="/views/courses.html">دوره ها</a>
-                                    <a class="ham-item" href="/views/blogs.html">وبلاگ</a>
-                                    <a class="ham-item" href="/views/padcasts.html"> پادکست ها</a>
-                                    <a class="ham-item" href="/views/about.html">درباره من</a>
-                                    <a class="ham-item" href="/views/contactus.html">تماس</a>
-                                </nav>
-                            </div>
-
-                        </div>
+  <body>
+    <div class="container header-container">
+      <div class="row">
+        <div class="col-12">
+          <header>
+            <!-- /////navbar section////// -->
+            <div class="row">
+              <div class="col-12 pe-0 ps-0 pe-sm-3 ps-sm-3">
+                <div class="navbar">
+                  <!-- <button class="icon mn-menu1 hamburger-menu-btn">
+                                      
+                                    </button> -->
+                  <button
+                    class="navbar-toggle icon mn-menu1 hamburger-menu-btn"
+                    data-jsc="hamburger-menu-toggle"
+                    data-toggle-target=".hamburger-menu-navbar"
+                  ></button>
+                  <a class="navbar-brand" href="/">
+                    <img src="/assets/img/logo.png" alt="" />
+                  </a>
+                  <nav class="nav-menu">
+                    <a class="active" href="/">خانه </a>
+                    <a href="/views/courses.html">دوره ها</a>
+                    <a href="/views/blogs.html">وبلاگ</a>
+                    <a href="/views/padcasts.html"> پادکست ها</a>
+                    <a href="/views/about.html">درباره من</a>
+                    <a href="/views/contactus.html">تماس</a>
+                  </nav>
+                  <form class="search-section">
+                    <div class="input-group secondary b-0 search-bar">
+                      <input type="text" placeholder="در سایت جستجو کنید" />
+                      <button type="submit" class="btn icon">
+                        <i class="icon mn-search"></i>
+                      </button>
                     </div>
-                    <!-- /////header content/// -->
-                    <section class="header-content">
-                        <div class="articles-card">
-                            <a href="/views/blog.html" class="card card-row space  not-hover box-shadow">
-                                <div class="row">
-                                    <div class="col-12 col-lg-6">
-                                        <div class="guide">
-                                            <div class="thumbnail thumb-fit">
-                                                <img src="/assets/img/cards/blogs-header.png" alt="thumb1">
-                                                <div class="info top-right  no-gradient">
-                                                    <div class="badge xxl with-shadow">
-                                                        <span class="title">مقالات</span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-12 col-lg-6">
-                                        <div class="content justify-content-center ">
-                                            <div class="teacher-statistics mb-3">
-                                                <div class="statistics">
-                                                    <div class="statistic">
-                                                        <i class="icon mn-tag-horizontal"></i>
-                                                        <span>۱۳ شهریور</span>
-                                                    </div>
-                                                    <div class="statistic">
-                                                        <i class="icon li-document"></i>
-                                                        <span>دسته بندی</span>
-                                                    </div>
-                                                    <div class="statistic">
-                                                        <i class="icon mn-messages"></i>
-                                                        <span>۱۲</span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <span class="title lg mb-xs">
-                                                راهکار های فنی برای
-                                                مسائل پیچیده با مقیاس بالا
-                                            </span>
-                                            <div class="text mb-3">
-                                                <p class="description fade">
-                                                    همیشه پیچیده ترین سوالات و . چالش ها
-                                                </p>
-                                            </div>
-                                            <div>
-                                                <button class="btn">
-                                                    خواندن مقاله
-                                                </button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                    </section>
-                </header>
-                <!-- /////section last articles//// -->
-                <section class="last-articles">
-                    <div class="section-header">
-                        <div class="title">
-                            <i class="icon li-document fs-40 text-primary"></i>
-                            <div class="text">
-                                <span class="text-primary">آخرین </span>
-                                <span>‌ها</span>
-                            </div>
-                        </div>
-                        <div class="filter-section d-flex">
-                            <form action="" class="d-none d-md-flex">
-                                <select class="md b-0 w-fit">
-                                    <ul class="menu select-menu">
-                                        <li class="menu-item">
-                                            <option value="">دسته بندی</option>
-                                        </li>
-                                        <li class="menu-item">
-                                            <option value="">همه</option>
-                                        </li>
-                                        <li class="menu-item">
-                                            <option value="">تهویه</option>
-                                        </li>
-                                        <li class="menu-item selected">
-                                            <option value="">سرمایش</option>
-                                        </li>
-                                        <li class="menu-item">
-                                            <option value="">گرمایش</option>
-                                        </li>
-
-                                    </ul>
-                                </select>
-                                <input type="text" placeholder="جستجو کنید" class="md b-0">
-                            </form>
-                            <div class="filter-dropdown">
-                                <div class="filter-toggler-item">
-                                    <button class="btn white square">
-                                        <i class="icon  mn-filter1"></i>
-                                    </button>
-                                </div>
-                                <ul class="filter-menu">
-                                    <form action="" class="filter-form">
-                                        <select class="md">
-                                            <ul class="menu select-menu">
-                                                <li class="menu-item">
-                                                    <option value="">دسته بندی</option>
-                                                </li>
-                                                <li class="menu-item">
-                                                    <option value="">همه</option>
-                                                </li>
-                                                <li class="menu-item">
-                                                    <option value="">تهویه</option>
-                                                </li>
-                                                <li class="menu-item selected">
-                                                    <option value="">سرمایش</option>
-                                                </li>
-                                                <li class="menu-item">
-                                                    <option value="">گرمایش</option>
-                                                </li>
-        
-                                            </ul>
-                                        </select>
-                                        <input type="text" placeholder="جستجو کنید" class="md">
-                                        <button  class="btn sm filter-show-result w-100">نشان دادن نتایج</button>
-                                    </form>
-                                    <ul class="menu d-none d-md-flex ">
-                                        <li class="menu-item">همه</li>
-                                        <li class="menu-item">تهویه</li>
-                                        <li class="menu-item selected">سرمایش</li>
-                                        <li class="menu-item">گرمایش</li>
-                                    </ul>
-                                </ul>
-                            </div>
-                        </div>
+                    <button
+                      type="button"
+                      class="icon mn-search toggle-search-bar"
+                    >
+                      <!-- <i class="icon mn-search"></i> -->
+                    </button>
+                  </form>
+                  <div class="actions">
+                    <a class="btn icon"> <i class="icon li-bag-2"></i> </a>
+                    <button class="btn light">ثبت نام / ورود</button>
+                    <button class="icon li-login login-btn"></button>
+                  </div>
+                  <nav class="hamburger-menu-navbar hamburger-menu">
+                    <div class="hamburger-menu-header">
+                      <button
+                        class="icon mn-menu1 hamburger-menu-btn"
+                        onclick="$('.hamburger-menu').removeClass('show')"
+                      ></button>
+                      <a class="navbar-brand" href="/">
+                        <img src="/assets/img/logo.png" alt="" />
+                      </a>
                     </div>
-                    <div class="articles">
-                        <div class="row">
-                            <div class="col-12 col-sm-6 col-lg-4">
-                                <a href="/views/blog.html" class="card">
-                                    <div class="guide">
-                                        <div class="thumbnail no-bottom-raduis">
-                                            <img src="/assets/img/cards/last-article.png" alt="thumb1">
-                                            <div class="info">
-                                                <div class="d-flex gap-1">
-                                                    <i class="icon li-message"></i>
-                                                    <span>۱۲</span>
-                                                </div>
-                                                <div class="d-flex gap-1">
-                                                    <i class="icon li-calendar"></i>
-                                                    <span>۱۳ شهریور</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="content">
-                                        <div class="title">
-                                            سیستم‌های مینی اسپلیت:
-                                            مزایا و چگونگی عملکرد
-                                        </div>
-                                    </div>
-
-                                </a>
-                            </div>
-                            <div class="col-12 col-sm-6 col-lg-4">
-                                <a href="/views/blog.html" class="card">
-                                    <div class="guide">
-                                        <div class="thumbnail no-bottom-raduis">
-                                            <img src="/assets/img/cards/lastartic1.png" alt="thumb1">
-                                            <div class="info">
-                                                <div class="d-flex gap-1">
-                                                    <i class="icon li-message"></i>
-                                                    <span>۱۲</span>
-                                                </div>
-                                                <div class="d-flex gap-1">
-                                                    <i class="icon li-calendar"></i>
-                                                    <span>۱۳ شهریور</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="content">
-                                        <div class="title">
-                                            سیستم‌های مینی اسپلیت:
-                                            مزایا و چگونگی عملکرد
-                                        </div>
-                                    </div>
-
-                                </a>
-                            </div>
-                            <div class="col-12 col-sm-6 col-lg-4">
-                                <a href="/views/blog.html" class="card">
-                                    <div class="guide">
-                                        <div class="thumbnail no-bottom-raduis">
-                                            <img src="/assets/img/cards/last-article.png" alt="thumb1">
-                                            <div class="info">
-                                                <div class="d-flex gap-1">
-                                                    <i class="icon li-message"></i>
-                                                    <span>۱۲</span>
-                                                </div>
-                                                <div class="d-flex gap-1">
-                                                    <i class="icon li-calendar"></i>
-                                                    <span>۱۳ شهریور</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="content">
-                                        <div class="title">
-                                            سیستم‌های مینی اسپلیت:
-                                            مزایا و چگونگی عملکرد
-                                        </div>
-                                    </div>
-
-                                </a>
-                            </div>
-                            <div class="col-12 col-sm-6 col-lg-4">
-                                <a href="/views/blog.html" class="card">
-                                    <div class="guide">
-                                        <div class="thumbnail no-bottom-raduis">
-                                            <img src="/assets/img/cards/lastartic1.png" alt="thumb1">
-                                            <div class="info">
-                                                <div class="d-flex gap-1">
-                                                    <i class="icon li-message"></i>
-                                                    <span>۱۲</span>
-                                                </div>
-                                                <div class="d-flex gap-1">
-                                                    <i class="icon li-calendar"></i>
-                                                    <span>۱۳ شهریور</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="content">
-                                        <div class="title">
-                                            سیستم‌های مینی اسپلیت:
-                                            مزایا و چگونگی عملکرد
-                                        </div>
-                                    </div>
-
-                                </a>
-                            </div>
-                            <div class="col-12 col-sm-6 col-lg-4">
-                                <a href="/views/blog.html" class="card">
-                                    <div class="guide">
-                                        <div class="thumbnail no-bottom-raduis">
-                                            <img src="/assets/img/cards/last-article.png" alt="thumb1">
-                                            <div class="info">
-                                                <div class="d-flex gap-1">
-                                                    <i class="icon li-message"></i>
-                                                    <span>۱۲</span>
-                                                </div>
-                                                <div class="d-flex gap-1">
-                                                    <i class="icon li-calendar"></i>
-                                                    <span>۱۳ شهریور</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="content">
-                                        <div class="title">
-                                            سیستم‌های مینی اسپلیت:
-                                            مزایا و چگونگی عملکرد
-                                        </div>
-                                    </div>
-
-                                </a>
-                            </div>
-                            <div class="col-12 col-sm-6 col-lg-4">
-                                <a href="/views/blog.html" class="card">
-                                    <div class="guide">
-                                        <div class="thumbnail no-bottom-raduis">
-                                            <img src="/assets/img/cards/lastartic1.png" alt="thumb1">
-                                            <div class="info">
-                                                <div class="d-flex gap-1">
-                                                    <i class="icon li-message"></i>
-                                                    <span>۱۲</span>
-                                                </div>
-                                                <div class="d-flex gap-1">
-                                                    <i class="icon li-calendar"></i>
-                                                    <span>۱۳ شهریور</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="content">
-                                        <div class="title">
-                                            سیستم‌های مینی اسپلیت:
-                                            مزایا و چگونگی عملکرد
-                                        </div>
-                                    </div>
-
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="d-flex justify-content-center see-all">
-                        <button class="btn outlined">بارگزاری بیشتر</button>
-                    </div>
-                </section>
-                <!-- //////footer//// -->
-                <footer class="base-footer">
-                    <div class="overlay"></div>
-                    <div class="row justify-content-center">
-                        <div class="col-12 col-xxl-10 col-xxxl-9">
-                            <div class="float-form">
-                                <div class="row gx-sm">
-                                    <div class="col-12 col-lg-4">
-                                        <div class="image-wrapper">
-                                            <img src="/assets/img/footer.png" alt="">
-                                        </div>
-                                    </div>
-                                    <div class="col-12 col-lg-8">
-                                        <form class="footer-form">
-                                            <div class="title">
-                                                درخواست مشاوره با من
-                                            </div>
-                                            <div class="row gy-3 gx-2">
-                                                <div class=" col-12 col-sm-6">
-                                                    <input class="transparent white" type="text" name="full_name"
-                                                        placeholder="نام و نام خانوادگی شما">
-                                                </div>
-                                                <div class=" col-12 col-sm-6">
-                                                    <input class="transparent white" type="text" name="work_phone"
-                                                        placeholder="شماره تماس کاری" />
-                                                </div>
-                                                <div class="col-12">
-                                                    <textarea class="transparent white md" name="message"
-                                                        placeholder="پیغام شما"></textarea>
-                                                </div>
-                                            </div>
-                                            <div>
-                                                <button class="btn white mt-xs "
-                                                    type="submit">ارسال</button>
-                                                <div class="wave-image">
-                                                    <img src="/assets/img/wave.png" alt="">
-                                                </div>
-                                            </div>
-                                        </form>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row main-footer-content">
-                        <div class="col-12 col-sm-6 col-xl-3">
-                            <!-- ///footer list  -->
-                            <div class="footer-list ">
-                                <div class="header">
-                                    <span class="title">
-                                        درباره من </span>
-                                </div>
-                                <div class="content">
-                                    <p class="text p-left">
-                                        متن آزمــایشی توضیح دوره
-                                        بصـــــورت کــــوتاه و خـــــلاصه!
-                                        معنی خاصه نـــــداره و فـــقط
-                                        برای پرکردن فضا استــفاده
-                                        شده است!
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12 col-sm-6 col-xl-3">
-                            <!-- ///footer list  -->
-                            <div class="footer-list">
-                                <div class="header">
-                                    <span class="title">
-                                        ارتباط با ما </span>
-                                </div>
-                                <div class="content">
-                                    <ul class="list">
-                                        <li class="bullet">البرز، فردیس، فلکه سوم</li>
-                                        <a href="tel:0216653333">
-                                            <li class="bullet">۰۲۱-۶۶۵-۳۳-۳۳</li>
-                                        </a>
-                                        <a href="tel:09124561212">
-                                            <li class="bullet">۰۹۱۲-۴۵۶-۱۲-۱۲</li>
-                                        </a>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12 col-sm-6 col-xl-3">
-                            <!-- ///footer list  -->
-                            <div class="footer-list">
-                                <div class="header">
-                                    <span class="title">
-                                        دسترسی سریع
-                                    </span>
-                                </div>
-                                <div class="content">
-                                    <ul class="list">
-                                        <a href="/views/about.html">
-                                            <li class="bullet">درباره من
-                                            </li>
-                                        </a>
-                                        <a href="">
-                                            <li class="bullet">
-                                                قوانین و مقررات
-                                            </li>
-                                        </a>
-                                        <a href="/views/courses.html">
-                                            <li class="bullet">لیست دوره ها</li>
-                                        </a>
-                                        <a href="">
-                                            <li class="bullet">شرکت آتلانتیک</li>
-                                        </a>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12 col-sm-6 col-xl-3 last-col">
-                            <!-- ///footer list  -->
-                            <div class="footer-list">
-                                <div class="header">
-                                    <span class="title">
-                                        در مــجازی
-                                    </span>
-                                </div>
-                                <div class="content">
-                                    <ul class="list">
-                                        <a href="">
-                                            <li class="mb-xs">
-                                                <div class="badge badge-white xl badge-shadow">
-                                                    <i class="icon mn-instagram"></i>
-                                                    <span class="title">اینستاگرام</span>
-                                                </div>
-                                            </li>
-                                        </a>
-                                        <a href="">
-                                            <li>
-                                                <div class="badge badge-white xl badge-shadow">
-                                                    <i class="icon mn-aparat"></i>
-                                                    <span class="title">صفحه آپارات</span>
-                                                </div>
-                                            </li>
-                                        </a>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-12">
-                            <div class="rights-preserve text-center">
-                                <span>تمامی حقوق <span class="text-primary">محفوظ</span> است</span>
-                            </div>
-                        </div>
-                    </div>
-                </footer>
+                    <a class="ham-item active" href="/"> خانه </a>
+                    <a class="ham-item" href="/views/courses.html">دوره ها</a>
+                    <a class="ham-item" href="/views/blogs.html">وبلاگ</a>
+                    <a class="ham-item" href="/views/padcasts.html">
+                      پادکست ها</a
+                    >
+                    <a class="ham-item" href="/views/about.html">درباره من</a>
+                    <a class="ham-item" href="/views/contactus.html">تماس</a>
+                  </nav>
+                </div>
+              </div>
             </div>
+            <!-- /////header content/// -->
+            <section class="header-content">
+              <div class="articles-card">
+                <a
+                  href="/views/blog.html"
+                  class="card card-row space not-hover box-shadow"
+                >
+                  <div class="row">
+                    <div class="col-12 col-lg-6">
+                      <div class="guide">
+                        <div class="thumbnail thumb-fit">
+                          <img
+                            src="/assets/img/cards/blogs-header.png"
+                            alt="thumb1"
+                          />
+                          <div class="info top-right no-gradient">
+                            <div class="badge xxl with-shadow">
+                              <span class="title">مقالات</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 col-lg-6">
+                      <div class="content justify-content-center">
+                        <div class="teacher-statistics mb-3">
+                          <div class="statistics">
+                            <div class="statistic">
+                              <i class="icon mn-tag-horizontal"></i>
+                              <span>۱۳ شهریور</span>
+                            </div>
+                            <div class="statistic">
+                              <i class="icon li-document"></i>
+                              <span>دسته بندی</span>
+                            </div>
+                            <div class="statistic">
+                              <i class="icon mn-messages"></i>
+                              <span>۱۲</span>
+                            </div>
+                          </div>
+                        </div>
+                        <span class="title lg mb-xs pe-2">
+                          راهکار های فنی برای مسائل پیچیده با مقیاس بالا
+                        </span>
+                        <div class="text mb-3">
+                          <p class="description fade">
+                            همیشه پیچیده ترین سوالات و . چالش ها
+                          </p>
+                        </div>
+                        <div>
+                          <button class="btn">خواندن مقاله</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </section>
+          </header>
         </div>
+      </div>
     </div>
-</body>
-
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <!-- /////section last articles//// -->
+          <section class="last-articles">
+            <div class="section-header">
+              <div class="title">
+                <i class="icon li-document fs-40 text-primary"></i>
+                <div class="text">
+                  <span class="text-primary">آخرین </span>
+                  <span>‌ها</span>
+                </div>
+              </div>
+              <div class="filter-section d-flex">
+                <form action="" class="d-none d-md-flex">
+                  <select class="md b-0 w-fit">
+                    <ul class="menu select-menu">
+                      <li class="menu-item">
+                        <option value="">دسته بندی</option>
+                      </li>
+                      <li class="menu-item">
+                        <option value="">همه</option>
+                      </li>
+                      <li class="menu-item">
+                        <option value="">تهویه</option>
+                      </li>
+                      <li class="menu-item selected">
+                        <option value="">سرمایش</option>
+                      </li>
+                      <li class="menu-item">
+                        <option value="">گرمایش</option>
+                      </li>
+                    </ul>
+                  </select>
+                  <input type="text" placeholder="جستجو کنید" class="md b-0" />
+                </form>
+                <div class="filter-dropdown">
+                  <div class="filter-toggler-item">
+                    <button class="btn white square">
+                      <i class="icon mn-filter1"></i>
+                    </button>
+                  </div>
+                  <ul class="filter-menu">
+                    <form action="" class="filter-form">
+                      <select class="md">
+                        <ul class="menu select-menu">
+                          <li class="menu-item">
+                            <option value="">دسته بندی</option>
+                          </li>
+                          <li class="menu-item">
+                            <option value="">همه</option>
+                          </li>
+                          <li class="menu-item">
+                            <option value="">تهویه</option>
+                          </li>
+                          <li class="menu-item selected">
+                            <option value="">سرمایش</option>
+                          </li>
+                          <li class="menu-item">
+                            <option value="">گرمایش</option>
+                          </li>
+                        </ul>
+                      </select>
+                      <input type="text" placeholder="جستجو کنید" class="md" />
+                      <button class="btn sm filter-show-result w-100">
+                        نشان دادن نتایج
+                      </button>
+                    </form>
+                    <ul class="menu d-none d-md-flex">
+                      <li class="menu-item">همه</li>
+                      <li class="menu-item">تهویه</li>
+                      <li class="menu-item selected">سرمایش</li>
+                      <li class="menu-item">گرمایش</li>
+                    </ul>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="articles">
+              <div class="row">
+                <div class="col-12 col-sm-6 col-lg-4">
+                  <a href="/views/blog.html" class="card">
+                    <div class="guide">
+                      <div class="thumbnail no-bottom-raduis">
+                        <img
+                          src="/assets/img/cards/last-article.png"
+                          alt="thumb1"
+                        />
+                        <div class="info">
+                          <div class="d-flex gap-1">
+                            <i class="icon li-message"></i>
+                            <span>۱۲</span>
+                          </div>
+                          <div class="d-flex gap-1">
+                            <i class="icon li-calendar"></i>
+                            <span>۱۳ شهریور</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="content">
+                      <div class="title">
+                        طراحی انواع چیلر تراکمی آب خنک یکی از موضوعات حیاتی و
+                        پرکاربرد در زمینه تهویه ‌مطبوع و سیستم‌های تبرید 
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4">
+                  <a href="/views/blog.html" class="card">
+                    <div class="guide">
+                      <div class="thumbnail no-bottom-raduis">
+                        <img
+                          src="/assets/img/cards/lastartic1.png"
+                          alt="thumb1"
+                        />
+                        <div class="info">
+                          <div class="d-flex gap-1">
+                            <i class="icon li-message"></i>
+                            <span>۱۲</span>
+                          </div>
+                          <div class="d-flex gap-1">
+                            <i class="icon li-calendar"></i>
+                            <span>۱۳ شهریور</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="content">
+                      <div class="title">
+                        استفاده از انرژی‌های تجدیدپذیر در سیستم‌های HVAC
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4">
+                  <a href="/views/blog.html" class="card">
+                    <div class="guide">
+                      <div class="thumbnail no-bottom-raduis">
+                        <img
+                          src="/assets/img/cards/last-article.png"
+                          alt="thumb1"
+                        />
+                        <div class="info">
+                          <div class="d-flex gap-1">
+                            <i class="icon li-message"></i>
+                            <span>۱۲</span>
+                          </div>
+                          <div class="d-flex gap-1">
+                            <i class="icon li-calendar"></i>
+                            <span>۱۳ شهریور</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="content">
+                      <div class="title">
+                        انتــــخاب واحد تهویه مناسب برای فضاها
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4">
+                  <a href="/views/blog.html" class="card">
+                    <div class="guide">
+                      <div class="thumbnail no-bottom-raduis">
+                        <img
+                          src="/assets/img/cards/lastartic1.png"
+                          alt="thumb1"
+                        />
+                        <div class="info">
+                          <div class="d-flex gap-1">
+                            <i class="icon li-message"></i>
+                            <span>۱۲</span>
+                          </div>
+                          <div class="d-flex gap-1">
+                            <i class="icon li-calendar"></i>
+                            <span>۱۳ شهریور</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="content">
+                      <div class="title">
+                        در هنگام انتخاب سیستم تهویه مطبوع به چه نکاتی باید توجه
+                        کنیم؟
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4">
+                  <a href="/views/blog.html" class="card">
+                    <div class="guide">
+                      <div class="thumbnail no-bottom-raduis">
+                        <img
+                          src="/assets/img/cards/last-article.png"
+                          alt="thumb1"
+                        />
+                        <div class="info">
+                          <div class="d-flex gap-1">
+                            <i class="icon li-message"></i>
+                            <span>۱۲</span>
+                          </div>
+                          <div class="d-flex gap-1">
+                            <i class="icon li-calendar"></i>
+                            <span>۱۳ شهریور</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="content">
+                      <div class="title">
+                        سیستم‌های مینی اسپلیت: مزایا و چگونگی عملکرد
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4">
+                  <a href="/views/blog.html" class="card">
+                    <div class="guide">
+                      <div class="thumbnail no-bottom-raduis">
+                        <img
+                          src="/assets/img/cards/lastartic1.png"
+                          alt="thumb1"
+                        />
+                        <div class="info">
+                          <div class="d-flex gap-1">
+                            <i class="icon li-message"></i>
+                            <span>۱۲</span>
+                          </div>
+                          <div class="d-flex gap-1">
+                            <i class="icon li-calendar"></i>
+                            <span>۱۳ شهریور</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="content">
+                      <div class="title">
+                        استانداردهای انجمن ASHRAE برای شرایط آسایش برای تهویه
+                        مطبوع
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="d-flex justify-content-center see-all">
+              <button class="btn outlined">بارگزاری بیشتر</button>
+            </div>
+          </section>
+        </div>
+      </div>
+    </div>
+    <div class="container footer-container">
+      <!-- //////footer//// -->
+      <footer class="base-footer">
+        <div class="overlay"></div>
+        <div class="row justify-content-center">
+          <div class="col-12 col-xxl-10 col-xxxl-9">
+            <div class="float-form">
+              <div class="row gx-sm">
+                <div class="col-12 col-lg-4">
+                  <div class="image-wrapper">
+                    <img src="/assets/img/footer.png" alt="" />
+                  </div>
+                </div>
+                <div class="col-12 col-lg-8">
+                  <form class="footer-form">
+                    <div class="title">درخواست مشاوره با من</div>
+                    <div class="row gy-3 gx-2">
+                      <div class="col-12 col-sm-6">
+                        <input
+                          class="transparent white"
+                          type="text"
+                          name="full_name"
+                          placeholder="نام و نام خانوادگی شما"
+                        />
+                      </div>
+                      <div class="col-12 col-sm-6">
+                        <input
+                          class="transparent white"
+                          type="text"
+                          name="work_phone"
+                          placeholder="شماره تماس کاری"
+                        />
+                      </div>
+                      <div class="col-12">
+                        <textarea
+                          class="transparent white md"
+                          name="message"
+                          placeholder="پیغام شما"
+                        ></textarea>
+                      </div>
+                    </div>
+                    <div>
+                      <button class="btn white mt-xs" type="submit">
+                        ارسال
+                      </button>
+                      <div class="wave-image">
+                        <img src="/assets/img/wave.png" alt="" />
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row main-footer-content">
+          <div class="col-12 col-sm-6 col-xl-3">
+            <!-- ///footer list  -->
+            <div class="footer-list">
+              <div class="header">
+                <span class="title"> درباره من </span>
+              </div>
+              <div class="content">
+                <p class="text p-left">
+                  متن آزمــایشی توضیح دوره بصـــــورت کــــوتاه و خـــــلاصه!
+                  معنی خاصه نـــــداره و فـــقط برای پرکردن فضا استــفاده شده
+                  است!
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-xl-3">
+            <!-- ///footer list  -->
+            <div class="footer-list">
+              <div class="header">
+                <span class="title"> ارتباط با ما </span>
+              </div>
+              <div class="content">
+                <ul class="list">
+                  <li class="bullet">البرز، فردیس، فلکه سوم</li>
+                  <a href="tel:0216653333">
+                    <li class="bullet">۰۲۱-۶۶۵-۳۳-۳۳</li>
+                  </a>
+                  <a href="tel:09124561212">
+                    <li class="bullet">۰۹۱۲-۴۵۶-۱۲-۱۲</li>
+                  </a>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-xl-3">
+            <!-- ///footer list  -->
+            <div class="footer-list">
+              <div class="header">
+                <span class="title"> دسترسی سریع </span>
+              </div>
+              <div class="content">
+                <ul class="list">
+                  <a href="/views/about.html">
+                    <li class="bullet">درباره من</li>
+                  </a>
+                  <a href="">
+                    <li class="bullet">قوانین و مقررات</li>
+                  </a>
+                  <a href="/views/courses.html">
+                    <li class="bullet">لیست دوره ها</li>
+                  </a>
+                  <a href="">
+                    <li class="bullet">شرکت آتلانتیک</li>
+                  </a>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-xl-3 last-col">
+            <!-- ///footer list  -->
+            <div class="footer-list">
+              <div class="header">
+                <span class="title"> در مــجازی </span>
+              </div>
+              <div class="content">
+                <ul class="list">
+                  <a href="">
+                    <li class="mb-xs">
+                      <div class="badge badge-white xl badge-shadow">
+                        <i class="icon mn-instagram"></i>
+                        <span class="title">اینستاگرام</span>
+                      </div>
+                    </li>
+                  </a>
+                  <a href="">
+                    <li>
+                      <div class="badge badge-white xl badge-shadow">
+                        <i class="icon mn-aparat"></i>
+                        <span class="title">صفحه آپارات</span>
+                      </div>
+                    </li>
+                  </a>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <div class="rights-preserve text-center">
+              <span
+                >تمامی حقوق <span class="text-primary">محفوظ</span> است</span
+              >
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
 </html>

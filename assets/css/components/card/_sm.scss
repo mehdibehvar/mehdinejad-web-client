@@ -1,84 +1,92 @@
 .card {
-    &.card-row {
-        .row {
-            --bs-gutter-x: 16px;
-        }
-    
+  .content{
+    .title{
+      font-size: 22px;
     }
-    &.card-float {
-        overflow: visible;
-        .guide {
-            width: 50%;
-            margin-top: -45px;
-        }
-
-        .content {
-            padding: 5px 20px;
-
-            .title {
-                font-weight: 900;
-            }
-        }
-
-        .footer {
-            padding: 0;
-            width: 100%;
-        }
+  }
+  &.card-row {
+    .row {
+      --bs-gutter-x: 16px;
+    }
+  }
+  &.card-float {
+    overflow: visible;
+    .guide {
+      width: 50%;
+      margin-top: -45px;
     }
 
-   &.space{
+    .content {
+      padding: 5px 20px;
+
+      .title {
+        font-weight: 900;
+      }
+    }
+
+    .footer {
+      padding: 0;
+      width: 100%;
+    }
+  }
+
+  &.space {
     &-xl {
-        gap: 40px;
-        padding: 20px;
+      gap: 40px;
+      padding: 20px;
 
-        .content {
-            padding: 8px;
-        }
+      .content {
+        padding: 8px 0px 0 30px;
+      }
     }
-   }
-   &.br-xl {
-    border-radius: 5PX;
-}
+    .content {
+      padding: 8px 0px 0 30px;
+    }
+  }
+  &.br-xl {
+    border-radius: 5px;
+  }
 }
 
 .simple-card {
-    &.row-simple {
-        padding: 33px 38px;
-
-    }
-
+  &.row-simple {
+    padding: 33px 38px;
+  }
 }
 .register-card {
-    padding:25px 18px;
-    .summary {
-        padding: 0 18px;
-        .title {
-            color: var(--secondary, #2A354A);
-            @include secondFont;
-            font-size: 40px;
-            font-style: normal;
-            font-weight: 800;
-            line-height: 123%;
-        }
-
-        .subtitle {
-            margin-top: 18px;
-            margin-bottom: 8px;
-        }
+  padding: 25px 18px;
+  .summary {
+    padding: 0 18px;
+    .title {
+      color: var(--secondary, #2a354a);
+      @include secondFont;
+      font-size: 40px;
+      font-style: normal;
+      font-weight: 800;
+      line-height: 123%;
     }
+
+    .subtitle {
+      margin-top: 18px;
+      margin-bottom: 8px;
+    }
+
+    .login-link {
+      margin-top: 32px;
+      margin-bottom: 5px;
+    }
+  }
 }
 .card-video {
-    gap: 14px;
+  gap: 14px;
+  padding: 12px;
+
+  .footer {
     padding: 12px;
+    gap: 12px;
 
-
-    .footer {
-        padding: 12px;
-        gap: 12px;
-
-        .text {
-            gap: 12px;
-        }
-
+    .text {
+      gap: 12px;
     }
+  }
 }

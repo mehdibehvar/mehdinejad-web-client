@@ -206,7 +206,6 @@
     &.card-row {
         display: block;
         border-radius: var(--rounded-sm, 5px);
-
         .row {
             --gutter-md: 42px;
         }
@@ -461,8 +460,6 @@
     width: 100%;
     gap: 8px;
     padding: 25px 38px;
-
-
     .icon-wrapper {
         text-align: center;
     }
@@ -611,18 +608,18 @@
             line-height: 170%;
             position: relative;
             display: flex;
+        
+            // span {
+            //     &::before {
+            //         content: '';
+            //         display: inline-block;
+            //         width: 6px;
+            //         height: 6px;
+            //         border-radius: 3px;
+            //         background-color: #000;
 
-            span {
-                &::before {
-                    content: '';
-                    display: inline-block;
-                    width: 6px;
-                    height: 6px;
-                    border-radius: 3px;
-                    background-color: #000;
-
-                }
-            }
+            //     }
+            // }
         }
     }
 

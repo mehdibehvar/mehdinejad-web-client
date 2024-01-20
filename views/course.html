@@ -1,537 +1,567 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="fa" dir="rtl">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>course single</title>
-    <link rel="stylesheet" href="/assets/css/app.scss">
+    <link rel="stylesheet" href="/assets/css/app.scss" />
     <script type="module" src="/assets/js/app.js"></script>
-</head>
+  </head>
 
-<body class="course-page">
-    <div class="container-fluid">
-        <div class="course-header-container">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                        <header>
-                            <!-- /////navbar section////// -->
-                            <div class="row">
-                                <div class="col-12 pe-0 ps-0 pe-sm-3 ps-sm-3">
-                                    <div class="navbar">
-                                        <!-- <button class="icon mn-menu1 hamburger-menu-btn">
-                                  
-                                </button> -->
-                                        <button class="navbar-toggle icon mn-menu1 hamburger-menu-btn"
-                                            data-jsc="hamburger-menu-toggle"
-                                            data-toggle-target=".hamburger-menu-navbar"></button>
-                                        <a class="navbar-brand" href="/">
-                                            <img src="/assets/img/logo.png" alt="">
-                                        </a>
-                                        <nav class="nav-menu">
-                                            <a class="active " href="/">خانه </a>
-                                            <a href="/views/courses.html">دوره ها</a>
-                                            <a href="/views/blogs.html">وبلاگ</a>
-                                            <a href="/views/padcasts.html"> پادکست ها</a>
-                                            <a href="/views/about.html">درباره من</a>
-                                            <a href="/views/contactus.html">تماس</a>
-                                        </nav>
-                                        <form class="search-section">
-                                            <div class="input-group  secondary b-0 search-bar">
-                                                <input type="text" placeholder="در سایت جستجو کنید">
-                                                <button type="submit" class="btn icon">
-                                                    <i class="icon mn-search"></i>
-                                                </button>
-                                            </div>
-                                            <button type="button" class="icon mn-search toggle-search-bar">
-                                                <!-- <i class="icon mn-search"></i> -->
-                                            </button>
-                                        </form>
-                                        <div class="actions">
-                                            <a class="btn icon"> <i class="icon li-bag-2"></i>
-                                            </a>
-                                            <button class="btn light">ثبت نام / ورود</button>
-                                            <button class="icon li-login login-btn"></button>
-                                        </div>
-                                        <nav class="hamburger-menu-navbar hamburger-menu">
-                                            <div class="hamburger-menu-header">
-                                                <button class="icon mn-menu1 hamburger-menu-btn"
-                                                    onclick="$('.hamburger-menu').removeClass('show')"></button>
-                                                <a class="navbar-brand" href="/">
-                                                    <img src="/assets/img/logo.png" alt="">
-                                                </a>
-                                            </div>
-                                            <a class="ham-item active " href="/">
-                                                خانه
-                                            </a>
-                                            <a class="ham-item" href="/views/courses.html">دوره ها</a>
-                                            <a class="ham-item" href="/views/blogs.html">وبلاگ</a>
-                                            <a class="ham-item" href="/views/padcasts.html"> پادکست ها</a>
-                                            <a class="ham-item" href="/views/about.html">درباره من</a>
-                                            <a class="ham-item" href="/views/contactus.html">تماس</a>
-                                        </nav>
-                                    </div>
-
-                                </div>
-                            </div>
-                            <!-- /////header content/// -->
-                            <section class="header-content course-header">
-                                <div class="row">
-                                    <div class="col-12  col-lg-6">
-                                        <div class="right-section">
-                                            <div class="box d-flex justify-content-start">
-                                                <div class="main">
-                                                    <span class="text d-block">
-                                                        دوره انتخاب و نگهداری
-                                                        از دستگاه‌های تهویه
-                                                    </span>
-                                                        <p class="subtitle">
-                                                            در این دوره آنلاین ویدیویی درباره انتخاب و نگهداری
-                                                            انواع دستگاه های تهویه و ملزومات آن صحبت میکنیم!
-                                                        </p>
-                                                    <div class="footer d-flex align-items-center gap-md">
-                                                            <button class="btn lg course-title-btn">سرفصل های دوره</button>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-12  col-lg-6">
-                                        <div class="left-section d-flex justify-content-center">
-                                            <div class="card-video">
-                                                <div class="video-wrapper">
-                                                    <div class="video-js-wrapper">
-                                                        <video id="video-js" class="video-js vjs-16-9" controls
-                                                            preload="auto" data-setup="{}">
-                                                            <source src="/assets/videos/video1.mp4" type="video/mp4" />
-                                                            <p class="vjs-no-js">
-                                                                To view this video please enable JavaScript, and
-                                                                consider upgrading to a
-                                                                web browser that
-                                                                <a href="https://videojs.com/html5-video-support/"
-                                                                    target="_blank">supports HTML5 video</a>
-                                                            </p>
-                                                        </video>
-                                                        <div class="video-js-overlay">
-                                                            <div class="info">
-                                                                <div class="video-score">
-                                                                    <i class="icon li-star text-warning"></i>
-                                                                    <span class="text text-primary">۴.۹/۵</span>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="footer">
-                                                    <div class="text">
-                                                        <div>
-                                                            <span class="title">۱۷</span> <span
-                                                                class="subtitle">جلسه</span>
-                                                        </div>
-                                                        <div>
-                                                            <span class="title">۲.۵</span> <span
-                                                                class="subtitle">ساعت</span>
-                                                        </div>
-                                                    </div>
-                                                    <button class="btn sm">ثبت نام رایگان</button>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </section>
-                        </header>
-                    </div>
+  <body class="course-page">
+    <div class="container-fluid px-0">
+      <div class="course-header-container">
+        <div class="container header-container">
+          <!-- /////navbar section////// -->
+          <div class="row">
+            <div class="col-12 pe-0 ps-0 pe-sm-3 ps-sm-3">
+              <div class="navbar">
+                <!-- <button class="icon mn-menu1 hamburger-menu-btn">
+                                                
+                                              </button> -->
+                <button
+                  class="navbar-toggle icon mn-menu1 hamburger-menu-btn"
+                  data-jsc="hamburger-menu-toggle"
+                  data-toggle-target=".hamburger-menu-navbar"
+                ></button>
+                <a class="navbar-brand" href="/">
+                  <img src="/assets/img/logo.png" alt="" />
+                </a>
+                <nav class="nav-menu">
+                  <a class="active" href="/">خانه </a>
+                  <a href="/views/courses.html">دوره ها</a>
+                  <a href="/views/blogs.html">وبلاگ</a>
+                  <a href="/views/padcasts.html"> پادکست ها</a>
+                  <a href="/views/about.html">درباره من</a>
+                  <a href="/views/contactus.html">تماس</a>
+                </nav>
+                <form class="search-section">
+                  <div class="input-group secondary b-0 search-bar">
+                    <input type="text" placeholder="در سایت جستجو کنید" />
+                    <button type="submit" class="btn icon">
+                      <i class="icon mn-search"></i>
+                    </button>
+                  </div>
+                  <button
+                    type="button"
+                    class="icon mn-search toggle-search-bar"
+                  >
+                    <!-- <i class="icon mn-search"></i> -->
+                  </button>
+                </form>
+                <div class="actions">
+                  <a class="btn icon"> <i class="icon li-bag-2"></i> </a>
+                  <button class="btn light">ثبت نام / ورود</button>
+                  <button class="icon li-login login-btn"></button>
                 </div>
+                <nav class="hamburger-menu-navbar hamburger-menu">
+                  <div class="hamburger-menu-header">
+                    <button
+                      class="icon mn-menu1 hamburger-menu-btn"
+                      onclick="$('.hamburger-menu').removeClass('show')"
+                    ></button>
+                    <a class="navbar-brand" href="/">
+                      <img src="/assets/img/logo.png" alt="" />
+                    </a>
+                  </div>
+                  <a class="ham-item active" href="/"> خانه </a>
+                  <a class="ham-item" href="/views/courses.html">دوره ها</a>
+                  <a class="ham-item" href="/views/blogs.html">وبلاگ</a>
+                  <a class="ham-item" href="/views/padcasts.html"> پادکست ها</a>
+                  <a class="ham-item" href="/views/about.html">درباره من</a>
+                  <a class="ham-item" href="/views/contactus.html">تماس</a>
+                </nav>
+              </div>
             </div>
+          </div>
         </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <header>
+                <!-- /////header content/// -->
+                <section class="header-content course-header">
+                  <div class="row">
+                    <div class="col-12 col-lg-6">
+                      <div class="right-section">
+                        <div class="box d-flex justify-content-start">
+                          <div class="main">
+                            <span class="text d-block">
+                              دوره انتخاب و نگهداری از دستگاه‌های تهویه
+                            </span>
+                            <p class="subtitle">
+                              در این دوره آنلاین ویدیویی درباره انتخاب و نگهداری
+                              انواع دستگاه های تهویه و ملزومات آن صحبت میکنیم!
+                            </p>
+                            <div
+                              class="footer d-flex align-items-center gap-md"
+                            >
+                              <button class="btn lg course-title-btn">
+                                سرفصل های دوره
+                              </button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 col-lg-6">
+                      <div class="left-section d-flex justify-content-center">
+                        <div class="card-video">
+                          <div class="video-wrapper">
+                            <div class="video-js-wrapper">
+                              <video
+                                id="video-js"
+                                class="video-js vjs-16-9"
+                                controls
+                                preload="auto"
+                                data-setup="{}"
+                              >
+                                <source
+                                  src="/assets/videos/video1.mp4"
+                                  type="video/mp4"
+                                />
+                                <p class="vjs-no-js">
+                                  To view this video please enable JavaScript,
+                                  and consider upgrading to a web browser that
+                                  <a
+                                    href="https://videojs.com/html5-video-support/"
+                                    target="_blank"
+                                    >supports HTML5 video</a
+                                  >
+                                </p>
+                              </video>
+                              <div class="video-js-overlay">
+                                <div class="info">
+                                  <div class="video-score">
+                                    <i class="icon li-star text-warning"></i>
+                                    <span class="text text-primary">۴.۹/۵</span>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="footer">
+                            <div class="text">
+                              <div>
+                                <span class="title">۱۷</span>
+                                <span class="subtitle">جلسه</span>
+                              </div>
+                              <div>
+                                <span class="title">۲.۵</span>
+                                <span class="subtitle">ساعت</span>
+                              </div>
+                            </div>
+                            <button class="btn sm">ثبت نام رایگان</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </section>
+              </header>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
     <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-12 col-lg-9">
-                <section class="course-description">
-                    <div class="row">
-                        <div class="col-12">
-                            <div class="row">
-                                <div class="col-12">
-                                    <div class="section-header">
-                                        <div class="title justify-content-center w-100">
-                                            <div class="text">
-                                                <span class="text-primary"> توضیحات </span>
-                                                <span>دوره</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="description">
-                                    <p class="t-paragraph text-center">
-                                        در دوره انتخاب و نگهداری از دستگاه‌های تهویه هوا، شما یاد می‌گیرید چگونه دستگاه
-                                        تهویه هوا را به صورت موثر و کارآمد انتخاب کنید ، نصب و راه‌اندازی صحیح آن را
-                                        انجام
-                                        دهید ، نگهداری دوره‌ای منظم را انجام بدهید تا عمر مفید دستگاه را افزایش دهید ،
-                                        تنظیمات دستگاه را برای دستیابی به شرایط محیطی مطلوب تعیین کنید ، و در صورت بروز
-                                        مشکلات، عیب‌یابی کرده و تعمیر نمایید . این دوره به شما اطلاعات و مهارت‌های لازم
-                                        را
-                                        ارائه می‌دهد تا به عنوان یک تخصصی در این حوزه عمل کرده و دستگاه‌های تهویه هوا را
-                                        به
-                                        بهترین نحو ممکن مدیریت کنید.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-                <!-- services -->
-                <section class="services">
-                    <div class="simple-card">
-                        <div class="icon-wrapper">
-                            <i class="icon mn-academic fs-35 text-primary"></i>
-                        </div>
-                        <div class="text">تمرین و مثال</div>
-                    </div>
-                    <div class="simple-card">
-                        <div class="icon-wrapper">
-                            <i class="icon mn-award fs-35 text-primary"></i>
-                        </div>
-                        <div class="text"> رتبه بنــدی دانشجویان</div>
-                    </div>
-                    <div class="simple-card">
-                        <div class="icon-wrapper">
-                            <i class="icon li-document fs-35 text-primary"></i>
-                        </div>
-                        <div class="text"> معرفی به بازارکــار</div>
-                    </div>
-                </section>
-                <!-- ///course-title -->
-                <section class="course-title">
+      <div class="row justify-content-center">
+        <div class="col-12 col-lg-9">
+          <section class="course-description">
+            <div class="row">
+              <div class="col-12">
+                <div class="row">
+                  <div class="col-12">
                     <div class="section-header">
-                        <div class="title justify-content-center w-100">
-                            <div class="text">
-                                <span class="text-primary"> سرفصل </span>
-                                <span>دوره</span>
-                            </div>
+                      <div class="title justify-content-center w-100">
+                        <div class="text">
+                          <span class="text-primary"> توضیحات </span>
+                          <span>دوره</span>
                         </div>
+                      </div>
                     </div>
-                    <div class="accordions">
-                        <div class="accordion">
-                            <div class="title">
-                                <div class="d-flex  gap-xs">
-                                    <i class="icon mn-folder1"></i>
-                                    <span> انتخاب دستگاه مناسب: مطالعه دستگاه تهویه مناسب بر اساس نیازها و مصرف انرژی
-                                    </span>
-                                </div>
-                            </div>
-                            <div class="content">
-                                <ul class="list gray">
-                                        <li class="bullet">آموزش مراحل نصب دستگاه تهویه با اتصال به سیستم‌های لوله‌کشی
-                                            <span class="time">۱۲:۰۴</span>
-                                        </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="accordion expanded">
-                            <div class="title">
-                                <div class="d-flex align-items-center gap-xs">
-                                    <i class="icon mn-folder1"></i>
-                                    <span> انتخاب دستگاه مناسب: مطالعه دستگاه تهویه مناسب بر اساس نیازها و مصرف انرژی
-                                    </span>
-                                </div>
-                            </div>
-                            <div class="content">
-                                <ul class="list gray">
-                                        <li class="bullet">آموزش مراحل نصب دستگاه تهویه با اتصال به سیستم‌های لوله‌کشی
-                                            <span class="time">۱۲:۰۴</span>
-                                        </li>
-                                        <li class="bullet">آموزش مراحل نصب دستگاه تهویه با اتصال به سیستم‌های لوله‌کشی
-                                            <span class="time">۱۲:۰۴</span>
-                                        </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="accordion">
-                            <div class="title">
-                                <div class="d-flex align-items-center gap-xs">
-                                    <i class="icon mn-folder1"></i>
-                                    <span> انتخاب دستگاه مناسب: مطالعه دستگاه تهویه مناسب بر اساس نیازها و مصرف انرژی</span>
-                                </div>
-                            </div>
-                            <div class="content">
-                                <ul class="list gray">
-                                    <li class="bullet">آموزش مراحل نصب دستگاه تهویه با اتصال به سیستم‌های لوله‌کشی
-                                        <span class="time">۱۲:۰۴</span>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="d-flex justify-content-center see-all">
-                        <button class="btn outlined br-primary xl">بارگذاری بیشتر</button>
-                    </div>
-                </section>
-                <!-- ///course-teacher -->
-                <section class="course-teacher">
-                    <div class="section-header">
-                        <div class="title justify-content-center w-100">
-                            <div class="text">
-                                <span class="text-primary"> مــدرس </span>
-                                <span>دوره</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card card-row space-xl not-hover">
-                        <div class="row">
-                            <div class="col-12 col-md-4">
-                                <div class="guide">
-                                    <div class="thumbnail thumb-fit">
-                                        <img class="d-none d-md-block" src="/assets/img/thumbnail/teacher.png"
-                                            alt="thumb1">
-                                        <img class="d-block d-md-none" src="/assets/img/thumbnail/logh.png"
-                                            alt="thumb1">
-                                        <div class="info  bottom-center p-0">
-                                            <a href="">
-                                                <button class="btn white">
-                                                    درباره مدرس
-                                                </button>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-12 col-md-8">
-                                <div class="content">
-                                    <div class="title lg">
-                                        <span>حسین</span> <span class="text-primary">مهدی نژاد</span>
-                                    </div>
-                                    <div class="statistics w-100">
-                                        <div class="badge info">
-                                            <span class="title">۱۷ سال تجربه کاربری</span>
-                                        </div>
-                                        <div class="badge info gray">
-                                            <span class="title">کار با بیش از ۵۰ کمپانی</span>
-                                        </div>
-                                    </div>
-                                    <ul class="list">
-                                        <li><i class="bullet"></i>مدیر عامل شرکت آتلانیتک </li>
-                                        <li><i class="bullet"></i>دبیر انجمن صنعتی </li>
-                                    </ul>
-                                    <div class="text">
-                                        <p class="description truncate-overflow three-line">
-                                            تجربه کار تخصصی به روی پروژه های متعدد در کمپانی های
-                                            مختلف. ارائه راهکارهای فنی و تخصصی برای دستگاه های تهویه
-                                            تجربه تدریس و مشاوره تخصصی به بیش از ۲۰ کمپانی.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-                <!-- ////course register/// -->
-                <section class="course-register">
-                    <div class="register-card">
-                        <div class="row">
-                            <div class="col-lg-7 col-xl-8">
-                                <div class="summary">
-                                    <div class="title">
-                                        <span class="text-primary">
-                                            ثبت نام
-                                        </span>
-                                        در دوره
-                                    </div>
-                                    <div class="subtitle">
-                                        با ثبت نام در این دوره، به تمامی ویدیو های ضبط شده به همراه نکات مدرس دسترسی
-                                        خواهید
-                                        داشت.
-                                    </div>
-                                    <div class="login-link">
-                                        <span class="login-text">
-                                            برای ثبت نام در دوره <a href="/" class="text-primary">وارد سایت</a> شوید
-                                        </span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-5 col-xl-4">
-                                <div class="actions">
-                                    <div class="title">
-                                        ثبت نام <span class="text-primary">رایگان</span>
-                                    </div>
-                                    <div class="items">
-                                        <ul class="list mb">
-                                            <li class="bullet">دسترسی به ویدیو ها</li>
-                                            <li class="bullet">گروه پرسش و پاسخ
-                                            </li>
-                                            <li class="bullet"></li>
-                                        </ul>
-                                    </div>
-                                    <button class="btn w-100">
-                                        ثبت نام در دوره
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
+                  </div>
+                  <div class="description">
+                    <p class="t-paragraph text-center">
+                      در دوره انتخاب و نگهداری از دستگاه‌های تهویه هوا، شما یاد
+                      می‌گیرید چگونه دستگاه تهویه هوا را به صورت موثر و کارآمد
+                      انتخاب کنید ، نصب و راه‌اندازی صحیح آن را انجام دهید ،
+                      نگهداری دوره‌ای منظم را انجام بدهید تا عمر مفید دستگاه را
+                      افزایش دهید ، تنظیمات دستگاه را برای دستیابی به شرایط
+                      محیطی مطلوب تعیین کنید ، و در صورت بروز مشکلات، عیب‌یابی
+                      کرده و تعمیر نمایید . این دوره به شما اطلاعات و مهارت‌های
+                      لازم را ارائه می‌دهد تا به عنوان یک تخصصی در این حوزه عمل
+                      کرده و دستگاه‌های تهویه هوا را به بهترین نحو ممکن مدیریت
+                      کنید.
+                    </p>
+                  </div>
+                </div>
+              </div>
             </div>
-        </div>
-        <!-- //////footer//// -->
-        <div class="row">
-            <div class="col-12">
-                <footer class="base-footer">
-                    <div class="overlay"></div>
-                    <div class="row justify-content-center">
-                        <div class="col-12 col-xxl-10 col-xxxl-9">
-                            <div class="float-form">
-                                <div class="row gx-sm">
-                                    <div class="col-12 col-lg-4">
-                                        <div class="image-wrapper">
-                                            <img src="/assets/img/footer.png" alt="">
-                                        </div>
-                                    </div>
-                                    <div class="col-12 col-lg-8">
-                                        <form class="footer-form">
-                                            <div class="title">
-                                                درخواست مشاوره با من
-                                            </div>
-                                            <div class="row gy-3 gx-2">
-                                                <div class=" col-12 col-sm-6">
-                                                    <input class="transparent white" type="text" name="full_name"
-                                                        placeholder="نام و نام خانوادگی شما">
-                                                </div>
-                                                <div class=" col-12 col-sm-6">
-                                                    <input class="transparent white" type="text" name="work_phone"
-                                                        placeholder="شماره تماس کاری" />
-                                                </div>
-                                                <div class="col-12">
-                                                    <textarea class="transparent white md" name="message"
-                                                        placeholder="پیغام شما"></textarea>
-                                                </div>
-                                            </div>
-                                            <div>
-                                                <button class="btn white mt-xs "
-                                                    type="submit">ارسال</button>
-                                                <div class="wave-image">
-                                                    <img src="/assets/img/wave.png" alt="">
-                                                </div>
-                                            </div>
-                                        </form>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row main-footer-content">
-                        <div class="col-12 col-sm-6 col-xl-3">
-                            <!-- ///footer list  -->
-                            <div class="footer-list ">
-                                <div class="header">
-                                    <span class="title">
-                                        درباره من </span>
-                                </div>
-                                <div class="content">
-                                    <p class="text p-left">
-                                        متن آزمــایشی توضیح دوره
-                                        بصـــــورت کــــوتاه و خـــــلاصه!
-                                        معنی خاصه نـــــداره و فـــقط
-                                        برای پرکردن فضا استــفاده
-                                        شده است!
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12 col-sm-6 col-xl-3">
-                            <!-- ///footer list  -->
-                            <div class="footer-list">
-                                <div class="header">
-                                    <span class="title">
-                                        ارتباط با ما </span>
-                                </div>
-                                <div class="content">
-                                    <ul class="list">
-                                        <li class="bullet">البرز، فردیس، فلکه سوم</li>
-                                        <a href="tel:0216653333">
-                                            <li class="bullet">۰۲۱-۶۶۵-۳۳-۳۳</li>
-                                        </a>
-                                        <a href="tel:09124561212">
-                                            <li class="bullet">۰۹۱۲-۴۵۶-۱۲-۱۲</li>
-                                        </a>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12 col-sm-6 col-xl-3">
-                            <!-- ///footer list  -->
-                            <div class="footer-list">
-                                <div class="header">
-                                    <span class="title">
-                                        دسترسی سریع
-                                    </span>
-                                </div>
-                                <div class="content">
-                                    <ul class="list">
-                                        <a href="/views/about.html">
-                                            <li class="bullet">درباره من
-                                            </li>
-                                        </a>
-                                        <a href="">
-                                            <li class="bullet">
-                                                قوانین و مقررات
-                                            </li>
-                                        </a>
-                                        <a href="/views/courses.html">
-                                            <li class="bullet">لیست دوره ها</li>
-                                        </a>
-                                        <a href="">
-                                            <li class="bullet">شرکت آتلانتیک</li>
-                                        </a>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12 col-sm-6 col-xl-3 last-col">
-                            <!-- ///footer list  -->
-                            <div class="footer-list">
-                                <div class="header">
-                                    <span class="title">
-                                        در مــجازی
-                                    </span>
-                                </div>
-                                <div class="content">
-                                    <ul class="list">
-                                        <a href="">
-                                            <li class="mb-xs">
-                                                <div class="badge badge-white xl badge-shadow">
-                                                    <i class="icon mn-instagram"></i>
-                                                    <span class="title">اینستاگرام</span>
-                                                </div>
-                                            </li>
-                                        </a>
-                                        <a href="">
-                                            <li>
-                                                <div class="badge badge-white xl badge-shadow">
-                                                    <i class="icon mn-aparat"></i>
-                                                    <span class="title">صفحه آپارات</span>
-                                                </div>
-                                            </li>
-                                        </a>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-12">
-                            <div class="rights-preserve text-center">
-                                <span>تمامی حقوق <span class="text-primary">محفوظ</span> است</span>
-                            </div>
-                        </div>
-                    </div>
-                </footer>
+          </section>
+          <!-- services -->
+          <section class="services">
+            <div class="simple-card">
+              <div class="icon-wrapper">
+                <i class="icon mn-academic fs-35 text-primary"></i>
+              </div>
+              <div class="text">تمرین و مثال</div>
             </div>
+            <div class="simple-card">
+              <div class="icon-wrapper">
+                <i class="icon mn-award fs-35 text-primary"></i>
+              </div>
+              <div class="text">رتبه بنــدی دانشجویان</div>
+            </div>
+            <div class="simple-card">
+              <div class="icon-wrapper">
+                <i class="icon li-document fs-35 text-primary"></i>
+              </div>
+              <div class="text">معرفی به بازارکــار</div>
+            </div>
+          </section>
+          <!-- ///course-title -->
+          <section class="course-title">
+            <div class="section-header">
+              <div class="title justify-content-center w-100">
+                <div class="text">
+                  <span class="text-primary"> سرفصل </span>
+                  <span>دوره</span>
+                </div>
+              </div>
+            </div>
+            <div class="accordions">
+              <div class="accordion">
+                <div class="title">
+                  <div class="d-flex gap-xs">
+                    <i class="icon mn-folder1"></i>
+                    <span>
+                      انتخاب دستگاه مناسب: مطالعه دستگاه تهویه مناسب بر اساس
+                      نیازها و مصرف انرژی
+                    </span>
+                  </div>
+                </div>
+                <div class="content">
+                  <ul class="list gray">
+                    <li class="bullet">
+                      آموزش مراحل نصب دستگاه تهویه با اتصال به سیستم‌های
+                      لوله‌کشی
+                      <span class="time">۱۲:۰۴</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="accordion expanded">
+                <div class="title">
+                  <div class="d-flex  gap-xs">
+                    <i class="icon mn-folder1"></i>
+                    <span>
+                      نصب و راه‌اندازی: مراحل نصب  دستگاه تهویه همراه با اتصال به سیستم‌های  لوله‌کشی
+                    </span>
+                  </div>
+                </div>
+                <div class="content">
+                  <ul class="list gray">
+                    <li class="bullet">
+                      آموزش مراحل نصب دستگاه تهویه با اتصال به سیستم‌های
+                      لوله‌کشی
+                      <span class="time">۱۲:۰۴</span>
+                    </li>
+                    <li class="bullet">
+                      آموزش مراحل نصب دستگاه تهویه با اتصال به سیستم‌های
+                      لوله‌کشی
+                      <span class="time">۱۲:۰۴</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="accordion">
+                <div class="title">
+                  <div class="d-flex  gap-xs">
+                    <i class="icon mn-folder1"></i>
+                    <span>
+                      انتخاب دستگاه مناسب: مطالعه دستگاه تهویه مناسب بر اساس
+                      نیازها و مصرف انرژی</span
+                    >
+                  </div>
+                </div>
+                <div class="content">
+                  <ul class="list gray">
+                    <li class="bullet">
+                      آموزش مراحل نصب دستگاه تهویه با اتصال به سیستم‌های
+                      لوله‌کشی
+                      <span class="time">۱۲:۰۴</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="d-flex justify-content-center see-all">
+              <button class="btn outlined br-primary xl">بارگذاری بیشتر</button>
+            </div>
+          </section>
+          <!-- ///course-teacher -->
+          <section class="course-teacher">
+            <div class="section-header">
+              <div class="title justify-content-center w-100">
+                <div class="text">
+                  <span class="text-primary"> مــدرس </span>
+                  <span>دوره</span>
+                </div>
+              </div>
+            </div>
+            <div class="card card-row space-xl not-hover">
+              <div class="row">
+                <div class="col-12 col-md-4">
+                  <div class="guide">
+                    <div class="thumbnail thumb-fit">
+                      <img
+                        class="d-none d-md-block"
+                        src="/assets/img/thumbnail/teacher.png"
+                        alt="thumb1"
+                      />
+                      <img
+                        class="d-block d-md-none"
+                        src="/assets/img/thumbnail/logh.png"
+                        alt="thumb1"
+                      />
+                      <div class="info bottom-center p-0">
+                        <a href="">
+                          <button class="btn white">درباره مدرس</button>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-md-8">
+                  <div class="content">
+                    <div class="title lg">
+                      <span>حسین</span>
+                      <span class="text-primary">مهدی نژاد</span>
+                    </div>
+                    <div class="statistics w-100">
+                      <div class="badge info">
+                        <span class="title">۱۷ سال تجربه کاربری</span>
+                      </div>
+                      <div class="badge info gray">
+                        <span class="title">کار با بیش از ۵۰ کمپانی</span>
+                      </div>
+                    </div>
+                    <ul class="list">
+                      <li><i class="bullet"></i>مدیر عامل شرکت آتلانیتک</li>
+                      <li><i class="bullet"></i>دبیر انجمن صنعتی</li>
+                    </ul>
+                    <div class="text">
+                      <p class="description truncate-overflow three-line">
+                        تجربه کار تخصصی به روی پروژه های متعدد در کمپانی های
+                        مختلف. ارائه راهکارهای فنی و تخصصی برای دستگاه های تهویه
+                        تجربه تدریس و مشاوره تخصصی به بیش از ۲۰ کمپانی.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- ////course register/// -->
+          <section class="course-register">
+            <div class="register-card">
+              <div class="row">
+                <div class="col-lg-7 col-xl-8">
+                  <div class="summary">
+                    <div class="title">
+                      <span class="text-primary"> ثبت نام </span>
+                      در دوره
+                    </div>
+                    <div class="subtitle">
+                      با ثبت نام در این دوره، به تمامی ویدیو های ضبط شده به
+                      همراه نکات مدرس دسترسی خواهید داشت.
+                    </div>
+                    <div class="login-link">
+                      <span class="login-text">
+                        برای ثبت نام در دوره
+                        <a href="/" class="text-primary">وارد سایت</a> شوید
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-5 col-xl-4">
+                  <div class="actions">
+                    <div class="title">
+                      ثبت نام <span class="text-primary">رایگان</span>
+                    </div>
+                    <div class="items">
+                      <ul class="list mb">
+                        <li class="bullet">دسترسی به ویدیو ها</li>
+                        <li class="bullet">گروه پرسش و پاسخ</li>
+                      </ul>
+                    </div>
+                    <button class="btn w-100">ثبت نام در دوره</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
         </div>
+      </div>
     </div>
-</body>
-
+    <div class="container footer-container">
+      <!-- //////footer//// -->
+      <footer class="base-footer">
+        <div class="overlay"></div>
+        <div class="row justify-content-center">
+          <div class="col-12 col-xxl-10 col-xxxl-9">
+            <div class="float-form">
+              <div class="row gx-sm">
+                <div class="col-12 col-lg-4">
+                  <div class="image-wrapper">
+                    <img src="/assets/img/footer.png" alt="" />
+                  </div>
+                </div>
+                <div class="col-12 col-lg-8">
+                  <form class="footer-form">
+                    <div class="title">درخواست مشاوره با من</div>
+                    <div class="row gy-3 gx-2">
+                      <div class="col-12 col-sm-6">
+                        <input
+                          class="transparent white"
+                          type="text"
+                          name="full_name"
+                          placeholder="نام و نام خانوادگی شما"
+                        />
+                      </div>
+                      <div class="col-12 col-sm-6">
+                        <input
+                          class="transparent white"
+                          type="text"
+                          name="work_phone"
+                          placeholder="شماره تماس کاری"
+                        />
+                      </div>
+                      <div class="col-12">
+                        <textarea
+                          class="transparent white md"
+                          name="message"
+                          placeholder="پیغام شما"
+                        ></textarea>
+                      </div>
+                    </div>
+                    <div>
+                      <button class="btn white mt-xs" type="submit">
+                        ارسال
+                      </button>
+                      <div class="wave-image">
+                        <img src="/assets/img/wave.png" alt="" />
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row main-footer-content">
+          <div class="col-12 col-sm-6 col-xl-3">
+            <!-- ///footer list  -->
+            <div class="footer-list">
+              <div class="header">
+                <span class="title"> درباره من </span>
+              </div>
+              <div class="content">
+                <p class="text p-left">
+                  متن آزمــایشی توضیح دوره بصـــــورت کــــوتاه و خـــــلاصه!
+                  معنی خاصه نـــــداره و فـــقط برای پرکردن فضا استــفاده شده
+                  است!
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-xl-3">
+            <!-- ///footer list  -->
+            <div class="footer-list">
+              <div class="header">
+                <span class="title"> ارتباط با ما </span>
+              </div>
+              <div class="content">
+                <ul class="list">
+                  <li class="bullet">البرز، فردیس، فلکه سوم</li>
+                  <a href="tel:0216653333">
+                    <li class="bullet">۰۲۱-۶۶۵-۳۳-۳۳</li>
+                  </a>
+                  <a href="tel:09124561212">
+                    <li class="bullet">۰۹۱۲-۴۵۶-۱۲-۱۲</li>
+                  </a>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-xl-3">
+            <!-- ///footer list  -->
+            <div class="footer-list">
+              <div class="header">
+                <span class="title"> دسترسی سریع </span>
+              </div>
+              <div class="content">
+                <ul class="list">
+                  <a href="/views/about.html">
+                    <li class="bullet">درباره من</li>
+                  </a>
+                  <a href="">
+                    <li class="bullet">قوانین و مقررات</li>
+                  </a>
+                  <a href="/views/courses.html">
+                    <li class="bullet">لیست دوره ها</li>
+                  </a>
+                  <a href="">
+                    <li class="bullet">شرکت آتلانتیک</li>
+                  </a>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-xl-3 last-col">
+            <!-- ///footer list  -->
+            <div class="footer-list">
+              <div class="header">
+                <span class="title"> در مــجازی </span>
+              </div>
+              <div class="content">
+                <ul class="list">
+                  <a href="">
+                    <li class="mb-xs">
+                      <div class="badge badge-white xl badge-shadow">
+                        <i class="icon mn-instagram"></i>
+                        <span class="title">اینستاگرام</span>
+                      </div>
+                    </li>
+                  </a>
+                  <a href="">
+                    <li>
+                      <div class="badge badge-white xl badge-shadow">
+                        <i class="icon mn-aparat"></i>
+                        <span class="title">صفحه آپارات</span>
+                      </div>
+                    </li>
+                  </a>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <div class="rights-preserve text-center">
+              <span
+                >تمامی حقوق <span class="text-primary">محفوظ</span> است</span
+              >
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
 </html>

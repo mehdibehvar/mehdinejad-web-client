@@ -15,11 +15,6 @@
     .content {
       .title {
         font-size: 18px;
-        overflow: hidden;
-        display: -webkit-box;
-        -webkit-box-orient: vertical;
-        text-overflow: ellipsis;
-        -webkit-line-clamp: 2;
       }
     }
   }
