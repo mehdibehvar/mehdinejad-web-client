@@ -170,6 +170,13 @@ button.icon {
     background: none;
 
     &:hover {
-        color: var(--primary);
+        .icon{
+            color: var(--primary);
+        }
+    }
+    &:focus{
+        .icon{
+            color: var(--primary);
+        }
     }
 }

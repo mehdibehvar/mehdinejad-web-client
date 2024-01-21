@@ -1,451 +1,487 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="fa" dir="rtl">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>درباره ما</title>
-    <link rel="stylesheet" href="/assets/css/app.scss">
+    <link rel="stylesheet" href="/assets/css/app.scss" />
     <script type="module" src="/assets/js/app.js"></script>
-</head>
+  </head>
 
-<body>
+  <body>
     <div class="container header-container">
-        <div class="row">
-            <div class="col-12">
-                <header>
-                    <!-- /////navbar section////// -->
-                    <div class="row">
-                        <div class="col-12 pe-0 ps-0 pe-sm-3 ps-sm-3">
-                            <div class="navbar">
-                                <!-- <button class="icon mn-menu1 hamburger-menu-btn">
+      <div class="row">
+        <div class="col-12">
+          <header>
+            <!-- /////navbar section////// -->
+            <div class="row">
+              <div class="col-12 pe-0 ps-0 pe-sm-3 ps-sm-3">
+                <div class="navbar">
+                  <!-- <button class="icon mn-menu1 hamburger-menu-btn">
                                   
                                 </button> -->
-                                <button class="navbar-toggle icon mn-menu1 hamburger-menu-btn"
-                                    data-jsc="hamburger-menu-toggle"
-                                    data-toggle-target=".hamburger-menu-navbar"></button>
-                                <a class="navbar-brand" href="/">
-                                    <img src="/assets/img/logo.png" alt="">
-                                </a>
-                                <nav class="nav-menu">
-                                    <a class="active " href="/">خانه </a>
-                                    <a href="/views/courses.html">دوره ها</a>
-                                    <a href="/views/blogs.html">وبلاگ</a>
-                                    <a href="/views/padcasts.html"> پادکست ها</a>
-                                    <a href="/views/about.html">درباره من</a>
-                                    <a href="/views/contactus.html">تماس</a>
-                                </nav>
-                                <form class="search-section">
-                                    <div class="input-group  secondary b-0 search-bar">
-                                        <input type="text" placeholder="در سایت جستجو کنید">
-                                        <button type="submit" class="btn icon">
-                                            <i class="icon mn-search"></i>
-                                        </button>
-                                    </div>
-                                    <button type="button" class="icon mn-search toggle-search-bar">
-                                        <!-- <i class="icon mn-search"></i> -->
-                                    </button>
-                                </form>
-                                <div class="actions">
-                                    <a class="btn icon"> <i class="icon li-bag-2"></i>
-                                    </a>
-                                    <button class="btn light">ثبت نام / ورود</button>
-                                    <button class="icon li-login login-btn"></button>
-                                </div>
-                                <nav class="hamburger-menu-navbar hamburger-menu">
-                                    <div class="hamburger-menu-header">
-                                        <button class="icon mn-menu1 hamburger-menu-btn"
-                                            onclick="$('.hamburger-menu').removeClass('show')"></button>
-                                        <a class="navbar-brand" href="/">
-                                            <img src="/assets/img/logo.png" alt="">
-                                        </a>
-                                    </div>
-                                    <a class="ham-item active " href="/">
-                                        خانه
-                                    </a>
-                                    <a class="ham-item" href="/views/courses.html">دوره ها</a>
-                                    <a class="ham-item" href="/views/blogs.html">وبلاگ</a>
-                                    <a class="ham-item" href="/views/padcasts.html"> پادکست ها</a>
-                                    <a class="ham-item" href="/views/about.html">درباره من</a>
-                                    <a class="ham-item" href="/views/contactus.html">تماس</a>
-                                </nav>
-                            </div>
-
-                        </div>
+                  <button
+                    class="navbar-toggle icon mn-menu1 hamburger-menu-btn"
+                    data-jsc="hamburger-menu-toggle"
+                    data-toggle-target=".hamburger-menu-navbar"
+                  ></button>
+                  <a class="navbar-brand" href="/">
+                    <img src="/assets/img/logo.png" alt="" />
+                  </a>
+                  <nav class="nav-menu">
+                    <a class="active" href="/">خانه </a>
+                    <a href="/views/courses.html">دوره ها</a>
+                    <a href="/views/blogs.html">وبلاگ</a>
+                    <a href="/views/padcasts.html"> پادکست ها</a>
+                    <a href="/views/about.html">درباره من</a>
+                    <a href="/views/contactus.html">تماس</a>
+                  </nav>
+                  <form class="search-section">
+                    <div class="input-group secondary b-0 search-bar">
+                      <input type="text" placeholder="در سایت جستجو کنید" />
+                      <button type="submit" class="btn icon">
+                        <i class="icon mn-search"></i>
+                      </button>
                     </div>
-                    <!-- /////header content/// -->
-                    <section class="about-header-content">
-                        <div class="header-banner">
-                            <div class="row">
-                                <div class="col-12">
-                                    <div class="card card-row not-hover br-xl">
-                                        <div class="row">
-                                            <div class="col-12">
-                                                <div class="guide">
-                                                    <div class="thumbnail thumb-fit">
-                                                        <img src="/assets/img/cards/blog-banner.png" alt="thumb1">
-                                                        <div class="info blue-gradient center-items">
-                                                            <button class="play-modal-button btn transparent  d-block d-lg-none" data-jsc="modal#modal-about-me-video">
-                                                                <i class="icon mn-play-circle"></i>
-                                                            </button>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-11 col-sm-10 col-lg-9 col-xxxl-8 m-auto">
-                                    <div class="float-video w-100">
-                                        <div class="right-section d-flex align-items-center">
-                                            <div class="text">
-                                                <p> داســـــــــتان من ؛ </p>
-                                                <p>
-                                                    <span class="text-primary">شـــروع</span>
-                                                    یک رویا
-                                                </p>
-                                            </div>
-                                            <div class="arrows d-none d-xl-block">
-                                                <i class="icon mn-chevron-left"></i>
-                                                <i class="icon mn-chevron-left"></i>
-                                                <i class="icon mn-chevron-left"></i>
-                                            </div>
-                                        </div>
-                                        <div class="video-poster">
-                                            <div class="first-rect">
-                                            </div>
-                                            <div class="second-rect">
-
-                                            </div>
-                                            <div class="img-wrapper">
-                                                <img src="/assets/img/about.png" alt="">
-                                                <div class="overlay">
-
-                                                </div>
-                                            </div>
-                                            <img class="wave" src="/assets/img/wave.png" alt="">
-                                            <button class="play-modal-button" data-jsc="modal#modal-about-me-video">
-                                                <i class="icon mn-play-circle"></i>
-                                            </button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                    </section>
-                </header>
+                    <button
+                      type="button"
+                      class="icon mn-search toggle-search-bar"
+                    >
+                      <!-- <i class="icon mn-search"></i> -->
+                    </button>
+                  </form>
+                  <div class="actions">
+                    <a class="btn icon"> <i class="icon li-bag-2"></i> </a>
+                    <button class="btn light">ثبت نام / ورود</button>
+                    <button class="icon login-btn pt-1">
+                      <i class="icon li-login"></i>
+                    </button>
+                  </div>
+                  <nav class="hamburger-menu-navbar hamburger-menu">
+                    <div class="hamburger-menu-header">
+                      <button
+                        class="icon mn-menu1 hamburger-menu-btn"
+                        onclick="$('.hamburger-menu').removeClass('show')"
+                      ></button>
+                      <a class="navbar-brand" href="/">
+                        <img src="/assets/img/logo.png" alt="" />
+                      </a>
+                    </div>
+                    <a class="ham-item active" href="/"> خانه </a>
+                    <a class="ham-item" href="/views/courses.html">دوره ها</a>
+                    <a class="ham-item" href="/views/blogs.html">وبلاگ</a>
+                    <a class="ham-item" href="/views/padcasts.html">
+                      پادکست ها</a
+                    >
+                    <a class="ham-item" href="/views/about.html">درباره من</a>
+                    <a class="ham-item" href="/views/contactus.html">تماس</a>
+                  </nav>
+                </div>
+              </div>
             </div>
+            <!-- /////header content/// -->
+            <section class="about-header-content">
+              <div class="header-banner">
+                <div class="row">
+                  <div class="col-12">
+                    <div class="card card-row not-hover br-xl">
+                      <div class="row">
+                        <div class="col-12">
+                          <div class="guide">
+                            <div class="thumbnail thumb-fit">
+                              <img
+                                src="/assets/img/cards/blog-banner.png"
+                                alt="thumb1"
+                              />
+                              <div class="info blue-gradient center-items">
+                                <button
+                                  class="play-modal-button btn transparent d-block d-lg-none"
+                                  data-jsc="modal#modal-about-me-video"
+                                >
+                                  <i class="icon mn-play-circle"></i>
+                                </button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-11 col-sm-10 col-lg-9 col-xxxl-8 m-auto">
+                    <div class="float-video w-100">
+                      <div class="right-section d-flex align-items-center">
+                        <div class="text">
+                          <p>داســـــــــتان من ؛</p>
+                          <p>
+                            <span class="text-primary">شـــروع</span>
+                            یک رویا
+                          </p>
+                        </div>
+                        <div class="arrows d-none d-xl-block">
+                          <i class="icon mn-chevron-left"></i>
+                          <i class="icon mn-chevron-left"></i>
+                          <i class="icon mn-chevron-left"></i>
+                        </div>
+                      </div>
+                      <div class="video-poster">
+                        <div class="first-rect"></div>
+                        <div class="second-rect"></div>
+                        <div class="img-wrapper">
+                          <img src="/assets/img/about.png" alt="" />
+                          <div class="overlay"></div>
+                        </div>
+                        <img class="wave" src="/assets/img/wave.png" alt="" />
+                        <button
+                          class="play-modal-button"
+                          data-jsc="modal#modal-about-me-video"
+                        >
+                          <i class="icon mn-play-circle"></i>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </header>
         </div>
+      </div>
     </div>
 
     <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <!-- ////start-adventure section  -->
-                <section class="start-adventure">
-                    <div class="row justify-content-center">
-                        <div class="col-11 col-md-10 col-lg-9">
-                            <div class="row">
-                                <div class="col-12">
-                                    <div class="section-header mb-0">
-                                        <div class="title justify-content-center w-100">
-                                            <div class="text">
-                                                <span class="text-primary"> شروع </span>
-                                                <span>ماجرا</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="description">
-                                    <p class="t-paragraph">
-                                        لورم ایپـــــسوم متن ساختگی با تولید ســـــــــادگی نامفهوم از صنعت چاپ، و با
-                                        استفاده از طــــــراحان گرافیک است،
-                                        چاپ گرها و متون بلکـــه روزنامه و مـــجله در ستون و ســـطرآنچنان که لازم
-                                        اســــت، و برای شــــــرایط فعلی تکنولوژی
-                                        مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای
-                                        زیادی در شــــــــصت و سه درصد
-                                        گذشته حال و آینده، شناخت فراوان جامعه و متخصصان می طلبد، تا با نرم افزارها شناخت
-                                        بیشتری را برای طراحان
-                                        رایانه ای علی الخصوص طراحان خلاقی، و فرهنگ پیشرو در زبان فارسی ایجاد کرد، در این
-                                        صورت مـــــی توان امید
-                                        داشت که تمام و دشواری موجود در ارائه راهـــــــکارها، و شرایط سخت تایپ به پایان
-                                        رسد و زمان مـــــورد نیاز شامل
-                                        حروفچینی دســـــــتاوردهای اصلی، و جوابگوی سوالات اهل دنیای موجود طراحی اساسا
-                                        مورد استفاده قرار گیرد.
-                                    </p>
-                                </div>
-                                <section class="achivments">
-                              <div class="row g-0">
-                                <div class="col-12 col-xl-4">
-                                    <div class="simple-card row-simple">
-                                        <div class="icon-wrapper">
-                                            <i class="icon mn-server-square"></i>
-                                        </div>
-                                        <div class="text"> مشارکت در بیش
-                                            از ۵۶۷ پروژه</div>
-                                    </div>
-                                </div>
-                                <div class="col-12 col-xl-4">
-                                    <div class="simple-card row-simple active">
-                                        <div class="icon-wrapper">
-                                            <i class="icon mn-folder-f "></i>
-                                        </div>
-                                        <div class="text">سخنران در
-                                            بیش از ۱۷ رویداد</div>
-                                    </div>
-                                </div>
-                                <div class="col-12 col-xl-4">
-                                    <div class="simple-card row-simple">
-                                        <div class="icon-wrapper">
-                                            <i class="icon mn-Letter-Opened"></i>
-                                        </div>
-                                        <div class="text"> ۲۴۰۰ ساعت
-                                            تدریس تخصصی </div>
-                                    </div>
-                                </div>
-                              </div>
-                                </section>
-                            </div>
+      <div class="row">
+        <div class="col-12">
+          <!-- ////start-adventure section  -->
+          <section class="start-adventure">
+            <div class="row justify-content-center">
+              <div class="col-11 col-md-10 col-lg-9">
+                <div class="row">
+                  <div class="col-12">
+                    <div class="section-header mb-0">
+                      <div class="title justify-content-center w-100">
+                        <div class="text">
+                          <span class="text-primary"> شروع </span>
+                          <span>ماجرا</span>
                         </div>
+                      </div>
                     </div>
-                </section>
-                <!-- gallery section -->
-                <section class="gallery">
-                    <div class="row justify-content-center">
-                            <div class="section-header">
-                                <div class="title justify-content-center w-100">
-                                    <div class="text">
-                                        <span class="text-primary"> گالری </span>
-                                        <span>تصاویر</span>
-                                    </div>
-                                </div>
-                            </div>
-                             <div class="col-9">
-                            <div class="row justify-content-center">
-                                <div class="col-12 col-lg-6">
-                                    <div class="image-frame" data-jsc="modal#modal-about-me-gallery1">
-                                        <img src="/assets/img/g2.png" alt="">
-                                    </div>
-                                    <div class="modal gallery-modal" id="modal-about-me-gallery1">
-                                        <div class="close-modal">
-                                            <button class="btn transparent close-modal-btn"><i class="icon li-close-square"></i></button>
-                                        </div>
-                                        <div class="card h-fit">
-                                            <div class="guide">
-                                                <div class="thumbnail">
-                                                    <img src="/assets/img/g2.png" alt="">
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-12 col-lg-6">
-                                    <div class="image-frame" data-jsc="modal#modal-about-me-gallery2">
-                                        <img src="/assets/img/g3.png" alt="">
-                                    </div>
-                                    <div class="modal gallery-modal" id="modal-about-me-gallery2">
-                                        <div class="close-modal">
-                                            <button class="btn transparent close-modal-btn"><i class="icon li-close-square"></i></button>
-                                        </div>
-                                        <div class="card h-fit">
-                                            <div class="guide">
-                                                <div class="thumbnail">
-                                                    <img src="/assets/img/g3.png" alt="">
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                             </div>
+                  </div>
+                  <div class="description">
+                    <p class="t-paragraph">
+                      لورم ایپـــــسوم متن ساختگی با تولید ســـــــــادگی
+                      نامفهوم از صنعت چاپ، و با استفاده از طــــــراحان گرافیک
+                      است، چاپ گرها و متون بلکـــه روزنامه و مـــجله در ستون و
+                      ســـطرآنچنان که لازم اســــت، و برای شــــــرایط فعلی
+                      تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود
+                      ابزارهای کاربردی می باشد، کتابهای زیادی در شــــــــصت و
+                      سه درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان می
+                      طلبد، تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه
+                      ای علی الخصوص طراحان خلاقی، و فرهنگ پیشرو در زبان فارسی
+                      ایجاد کرد، در این صورت مـــــی توان امید داشت که تمام و
+                      دشواری موجود در ارائه راهـــــــکارها، و شرایط سخت تایپ به
+                      پایان رسد و زمان مـــــورد نیاز شامل حروفچینی
+                      دســـــــتاوردهای اصلی، و جوابگوی سوالات اهل دنیای موجود
+                      طراحی اساسا مورد استفاده قرار گیرد.
+                    </p>
+                  </div>
+                  <section class="achivments">
+                    <div class="row g-0">
+                      <div class="col-12 col-xl-4">
+                        <div class="simple-card row-simple">
+                          <div class="icon-wrapper">
+                            <i class="icon mn-server-square"></i>
+                          </div>
+                          <div class="text">مشارکت در بیش از ۵۶۷ پروژه</div>
+                        </div>
+                      </div>
+                      <div class="col-12 col-xl-4">
+                        <div class="simple-card row-simple active">
+                          <div class="icon-wrapper">
+                            <i class="icon mn-folder-f"></i>
+                          </div>
+                          <div class="text">سخنران در بیش از ۱۷ رویداد</div>
+                        </div>
+                      </div>
+                      <div class="col-12 col-xl-4">
+                        <div class="simple-card row-simple">
+                          <div class="icon-wrapper">
+                            <i class="icon mn-Letter-Opened"></i>
+                          </div>
+                          <div class="text">۲۴۰۰ ساعت تدریس تخصصی</div>
+                        </div>
+                      </div>
                     </div>
-                </section>
-                <!-- //////footer//// -->
-                <footer class="base-footer top-md">
-                    <div class="overlay"></div>
-                    <div class="row justify-content-center">
-                        <div class="col-12 col-xxl-10 col-xxxl-9">
-                            <div class="float-form">
-                                <div class="row gx-sm">
-                                    <div class="col-12 col-lg-4">
-                                        <div class="image-wrapper">
-                                            <img src="/assets/img/footer.png" alt="">
-                                        </div>
-                                    </div>
-                                    <div class="col-12 col-lg-8">
-                                        <form class="footer-form">
-                                            <div class="title">
-                                                درخواست مشاوره با من
-                                            </div>
-                                            <div class="row gy-3 gx-2">
-                                                <div class=" col-12 col-sm-6">
-                                                    <input class="transparent white" type="text" name="full_name"
-                                                        placeholder="نام و نام خانوادگی شما">
-                                                </div>
-                                                <div class=" col-12 col-sm-6">
-                                                    <input class="transparent white" type="text" name="work_phone"
-                                                        placeholder="شماره تماس کاری" />
-                                                </div>
-                                                <div class="col-12">
-                                                    <textarea class="transparent white md" name="message"
-                                                        placeholder="پیغام شما"></textarea>
-                                                </div>
-                                            </div>
-                                            <div>
-                                                <button class="btn white mt-xs "
-                                                    type="submit">ارسال</button>
-                                                <div class="wave-image">
-                                                    <img src="/assets/img/wave.png" alt="">
-                                                </div>
-                                            </div>
-                                        </form>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row main-footer-content">
-                        <div class="col-12 col-sm-6 col-xl-3">
-                            <!-- ///footer list  -->
-                            <div class="footer-list ">
-                                <div class="header">
-                                    <span class="title">
-                                        درباره من </span>
-                                </div>
-                                <div class="content">
-                                    <p class="text p-left">
-                                        متن آزمــایشی توضیح دوره
-                                        بصـــــورت کــــوتاه و خـــــلاصه!
-                                        معنی خاصه نـــــداره و فـــقط
-                                        برای پرکردن فضا استــفاده
-                                        شده است!
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12 col-sm-6 col-xl-3">
-                            <!-- ///footer list  -->
-                            <div class="footer-list">
-                                <div class="header">
-                                    <span class="title">
-                                        ارتباط با ما </span>
-                                </div>
-                                <div class="content">
-                                    <ul class="list">
-                                        <li class="bullet">البرز، فردیس، فلکه سوم</li>
-                                        <a href="tel:0216653333">
-                                            <li class="bullet">۰۲۱-۶۶۵-۳۳-۳۳</li>
-                                        </a>
-                                        <a href="tel:09124561212">
-                                            <li class="bullet">۰۹۱۲-۴۵۶-۱۲-۱۲</li>
-                                        </a>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12 col-sm-6 col-xl-3">
-                            <!-- ///footer list  -->
-                            <div class="footer-list">
-                                <div class="header">
-                                    <span class="title">
-                                        دسترسی سریع
-                                    </span>
-                                </div>
-                                <div class="content">
-                                    <ul class="list">
-                                        <a href="/views/about.html">
-                                            <li class="bullet">درباره من
-                                            </li>
-                                        </a>
-                                        <a href="">
-                                            <li class="bullet">
-                                                قوانین و مقررات
-                                            </li>
-                                        </a>
-                                        <a href="/views/courses.html">
-                                            <li class="bullet">لیست دوره ها</li>
-                                        </a>
-                                        <a href="">
-                                            <li class="bullet">شرکت آتلانتیک</li>
-                                        </a>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12 col-sm-6 col-xl-3 last-col">
-                            <!-- ///footer list  -->
-                            <div class="footer-list">
-                                <div class="header">
-                                    <span class="title">
-                                        در مــجازی
-                                    </span>
-                                </div>
-                                <div class="content">
-                                    <ul class="list">
-                                        <a href="">
-                                            <li class="mb-xs">
-                                                <div class="badge badge-white xl badge-shadow">
-                                                    <i class="icon mn-instagram"></i>
-                                                    <span class="title">اینستاگرام</span>
-                                                </div>
-                                            </li>
-                                        </a>
-                                        <a href="">
-                                            <li>
-                                                <div class="badge badge-white xl badge-shadow">
-                                                    <i class="icon mn-aparat"></i>
-                                                    <span class="title">صفحه آپارات</span>
-                                                </div>
-                                            </li>
-                                        </a>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-12">
-                            <div class="rights-preserve text-center">
-                                <span>تمامی حقوق <span class="text-primary">محفوظ</span> است</span>
-                            </div>
-                        </div>
-                    </div>
-                </footer>
+                  </section>
+                </div>
+              </div>
             </div>
+          </section>
+          <!-- gallery section -->
+          <section class="gallery">
+            <div class="row justify-content-center">
+              <div class="section-header">
+                <div class="title justify-content-center w-100">
+                  <div class="text">
+                    <span class="text-primary"> گالری </span>
+                    <span>تصاویر</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-9">
+                <div class="row justify-content-center">
+                  <div class="col-12 col-lg-6">
+                    <div
+                      class="image-frame"
+                      data-jsc="modal#modal-about-me-gallery1"
+                    >
+                      <img src="/assets/img/g2.png" alt="" />
+                    </div>
+                    <div
+                      class="modal gallery-modal"
+                      id="modal-about-me-gallery1"
+                    >
+                      <div class="close-modal">
+                        <button class="btn transparent close-modal-btn">
+                          <i class="icon li-close-square"></i>
+                        </button>
+                      </div>
+                      <div class="card h-fit">
+                        <div class="guide">
+                          <div class="thumbnail">
+                            <img src="/assets/img/g2.png" alt="" />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12 col-lg-6">
+                    <div
+                      class="image-frame"
+                      data-jsc="modal#modal-about-me-gallery2"
+                    >
+                      <img src="/assets/img/g3.png" alt="" />
+                    </div>
+                    <div
+                      class="modal gallery-modal"
+                      id="modal-about-me-gallery2"
+                    >
+                      <div class="close-modal">
+                        <button class="btn transparent close-modal-btn">
+                          <i class="icon li-close-square"></i>
+                        </button>
+                      </div>
+                      <div class="card h-fit">
+                        <div class="guide">
+                          <div class="thumbnail">
+                            <img src="/assets/img/g3.png" alt="" />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
         </div>
+      </div>
+    </div>
+    <div class="container footer-container">
+      <!-- //////footer//// -->
+      <footer class="base-footer top-md">
+        <div class="overlay"></div>
+        <div class="row justify-content-center">
+          <div class="col-12 col-xxl-10 col-xxxl-9">
+            <div class="float-form">
+              <div class="row gx-sm">
+                <div class="col-12 col-lg-4">
+                  <div class="image-wrapper">
+                    <img src="/assets/img/footer.png" alt="" />
+                  </div>
+                </div>
+                <div class="col-12 col-lg-8">
+                  <form class="footer-form">
+                    <div class="title">درخواست مشاوره با من</div>
+                    <div class="row gy-3 gx-2">
+                      <div class="col-12 col-sm-6">
+                        <input
+                          class="transparent white"
+                          type="text"
+                          name="full_name"
+                          placeholder="نام و نام خانوادگی شما"
+                        />
+                      </div>
+                      <div class="col-12 col-sm-6">
+                        <input
+                          class="transparent white"
+                          type="text"
+                          name="work_phone"
+                          placeholder="شماره تماس کاری"
+                        />
+                      </div>
+                      <div class="col-12">
+                        <textarea
+                          class="transparent white md"
+                          name="message"
+                          placeholder="پیغام شما"
+                        ></textarea>
+                      </div>
+                    </div>
+                    <div>
+                      <button class="btn white mt-xs" type="submit">
+                        ارسال
+                      </button>
+                      <div class="wave-image">
+                        <img src="/assets/img/wave.png" alt="" />
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row main-footer-content">
+          <div class="col-12 col-sm-6 col-xl-3">
+            <!-- ///footer list  -->
+            <div class="footer-list">
+              <div class="header">
+                <span class="title"> درباره من </span>
+              </div>
+              <div class="content">
+                <p class="text p-left">
+                  متن آزمــایشی توضیح دوره بصـــــورت کــــوتاه و خـــــلاصه!
+                  معنی خاصه نـــــداره و فـــقط برای پرکردن فضا استــفاده شده
+                  است!
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-xl-3">
+            <!-- ///footer list  -->
+            <div class="footer-list">
+              <div class="header">
+                <span class="title"> ارتباط با ما </span>
+              </div>
+              <div class="content">
+                <ul class="list">
+                  <li class="bullet">البرز، فردیس، فلکه سوم</li>
+                  <a href="tel:0216653333">
+                    <li class="bullet">۰۲۱-۶۶۵-۳۳-۳۳</li>
+                  </a>
+                  <a href="tel:09124561212">
+                    <li class="bullet">۰۹۱۲-۴۵۶-۱۲-۱۲</li>
+                  </a>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-xl-3">
+            <!-- ///footer list  -->
+            <div class="footer-list">
+              <div class="header">
+                <span class="title"> دسترسی سریع </span>
+              </div>
+              <div class="content">
+                <ul class="list">
+                  <a href="/views/about.html">
+                    <li class="bullet">درباره من</li>
+                  </a>
+                  <a href="">
+                    <li class="bullet">قوانین و مقررات</li>
+                  </a>
+                  <a href="/views/courses.html">
+                    <li class="bullet">لیست دوره ها</li>
+                  </a>
+                  <a href="">
+                    <li class="bullet">شرکت آتلانتیک</li>
+                  </a>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-xl-3 last-col">
+            <!-- ///footer list  -->
+            <div class="footer-list">
+              <div class="header">
+                <span class="title"> در مــجازی </span>
+              </div>
+              <div class="content">
+                <ul class="list">
+                  <a href="">
+                    <li class="mb-xs">
+                      <div class="badge badge-white xl badge-shadow">
+                        <i class="icon mn-instagram"></i>
+                        <span class="title">اینستاگرام</span>
+                      </div>
+                    </li>
+                  </a>
+                  <a href="">
+                    <li>
+                      <div class="badge badge-white xl badge-shadow">
+                        <i class="icon mn-aparat"></i>
+                        <span class="title">صفحه آپارات</span>
+                      </div>
+                    </li>
+                  </a>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <div class="rights-preserve text-center">
+              <span
+                >تمامی حقوق <span class="text-primary">محفوظ</span> است</span
+              >
+            </div>
+          </div>
+        </div>
+      </footer>
     </div>
     <!-- ////modals///// -->
     <div class="modal video-modal" id="modal-about-me-video">
-        <div class="close-modal">
-            <button class="btn transparent close-modal-btn"><i class="icon li-close-square"></i></button>
-        </div>
-        <div class="row">
-            <div class="col-12 m-auto">
-                <div class="aboutme-modal-content">
-                    <div class="video-js-wrapper">
-                        <video id="video-js" class="video-js vjs-16-9" controls preload="auto" data-setup="{}">
-                            <source src="/assets/videos/video1.mp4" type="video/mp4" />
-                            <p class="vjs-no-js">
-                                To view this video please enable JavaScript, and consider upgrading to a
-                                web browser that
-                                <a href="https://videojs.com/html5-video-support/" target="_blank">supports HTML5
-                                    video</a>
-                            </p>
-                        </video>
-                        <div class="video-js-overlay">
-                            <div class="video-title">درباره من</div>
-                        </div>
-                    </div>
-                </div>
+      <div class="close-modal">
+        <button class="btn transparent close-modal-btn">
+          <i class="icon li-close-square"></i>
+        </button>
+      </div>
+      <div class="row">
+        <div class="col-12 m-auto">
+          <div class="aboutme-modal-content">
+            <div class="video-js-wrapper">
+              <video
+                id="video-js"
+                class="video-js vjs-16-9"
+                controls
+                preload="auto"
+                data-setup="{}"
+              >
+                <source src="/assets/videos/video1.mp4" type="video/mp4" />
+                <p class="vjs-no-js">
+                  To view this video please enable JavaScript, and consider
+                  upgrading to a web browser that
+                  <a
+                    href="https://videojs.com/html5-video-support/"
+                    target="_blank"
+                    >supports HTML5 video</a
+                  >
+                </p>
+              </video>
+              <div class="video-js-overlay">
+                <div class="video-title">درباره من</div>
+              </div>
             </div>
+          </div>
         </div>
+      </div>
     </div>
-
-</body>
-
+  </body>
 </html>
