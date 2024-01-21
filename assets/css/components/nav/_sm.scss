@@ -1,7 +1,12 @@
 .navbar {
-margin-top: 15px;
-gap: 10px;
-div.actions{
+  margin-top: 0;
+  border-radius: 0;
+  gap: 10px;
+  padding: 12px 20px 12px 20px;
+  div.actions {
     gap: 10px;
-}
+    .login-btn {
+      margin-left: 5px;
+    }
+  }
 }

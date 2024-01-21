@@ -9,10 +9,9 @@
         padding-right: 16px;
         height: fit-content;
         .categories {
-            display: grid;
-            grid-template-columns: auto ;
-            grid-template-rows: auto auto auto;
-            row-gap: 16px;
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
             margin-top: 0px;
             .category {
                 flex-direction: row;

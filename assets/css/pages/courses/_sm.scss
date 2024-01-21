@@ -1,11 +1,11 @@
 body {
     &.courses-page {
 
-        background-size: 100% 400px;
+        background-size: 100% 350px;
         overflow-x: hidden;
 
         &::after {
-            height: 400px;
+            height: 350px;
         }
     }
 }
@@ -18,7 +18,7 @@ body {
 }
 
 .courses-grid {
-    margin-top: 100px;
+    margin-top: 50px;
 
     .row {
         --bs-gutter-y: 32px;
